@@ -1,844 +1,845 @@
 [
 	{
-		"name": "(Mushroom) Mario Kart Stadium",
+		"name": "(Mushroom Cup) 1st Place Mario Kart Stadium",
 		"requires": "|Mushroom Cup|",
-		"category": ["1st Place"]
+		"category": ["Mushroom Cup"]
 	},
 	{
-		"name": "(Mushroom) Water Park",
+		"name": "(Mushroom Cup) 1st Place Water Park",
 		"requires": "|Mushroom Cup|",
-		"category": ["1st Place"]
+		"category": ["Mushroom Cup"]
 	},
 	{
-		"name": "(Mushroom) Sweet Sweet Canyon",
+		"name": "(Mushroom Cup) 1st Place Sweet Sweet Canyon",
 		"requires": "|Mushroom Cup|",
-		"category": ["1st Place"]
+		"category": ["Mushroom Cup"]
 	},
 	{
-		"name": "(Mushroom) Thwomp Ruins",
+		"name": "(Mushroom Cup) 1st Place Thwomp Ruins",
 		"requires": "|Mushroom Cup|",
-		"category": ["1st Place"]
+		"category": ["Mushroom Cup"]
 	},
 	{
-		"name": "(Flower) Mario Circuit",
-		"requires": "|Flower Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Flower) Toad Harbor",
-		"requires": "|Flower Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Flower) Twisted Mansion",
-		"requires": "|Flower Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Flower) Shy Guy Falls",
-		"requires": "|Flower Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Star) Sunshine Airport",
-		"requires": "|Star Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Star) Dolphin Shoals",
-		"requires": "|Star Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Star) Electrodrome",
-		"requires": "|Star Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Star) Mount Wario",
-		"requires": "|Star Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Special) Cloudtop Cruise",
-		"requires": "|Special Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Special) Bone-Dry Dunes",
-		"requires": "|Special Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Special) Bowser's Castle",
-		"requires": "|Special Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Special) Wii U Rainbow Road",
-		"requires": "|Special Cup|",
-		"category": ["Win Conditions"]
-	},
-	{
-		"name": "(Shell) Wii Moo Moo Meadows",
-		"requires": "|Shell Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Shell) GBA Mario Circuit",
-		"requires": "|Shell Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Shell) DS Cheep Cheep Beach",
-		"requires": "|Shell Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Shell) N64 Toad's Turnpike",
-		"requires": "|Shell Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Banana) GCN Dry Dry Desert",
-		"requires": "|Banana Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Banana) SNES Donut Plains 3",
-		"requires": "|Banana Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Banana) N64 Royal Raceway",
-		"requires": "|Banana Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Banana) 3DS DK Jungle",
-		"requires": "|Banana Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Leaf) DS Wario Stadium",
-		"requires": "|Leaf Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Leaf) GCN Sherbet Land",
-		"requires": "|Leaf Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Leaf) 3DS Music Park",
-		"requires": "|Leaf Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Leaf) N64 Yoshi Valley",
-		"requires": "|Leaf Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Lightning) DS Tick-Tock Clock",
-		"requires": "|Lightning Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Lightning) 3DS Piranha Plant Slide",
-		"requires": "|Lightning Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Lightning) Wii Grumble Volcano",
-		"requires": "|Lightning Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Lightning) N64 Rainbow Road",
-		"requires": "|Lightning Cup|",
-		"category": ["Win Conditions"]
-	},
-	{
-		"name": "(Egg) GCN Yoshi Circuit",
-		"requires": "|Egg Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Egg) Excitebike Arena",
-		"requires": "|Egg Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Egg) Dragon Driftway",
-		"requires": "|Egg Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Egg) Mute City",
-		"requires": "|Egg Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Triforce) Wii Wario's Gold Mine",
-		"requires": "|Triforce Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Triforce) SNES Rainbow Road",
-		"requires": "|Triforce Cup|",
-		"category": ["Win Conditions"]
-	},
-	{
-		"name": "(Triforce) Ice Ice Outpost",
-		"requires": "|Triforce Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Triforce) Hyrule Circuit",
-		"requires": "|Triforce Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Crossing) Baby Park",
-		"requires": "|Crossing Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Crossing) Cheese Land",
-		"requires": "|Crossing Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Crossing) Wild Woods",
-		"requires": "|Crossing Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Crossing) Animal Crossing",
-		"requires": "|Crossing Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Bell) 3DS Neo Bowser City",
-		"requires": "|Bell Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Bell) GBA Ribbon Road",
-		"requires": "|Bell Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Bell) Super Bell Subway",
-		"requires": "|Bell Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Bell) Big Blue",
-		"requires": "|Bell Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Golden Dash) Tour Paris Promenade",
-		"requires": "|Golden Dash Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Golden Dash) 3DS Toad Circuit",
-		"requires": "|Golden Dash Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Golden Dash) N64 Choco Mountain",
-		"requires": "|Golden Dash Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Golden Dash) Wii Coconut Mall",
-		"requires": "|Golden Dash Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Lucky Cat) Tour Tokyo Blur",
-		"requires": "|Lucky Cat Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Lucky Cat) DS Shroom Ridge",
-		"requires": "|Lucky Cat Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Lucky Cat) GBA Sky Garden",
-		"requires": "|Lucky Cat Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Lucky Cat) Ninja Hideaway",
-		"requires": "|Lucky Cat Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Turnip) Tour New York Minute",
-		"requires": "|Turnip Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Turnip) SNES Mario Circuit 3",
-		"requires": "|Turnip Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Turnip) N64 Kalamari Desert",
-		"requires": "|Turnip Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Turnip) DS Waluigi Pinball",
-		"requires": "|Turnip Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Propeller) Tour Sydney Sprint",
-		"requires": "|Propeller Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Propeller) GBA Snow Land",
-		"requires": "|Propeller Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Propeller) Wii Mushroom Gorge",
-		"requires": "|Propeller Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Propeller) Sky-High Sundae",
-		"requires": "|Propeller Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Rock) Tour London Loop",
-		"requires": "|Rock Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Rock) GBA Boo Lake",
-		"requires": "|Rock Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Rock) 3DS Rock Rock Mountain",
-		"requires": "|Rock Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Rock) Wii Maple Treeway",
-		"requires": "|Rock Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Moon) Tour Berlin Byways",
-		"requires": "|Moon Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Moon) DS Peach Gardens",
-		"requires": "|Moon Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Moon) Merry Mountain",
-		"requires": "|Moon Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Moon) 3DS Rainbow Road",
-		"requires": "|Moon Cup|",
-		"category": ["Win Conditions"]
-	},
-	{
-		"name": "(Fruit) Tour Amsterdam Drift",
-		"requires": "|Fruit Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Fruit) GBA Riverside Park",
-		"requires": "|Fruit Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Fruit) Wii DK Summit",
-		"requires": "|Fruit Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Fruit) Yoshi's Island",
-		"requires": "|Fruit Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Boomerang) Tour Bangkok Rush",
-		"requires": "|Boomerang Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Boomerang) DS Mario Circuit",
-		"requires": "|Boomerang Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Boomerang) GCN Waluigi Stadium",
-		"requires": "|Boomerang Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Boomerang) Tour Singapore Speedway",
-		"requires": "|Boomerang Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Feather) Tour Athens Dash",
-		"requires": "|Feather Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Feather) GCN Daisy Cruiser Rush",
-		"requires": "|Feather Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Feather) Wii Moonview Highway",
-		"requires": "|Feather Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Feather) Squeaky Clean Sprint",
-		"requires": "|Feather Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Cherry) Tour Los Angeles Laps",
-		"requires": "|Cherry Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Cherry) GBA Sunset Wilds",
-		"requires": "|Cherry Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Cherry) Wii Koopa Cape",
-		"requires": "|Cherry Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Cherry) Tour Vancouver Velocity",
-		"requires": "|Cherry Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Acorn) Tour Rome Avanti",
-		"requires": "|Acorn Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Acorn) GCN DK Mountain",
-		"requires": "|Acorn Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Acorn) Wii Daisy Circuit",
-		"requires": "|Acorn Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Acorn) Piranha Plant Cove",
-		"requires": "|Acorn Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Spiny) Tour Madrid Drive",
-		"requires": "|Spiny Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Spiny) 3DS Rosalina's Ice World",
-		"requires": "|Spiny Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Spiny) SNES Bowser Castle 3",
-		"requires": "|Spiny Cup|",
-		"category": ["1st Place"]
-	},
-	{
-		"name": "(Mushroom) Gold Trophy",
+		"name": "(Mushroom Cup) Bronze Trophy",
 		"requires": "|Mushroom Cup|",
-		"category": ["Cup Finish"]
-	},
+		"category": ["Mushroom Cup"]
+	},	
 	{
-		"name": "(Mushroom) Silver Trophy",
+		"name": "(Mushroom Cup) Silver Trophy",
 		"requires": "|Mushroom Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Mushroom Cup"]
 	},
 	{
-		"name": "(Mushroom) Bronze Trophy",
+		"name": "(Mushroom Cup) Gold Trophy",
 		"requires": "|Mushroom Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Mushroom Cup"]
 	},
 	{
-		"name": "(Flower) Gold Trophy",
+		"name": "(Flower Cup) 1st Place Mario Circuit",
 		"requires": "|Flower Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Flower Cup"]
 	},
 	{
-		"name": "(Flower) Silver Trophy",
+		"name": "(Flower Cup) 1st Place Toad Harbor",
 		"requires": "|Flower Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Flower Cup"]
 	},
 	{
-		"name": "(Flower) Bronze Trophy",
+		"name": "(Flower Cup) 1st Place Twisted Mansion",
 		"requires": "|Flower Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Flower Cup"]
 	},
 	{
-		"name": "(Star) Gold Trophy",
+		"name": "(Flower Cup) 1st Place Shy Guy Falls",
+		"requires": "|Flower Cup|",
+		"category": ["Flower Cup"]
+	},
+	{
+		"name": "(Flower Cup) Bronze Trophy",
+		"requires": "|Flower Cup|",
+		"category": ["Flower Cup"]
+	},	
+	{
+		"name": "(Flower Cup) Silver Trophy",
+		"requires": "|Flower Cup|",
+		"category": ["Flower Cup"]
+	},
+	{
+		"name": "(Flower Cup) Gold Trophy",
+		"requires": "|Flower Cup|",
+		"category": ["Flower Cup"]
+	},
+	{
+		"name": "(Star Cup) 1st Place Sunshine Airport",
 		"requires": "|Star Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Star Cup"]
 	},
 	{
-		"name": "(Star) Silver Trophy",
+		"name": "(Star Cup) 1st Place Dolphin Shoals",
 		"requires": "|Star Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Star Cup"]
 	},
 	{
-		"name": "(Star) Bronze Trophy",
+		"name": "(Star Cup) 1st Place Electrodrome",
 		"requires": "|Star Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Star Cup"]
 	},
 	{
-		"name": "(Special) Gold Trophy",
+		"name": "(Star Cup) 1st Place Mount Wario",
+		"requires": "|Star Cup|",
+		"category": ["Star Cup"]
+	},
+	{
+		"name": "(Star Cup) Bronze Trophy",
+		"requires": "|Star Cup|",
+		"category": ["Star Cup"]
+	},	
+	{
+		"name": "(Star Cup) Silver Trophy",
+		"requires": "|Star Cup|",
+		"category": ["Star Cup"]
+	},
+	{
+		"name": "(Star Cup) Gold Trophy",
+		"requires": "|Star Cup|",
+		"category": ["Star Cup"]
+	},
+	{
+		"name": "(Special Cup) 1st Place Cloudtop Cruise",
 		"requires": "|Special Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Special Cup"]
 	},
 	{
-		"name": "(Special) Silver Trophy",
+		"name": "(Special Cup) 1st Place Bone-Dry Dunes",
 		"requires": "|Special Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Special Cup"]
 	},
 	{
-		"name": "(Special) Bronze Trophy",
+		"name": "(Special Cup) 1st Place Bowser's Castle",
 		"requires": "|Special Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Special Cup"]
 	},
 	{
-		"name": "(Egg) Gold Trophy",
-		"requires": "|Egg Cup|",
-		"category": ["Cup Finish"]
+		"name": "(Special Cup) 1st Place Wii U Rainbow Road",
+		"requires": "|Special Cup|",
+		"category": ["Special Cup"]
 	},
 	{
-		"name": "(Egg) Silver Trophy",
-		"requires": "|Egg Cup|",
-		"category": ["Cup Finish"]
+		"name": "(Special Cup) Bronze Trophy",
+		"requires": "|Special Cup|",
+		"category": ["Special Cup"]
 	},
 	{
-		"name": "(Egg) Bronze Trophy",
-		"requires": "|Egg Cup|",
-		"category": ["Cup Finish"]
+		"name": "(Special Cup) Silver Trophy",
+		"requires": "|Special Cup|",
+		"category": ["Special Cup"]
 	},
 	{
-		"name": "(Leaf) Gold Trophy",
-		"requires": "|Leaf Cup|",
-		"category": ["Cup Finish"]
+		"name": "(Special Cup) Gold Trophy",
+		"requires": "|Special Cup|",
+		"category": ["Special Cup"]
 	},
 	{
-		"name": "(Leaf) Silver Trophy",
-		"requires": "|Leaf Cup|",
-		"category": ["Cup Finish"]
-	},
-	{
-		"name": "(Leaf) Bronze Trophy",
-		"requires": "|Leaf Cup|",
-		"category": ["Cup Finish"]
-	},
-	{
-		"name": "(Shell) Gold Trophy",
+		"name": "(Shell Cup) 1st Place Wii Moo Moo Meadows",
 		"requires": "|Shell Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Shell Cup"]
 	},
 	{
-		"name": "(Shell) Silver Trophy",
+		"name": "(Shell Cup) 1st Place GBA Mario Circuit",
 		"requires": "|Shell Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Shell Cup"]
 	},
 	{
-		"name": "(Shell) Bronze Trophy",
+		"name": "(Shell Cup) 1st Place DS Cheep Cheep Beach",
 		"requires": "|Shell Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Shell Cup"]
 	},
 	{
-		"name": "(Banana) Gold Trophy",
+		"name": "(Shell Cup) 1st Place N64 Toad's Turnpike",
+		"requires": "|Shell Cup|",
+		"category": ["Shell Cup"]
+	},
+	{
+		"name": "(Shell Cup) Bronze Trophy",
+		"requires": "|Shell Cup|",
+		"category": ["Shell Cup"]
+	},
+	{
+		"name": "(Shell Cup) Silver Trophy",
+		"requires": "|Shell Cup|",
+		"category": ["Shell Cup"]
+	},
+		{
+		"name": "(Shell Cup) Gold Trophy",
+		"requires": "|Shell Cup|",
+		"category": ["Shell Cup"]
+	},
+	{
+		"name": "(Banana Cup) 1st Place GCN Dry Dry Desert",
 		"requires": "|Banana Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Banana Cup"]
 	},
 	{
-		"name": "(Banana) Silver Trophy",
+		"name": "(Banana Cup) 1st Place SNES Donut Plains 3",
 		"requires": "|Banana Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Banana Cup"]
 	},
 	{
-		"name": "(Banana) Bronze Trophy",
+		"name": "(Banana Cup) 1st Place N64 Royal Raceway",
 		"requires": "|Banana Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Banana Cup"]
 	},
 	{
-		"name": "(Crossing) Gold Trophy",
-		"requires": "|Crossing Cup|",
-		"category": ["Cup Finish"]
+		"name": "(Banana Cup) 1st Place 3DS DK Jungle",
+		"requires": "|Banana Cup|",
+		"category": ["Banana Cup"]
 	},
 	{
-		"name": "(Crossing) Silver Trophy",
-		"requires": "|Crossing Cup|",
-		"category": ["Cup Finish"]
+		"name": "(Banana Cup) Bronze Trophy",
+		"requires": "|Banana Cup|",
+		"category": ["Banana Cup"]
+	},	
+	{
+		"name": "(Banana Cup) Silver Trophy",
+		"requires": "|Banana Cup|",
+		"category": ["Banana Cup"]
 	},
 	{
-		"name": "(Crossing) Bronze Trophy",
-		"requires": "|Crossing Cup|",
-		"category": ["Cup Finish"]
+		"name": "(Banana Cup) Gold Trophy",
+		"requires": "|Banana Cup|",
+		"category": ["Banana Cup"]
 	},
 	{
-		"name": "(Lightning) Gold Trophy",
+		"name": "(Leaf Cup) 1st Place DS Wario Stadium",
+		"requires": "|Leaf Cup|",
+		"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(Leaf Cup) 1st Place GCN Sherbet Land",
+		"requires": "|Leaf Cup|",
+		"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(Leaf Cup) 1st Place 3DS Music Park",
+		"requires": "|Leaf Cup|",
+		"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(Leaf Cup) 1st Place N64 Yoshi Valley",
+		"requires": "|Leaf Cup|",
+		"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(Leaf Cup) Bronze Trophy",
+		"requires": "|Leaf Cup|",
+		"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(Leaf Cup) Silver Trophy",
+		"requires": "|Leaf Cup|",
+		"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(Leaf Cup) Gold Trophy",
+		"requires": "|Leaf Cup|",
+		"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(Lightning Cup) 1st Place DS Tick-Tock Clock",
 		"requires": "|Lightning Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Lightning Cup"]
 	},
 	{
-		"name": "(Lightning) Silver Trophy",
+		"name": "(Lightning Cup) 1st Place 3DS Piranha Plant Slide",
 		"requires": "|Lightning Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Lightning Cup"]
 	},
 	{
-		"name": "(Lightning) Bronze Trophy",
+		"name": "(Lightning Cup) 1st Place Wii Grumble Volcano",
 		"requires": "|Lightning Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Lightning Cup"]
 	},
 	{
-		"name": "(Triforce) Gold Trophy",
+		"name": "(Lightning Cup) 1st Place N64 Rainbow Road",
+		"requires": "|Lightning Cup|",
+		"category": ["Lightning Cup"]
+	},
+	{
+		"name": "(Lightning Cup) Bronze Trophy",
+		"requires": "|Lightning Cup|",
+		"category": ["Lightning Cup"]
+	},
+	{
+		"name": "(Lightning Cup) Silver Trophy",
+		"requires": "|Lightning Cup|",
+		"category": ["Lightning Cup"]
+	},
+	{
+		"name": "(Lightning Cup) Gold Trophy",
+		"requires": "|Lightning Cup|",
+		"category": ["Lightning Cup"]
+	},
+	{
+		"name": "(Egg Cup) 1st Place GCN Yoshi Circuit",
+		"requires": "|Egg Cup|",
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(Egg Cup) 1st Place Excitebike Arena",
+		"requires": "|Egg Cup|",
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(Egg Cup) 1st Place Dragon Driftway",
+		"requires": "|Egg Cup|",
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(Egg Cup) 1st Place Mute City",
+		"requires": "|Egg Cup|",
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(Egg Cup) Bronze Trophy",
+		"requires": "|Egg Cup|",
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(Egg Cup) Silver Trophy",
+		"requires": "|Egg Cup|",
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(Egg Cup) Gold Trophy",
+		"requires": "|Egg Cup|",
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(Triforce Cup) 1st Place Wii Wario's Gold Mine",
 		"requires": "|Triforce Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Triforce Cup"]
 	},
 	{
-		"name": "(Triforce) Silver Trophy",
+		"name": "(Triforce Cup) 1st Place SNES Rainbow Road",
 		"requires": "|Triforce Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Triforce Cup"]
 	},
 	{
-		"name": "(Triforce) Bronze Trophy",
+		"name": "(Triforce Cup) 1st Place Ice Ice Outpost",
 		"requires": "|Triforce Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Triforce Cup"]
 	},
 	{
-		"name": "(Bell) Gold Trophy",
+		"name": "(Triforce Cup) 1st Place Hyrule Circuit",
+		"requires": "|Triforce Cup|",
+		"category": ["Triforce Cup"]
+	},
+	{
+		"name": "(Triforce Cup) Bronze Trophy",
+		"requires": "|Triforce Cup|",
+		"category": ["Triforce Cup"]
+	},
+	{
+		"name": "(Triforce Cup) Silver Trophy",
+		"requires": "|Triforce Cup|",
+		"category": ["Triforce Cup"]
+	},
+	{
+		"name": "(Triforce Cup) Gold Trophy",
+		"requires": "|Triforce Cup|",
+		"category": ["Triforce Cup"]
+	},
+	{
+    "name": "(Crossing Cup) 1st Place Baby Park",
+    "requires": "|Crossing Cup|",
+    "category": ["Crossing Cup"]
+	},
+	{
+    "name": "(Crossing Cup) 1st Place Cheese Land",
+    "requires": "|Crossing Cup|",
+    "category": ["Crossing Cup"]
+	},
+	{
+    "name": "(Crossing Cup) 1st Place Wild Woods",
+    "requires": "|Crossing Cup|",
+    "category": ["Crossing Cup"]
+	},
+	{
+    "name": "(Crossing Cup) 1st Place Animal Crossing",
+    "requires": "|Crossing Cup|",
+    "category": ["Crossing Cup"]
+	},
+	{
+    "name": "(Crossing Cup) Bronze Trophy",
+    "requires": "|Crossing Cup|",
+    "category": ["Crossing Cup"]
+	},
+	{
+    "name": "(Crossing Cup) Silver Trophy",
+    "requires": "|Crossing Cup|",
+    "category": ["Crossing Cup"]
+	},
+	{
+    "name": "(Crossing Cup) Gold Trophy",
+    "requires": "|Crossing Cup|",
+    "category": ["Crossing Cup"]
+	},
+	{
+		"name": "(Bell Cup) 1st Place 3DS Neo Bowser City",
 		"requires": "|Bell Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Bell Cup"]
 	},
 	{
-		"name": "(Bell) Silver Trophy",
+		"name": "(Bell Cup) 1st Place GBA Ribbon Road",
 		"requires": "|Bell Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Bell Cup"]
 	},
 	{
-		"name": "(Bell) Bronze Trophy",
+		"name": "(Bell Cup) 1st Place Super Bell Subway",
 		"requires": "|Bell Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Bell Cup"]
 	},
 	{
-		"name": "(Golden Dash) Gold Trophy",
+		"name": "(Bell Cup) 1st Place Big Blue",
+		"requires": "|Bell Cup|",
+		"category": ["Bell Cup"]
+	},
+	{
+		"name": "(Bell Cup) Bronze Trophy",
+		"requires": "|Bell Cup|",
+		"category": ["Bell Cup"]
+	},
+	{
+		"name": "(Bell Cup) Silver Trophy",
+		"requires": "|Bell Cup|",
+		"category": ["Bell Cup"]
+	},
+	{
+		"name": "(Bell Cup) Gold Trophy",
+		"requires": "|Bell Cup|",
+		"category": ["Bell Cup"]
+	},
+	{
+		"name": "(Golden Dash Cup) 1st Place Tour Paris Promenade",
 		"requires": "|Golden Dash Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Golden Dash Cup"]
 	},
 	{
-		"name": "(Golden Dash) Silver Trophy",
+		"name": "(Golden Dash Cup) 1st Place 3DS Toad Circuit",
 		"requires": "|Golden Dash Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Golden Dash Cup"]
 	},
 	{
-		"name": "(Golden Dash) Bronze Trophy",
+		"name": "(Golden Dash Cup) 1st Place N64 Choco Mountain",
 		"requires": "|Golden Dash Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Golden Dash Cup"]
 	},
 	{
-		"name": "(Lucky Cat) Gold Trophy",
+		"name": "(Golden Dash Cup) 1st Place Wii Coconut Mall",
+		"requires": "|Golden Dash Cup|",
+		"category": ["Golden Dash Cup"]
+	},
+	{
+		"name": "(Golden Dash Cup) Bronze Trophy",
+		"requires": "|Golden Dash Cup|",
+		"category": ["Golden Dash Cup"]
+	},
+	{
+		"name": "(Golden Dash Cup) Silver Trophy",
+		"requires": "|Golden Dash Cup|",
+		"category": ["Golden Dash Cup"]
+	},
+	{
+		"name": "(Golden Dash Cup) Gold Trophy",
+		"requires": "|Golden Dash Cup|",
+		"category": ["Golden Dash Cup"]
+	},
+	{
+		"name": "(Lucky Cat Cup) 1st Place Tour Tokyo Blur",
 		"requires": "|Lucky Cat Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Lucky Cat Cup"]
 	},
 	{
-		"name": "(Lucky Cat) Silver Trophy",
+		"name": "(Lucky Cat Cup) 1st Place DS Shroom Ridge",
 		"requires": "|Lucky Cat Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Lucky Cat Cup"]
 	},
 	{
-		"name": "(Lucky Cat) Bronze Trophy",
+		"name": "(Lucky Cat Cup) 1st Place GBA Sky Garden",
 		"requires": "|Lucky Cat Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Lucky Cat Cup"]
 	},
 	{
-		"name": "(Turnip) Gold Trophy",
+		"name": "(Lucky Cat Cup) 1st Place Ninja Hideaway",
+		"requires": "|Lucky Cat Cup|",
+		"category": ["Lucky Cat Cup"]
+	},
+	{
+		"name": "(Lucky Cat Cup) Bronze Trophy",
+		"requires": "|Lucky Cat Cup|",
+		"category": ["Lucky Cat Cup"]
+	},
+	{
+		"name": "(Lucky Cat Cup) Silver Trophy",
+		"requires": "|Lucky Cat Cup|",
+		"category": ["Lucky Cat Cup"]
+	},
+	{
+		"name": "(Lucky Cat Cup) Gold Trophy",
+		"requires": "|Lucky Cat Cup|",
+		"category": ["Lucky Cat Cup"]
+	},
+	{
+		"name": "(Turnip Cup) 1st Place Tour New York Minute",
 		"requires": "|Turnip Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Turnip Cup"]
 	},
 	{
-		"name": "(Turnip) Silver Trophy",
+		"name": "(Turnip Cup) 1st Place SNES Mario Circuit 3",
 		"requires": "|Turnip Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Turnip Cup"]
 	},
 	{
-		"name": "(Turnip) Bronze Trophy",
+		"name": "(Turnip Cup) 1st Place N64 Kalamari Desert",
 		"requires": "|Turnip Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Turnip Cup"]
 	},
 	{
-		"name": "(Propeller) Gold Trophy",
+		"name": "(Turnip Cup) 1st Place DS Waluigi Pinball",
+		"requires": "|Turnip Cup|",
+		"category": ["Turnip Cup"]
+	},
+	{
+		"name": "(Turnip Cup) Bronze Trophy",
+		"requires": "|Turnip Cup|",
+		"category": ["Turnip Cup"]
+	},
+	{
+		"name": "(Turnip Cup) Silver Trophy",
+		"requires": "|Turnip Cup|",
+		"category": ["Turnip Cup"]
+	},
+	{
+		"name": "(Turnip Cup) Gold Trophy",
+		"requires": "|Turnip Cup|",
+		"category": ["Turnip Cup"]
+	},
+	{
+		"name": "(Propeller Cup) 1st Place Tour Sydney Sprint",
 		"requires": "|Propeller Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Propeller Cup"]
 	},
 	{
-		"name": "(Propeller) Silver Trophy",
+		"name": "(Propeller Cup) 1st Place GBA Snow Land",
 		"requires": "|Propeller Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Propeller Cup"]
 	},
 	{
-		"name": "(Propeller) Bronze Trophy",
+		"name": "(Propeller Cup) 1st Place Wii Mushroom Gorge",
 		"requires": "|Propeller Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Propeller Cup"]
 	},
 	{
-		"name": "(Rock) Gold Trophy",
+		"name": "(Propeller Cup) 1st Place Sky-High Sundae",
+		"requires": "|Propeller Cup|",
+		"category": ["Propeller Cup"]
+	},
+	{
+		"name": "(Propeller Cup) Bronze Trophy",
+		"requires": "|Propeller Cup|",
+		"category": ["Propeller Cup"]
+	},
+	{
+		"name": "(Propeller Cup) Silver Trophy",
+		"requires": "|Propeller Cup|",
+		"category": ["Propeller Cup"]
+	},
+	{
+		"name": "(Propeller Cup) Gold Trophy",
+		"requires": "|Propeller Cup|",
+		"category": ["Propeller Cup"]
+	},
+	{
+		"name": "(Rock Cup) 1st Place Tour London Loop",
 		"requires": "|Rock Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Rock Cup"]
 	},
 	{
-		"name": "(Rock) Silver Trophy",
+		"name": "(Rock Cup) 1st Place GBA Boo Lake",
 		"requires": "|Rock Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Rock Cup"]
 	},
 	{
-		"name": "(Rock) Bronze Trophy",
+		"name": "(Rock Cup) 1st Place 3DS Rock Rock Mountain",
 		"requires": "|Rock Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Rock Cup"]
 	},
 	{
-		"name": "(Moon) Gold Trophy",
+		"name": "(Rock Cup) 1st Place Wii Maple Treeway",
+		"requires": "|Rock Cup|",
+		"category": ["Rock Cup"]
+	},
+	{
+		"name": "(Rock Cup) Bronze Trophy",
+		"requires": "|Rock Cup|",
+		"category": ["Rock Cup"]
+	},
+	{
+		"name": "(Rock Cup) Silver Trophy",
+		"requires": "|Rock Cup|",
+		"category": ["Rock Cup"]
+	},
+	{
+		"name": "(Rock Cup) Gold Trophy",
+		"requires": "|Rock Cup|",
+		"category": ["Rock Cup"]
+	},
+	{
+		"name": "(Moon Cup) 1st Place Tour Berlin Byways",
 		"requires": "|Moon Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Moon Cup"]
 	},
 	{
-		"name": "(Moon) Silver Trophy",
+		"name": "(Moon Cup) 1st Place DS Peach Gardens",
 		"requires": "|Moon Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Moon Cup"]
 	},
 	{
-		"name": "(Moon) Bronze Trophy",
+		"name": "(Moon Cup) 1st Place Merry Mountain",
 		"requires": "|Moon Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Moon Cup"]
 	},
 	{
-		"name": "(Fruit) Gold Trophy",
+		"name": "(Moon Cup) 1st Place 3DS Rainbow Road",
+		"requires": "|Moon Cup|",
+		"category": ["Moon Cup"]
+	},
+	{
+		"name": "(Moon Cup) Bronze Trophy",
+		"requires": "|Moon Cup|",
+		"category": ["Moon Cup"]
+	},
+	{
+		"name": "(Moon Cup) Silver Trophy",
+		"requires": "|Moon Cup|",
+		"category": ["Moon Cup"]
+	},
+	{
+		"name": "(Moon Cup) Gold Trophy",
+		"requires": "|Moon Cup|",
+		"category": ["Moon Cup"]
+	},
+	{
+		"name": "(Fruit Cup) 1st Place Tour Amsterdam Drift",
 		"requires": "|Fruit Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Fruit Cup"]
 	},
 	{
-		"name": "(Fruit) Silver Trophy",
+		"name": "(Fruit Cup) 1st Place GBA Riverside Park",
 		"requires": "|Fruit Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Fruit Cup"]
 	},
 	{
-		"name": "(Fruit) Bronze Trophy",
+		"name": "(Fruit Cup) 1st Place Wii DK Summit",
 		"requires": "|Fruit Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Fruit Cup"]
 	},
 	{
-		"name": "(Boomerang) Gold Trophy",
+		"name": "(Fruit Cup) 1st Place Yoshi's Island",
+		"requires": "|Fruit Cup|",
+		"category": ["Fruit Cup"]
+	},
+	{
+		"name": "(Fruit Cup) Bronze Trophy",
+		"requires": "|Fruit Cup|",
+		"category": ["Fruit Cup"]
+	},
+	{
+		"name": "(Fruit Cup) Silver Trophy",
+		"requires": "|Fruit Cup|",
+		"category": ["Fruit Cup"]
+	},
+	{
+		"name": "(Fruit Cup) Gold Trophy",
+		"requires": "|Fruit Cup|",
+		"category": ["Fruit Cup"]
+	},
+	{
+		"name": "(Boomerang Cup) 1st Place Tour Bangkok Rush",
 		"requires": "|Boomerang Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Boomerang Cup"]
 	},
 	{
-		"name": "(Boomerang) Silver Trophy",
+		"name": "(Boomerang Cup) 1st Place DS Mario Circuit",
 		"requires": "|Boomerang Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Boomerang Cup"]
 	},
 	{
-		"name": "(Boomerang) Bronze Trophy",
+		"name": "(Boomerang Cup) 1st Place GCN Waluigi Stadium",
 		"requires": "|Boomerang Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Boomerang Cup"]
 	},
 	{
-		"name": "(Feather) Gold Trophy",
+		"name": "(Boomerang Cup) 1st Place Tour Singapore Speedway",
+		"requires": "|Boomerang Cup|",
+		"category": ["Boomerang Cup"]
+	},
+	{
+		"name": "(Boomerang Cup) Bronze Trophy",
+		"requires": "|Boomerang Cup|",
+		"category": ["Boomerang Cup"]
+	},
+	{
+		"name": "(Boomerang Cup) Silver Trophy",
+		"requires": "|Boomerang Cup|",
+		"category": ["Boomerang Cup"]
+	},
+	{
+		"name": "(Boomerang Cup) Gold Trophy",
+		"requires": "|Boomerang Cup|",
+		"category": ["Boomerang Cup"]
+	},
+	{
+		"name": "(Feather Cup) 1st Place Tour Athens Dash",
 		"requires": "|Feather Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Feather Cup"]
 	},
 	{
-		"name": "(Feather) Silver Trophy",
+		"name": "(Feather Cup) 1st Place GCN Daisy Cruiser Rush",
 		"requires": "|Feather Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Feather Cup"]
 	},
 	{
-		"name": "(Feather) Bronze Trophy",
+		"name": "(Feather Cup) 1st Place Wii Moonview Highway",
 		"requires": "|Feather Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Feather Cup"]
 	},
 	{
-		"name": "(Cherry) Gold Trophy",
+		"name": "(Feather Cup) 1st Place Squeaky Clean Sprint",
+		"requires": "|Feather Cup|",
+		"category": ["Feather Cup"]
+	},
+	
+	{
+		"name": "(Feather Cup) Bronze Trophy",
+		"requires": "|Feather Cup|",
+		"category": ["Feather Cup"]
+	},
+	{
+		"name": "(Feather Cup) Silver Trophy",
+		"requires": "|Feather Cup|",
+		"category": ["Feather Cup"]
+	},
+	{
+		"name": "(Feather Cup) Gold Trophy",
+		"requires": "|Feather Cup|",
+		"category": ["Feather Cup"]
+	},
+	{
+		"name": "(Cherry Cup) 1st Place Tour Los Angeles Laps",
 		"requires": "|Cherry Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Cherry Cup"]
 	},
 	{
-		"name": "(Cherry) Silver Trophy",
+		"name": "(Cherry Cup) 1st Place GBA Sunset Wilds",
 		"requires": "|Cherry Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Cherry Cup"]
 	},
 	{
-		"name": "(Cherry) Bronze Trophy",
+		"name": "(Cherry Cup) 1st Place Wii Koopa Cape",
 		"requires": "|Cherry Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Cherry Cup"]
 	},
 	{
-		"name": "(Acorn) Gold Trophy",
+		"name": "(Cherry Cup) 1st Place Tour Vancouver Velocity",
+		"requires": "|Cherry Cup|",
+		"category": ["Cherry Cup"]
+	},
+	{
+		"name": "(Cherry Cup) Bronze Trophy",
+		"requires": "|Cherry Cup|",
+		"category": ["Cherry Cup"]
+	},
+	{
+		"name": "(Cherry Cup) Silver Trophy",
+		"requires": "|Cherry Cup|",
+		"category": ["Cherry Cup"]
+	},
+	{
+		"name": "(Cherry Cup) Gold Trophy",
+		"requires": "|Cherry Cup|",
+		"category": ["Cherry Cup"]
+	},
+	{
+		"name": "(Acorn Cup) 1st Place Tour Rome Avanti",
 		"requires": "|Acorn Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Acorn Cup"]
 	},
 	{
-		"name": "(Acorn) Silver Trophy",
+		"name": "(Acorn Cup) 1st Place GCN DK Mountain",
 		"requires": "|Acorn Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Acorn Cup"]
 	},
 	{
-		"name": "(Acorn) Bronze Trophy",
+		"name": "(Acorn Cup) 1st Place Wii Daisy Circuit",
 		"requires": "|Acorn Cup|",
-		"category": ["Cup Finish"]
+		"category": ["Acorn Cup"]
 	},
 	{
-		"name": "(Spiny) Gold Trophy",
-		"requires": "|Spiny Cup|",
-		"category": ["Cup Finish"]
+		"name": "(Acorn Cup) 1st Piranha Plant Cove",
+		"requires": "|Acorn Cup|",
+		"category": ["Acorn Cup"]
 	},
 	{
-		"name": "(Spiny) Silver Trophy",
-		"requires": "|Spiny Cup|",
-		"category": ["Cup Finish"]
+		"name": "(Acorn Cup) Bronze Trophy",
+		"requires": "|Acorn Cup|",
+		"category": ["Acorn Cup"]
 	},
 	{
-		"name": "(Spiny) Bronze Trophy",
-		"requires": "|Spiny Cup|",
-		"category": ["Cup Finish"]
+		"name": "(Acorn Cup) Silver Trophy",
+		"requires": "|Acorn Cup|",
+		"category": ["Acorn Cup"]
 	},
 	{
-		"name": "(Spiny) Wii Rainbow Road",
-		"requires": "|Spiny Cup|",
-		"category": ["Win Conditions"]
+		"name": "(Acorn Cup) Gold Trophy",
+		"requires": "|Acorn Cup|",
+		"category": ["Acorn Cup"]
 	},
+	{
+		"name": "(Spiny Cup) 1st Place Tour Madrid Drive",
+		"requires": "|Spiny Cup|",
+		"category": ["Spiny Cup"]
+	},
+	{
+		"name": "(Spiny Cup) 1st Place 3DS Rosalina's Ice World",
+		"requires": "|Spiny Cup|",
+		"category": ["Spiny Cup"]
+	},
+	{
+		"name": "(Spiny Cup) 1st Place SNES Bowser Castle 3",
+		"requires": "|Spiny Cup|",
+		"category": ["Spiny Cup"]
+	},
+	{
+		"name": "(Spiny Cup) 1st Place Wii Rainbow Road",
+		"requires": "|Spiny Cup|",
+		"category": ["Spiny Cup"]
+	},
+	{
+		"name": "(Spiny Cup) Bronze Trophy",
+		"requires": "|Spiny Cup|",
+		"category": ["Spiny Cup"]
+	},
+	{
+		"name": "(Spiny Cup) Silver Trophy",
+		"requires": "|Spiny Cup|",
+		"category": ["Spiny Cup"]
+	},
+	{
+		"name": "(Spiny Cup) Gold Trophy",
+		"requires": "|Spiny Cup|",
+		"category": ["Spiny Cup"]
+	},	
 	{
 		"name": "Win with Mario",
 		"requires": "|Mario|",
