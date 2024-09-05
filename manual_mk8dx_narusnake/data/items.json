@@ -186,13 +186,109 @@
 		"progression": true
 	},
 	{
-		"name": "Birdo",
+		"name": "Birdo (Pink)",
 		"category": ["Characters"],
 		"count":1,
 		"progression": true
 	},
 	{
-		"name": "Yoshi",
+		"name": "Birdo (Light Blue)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Birdo (Black)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Birdo (Red)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Birdo (Yellow)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Birdo (White)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Birdo (Dark Blue)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},	
+	{
+		"name": "Birdo (Green)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Birdo (Orange)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Green)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Light Blue)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Black)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Red)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Yellow)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (White)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Dark Blue)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Pink)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Orange)",
 		"category": ["Characters"],
 		"count":1,
 		"progression": true
@@ -210,7 +306,55 @@
 		"progression": true
 	},
 	{
-		"name": "Shy Guy",
+		"name": "Shy Guy (Red)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Light Blue)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Black)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Green)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Yellow)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (White)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Dark Blue)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Pink)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Orange)",
 		"category": ["Characters"],
 		"count":1,
 		"progression": true
@@ -271,6 +415,12 @@
 	},
 	{
 		"name": "Metal Mario",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Golden Mario",
 		"category": ["Characters"],
 		"count":1,
 		"progression": true
@@ -384,13 +534,49 @@
 		"progression": true
 	},
 	{
-		"name": "Inkling",
+		"name": "Inkling Girl (Orange Hair)",
 		"category": ["Characters"],
 		"count":1,
 		"progression": true
 	},
 	{
-		"name": "Villager",
+		"name": "Inkling Girl (Green Hair)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Inkling Girl (Pink Hair)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Inkling Boy (Dark Blue Hair)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Inkling Boy (Purple Hair)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Inkling Boy (Cyan Hair)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Male Villager",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Female Villager",
 		"category": ["Characters"],
 		"count":1,
 		"progression": true
@@ -402,7 +588,13 @@
 		"progression": true
 	},
 	{
-		"name": "Link",
+		"name": "Link (Green Tunic)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},	
+	{
+		"name": "Link (BOTW)",
 		"category": ["Characters"],
 		"count":1,
 		"progression": true
@@ -426,7 +618,43 @@
 		"progression": true
 	},
 	{
-		"name": "Mii",
+		"name": "Mii (Yours)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mii (male player in a red outfit)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mii (female player in a pink outfit)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mii (male player in a green outfit)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mii (female player in a yellow outfit)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mii (male player in a dark blue outfit)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mii (female player in a light blue outfit)",
 		"category": ["Characters"],
 		"count":1,
 		"progression": true
@@ -775,5 +1003,11 @@
 		"name": "Paper Glider",
 		"category": ["Gliders"],
 		"count":1
-	}
+	},
+	{
+        "name": "MKTV Token",
+        "category": ["Token"],
+        "count": 25,
+        "progression": true
+    }
 ]

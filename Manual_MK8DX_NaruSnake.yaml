@@ -61,6 +61,11 @@ Manual_MK8DX_NaruSnake:
     items: 50
     minimal: 0
 
+  goal:
+    # Choose your victory condition.
+    all rainbow roads complete: 50
+    mario kart 8 token: 0
+
   DLC_enabled:
     # Should items/locations linked to this option be enabled?
     'false': 0

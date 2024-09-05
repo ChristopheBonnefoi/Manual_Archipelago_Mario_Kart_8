@@ -876,13 +876,93 @@
 		"category": ["Win any Cup with..."]
 	},
 	{
-		"name": "Win with Birdo",
-		"requires": "|Birdo|",
+		"name": "Win with Birdo (Pink)",
+		"requires": "|Birdo (Pink)|",
 		"category": ["Win any Cup with..."]
 	},
 	{
-		"name": "Win with Yoshi",
-		"requires": "|Yoshi|",
+		"name": "Win with Birdo (Light Blue)",
+		"requires": "|Birdo (Light Blue)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Birdo (Black)",
+		"requires": "|Birdo (Black)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Birdo (Red)",
+		"requires": "|Birdo (Red)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Birdo (Yellow)",
+		"requires": "|Birdo (Yellow)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Birdo (White)",
+		"requires": "|Birdo (White)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Birdo (Dark Blue)",
+		"requires": "|Birdo (Dark Blue)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Birdo (Green)",
+		"requires": "|Birdo (Green)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Birdo (Orange)",
+		"requires": "|Birdo (Orange)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Yoshi (Pink)",
+		"requires": "|Yoshi (Pink)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Yoshi (Light Blue)",
+		"requires": "|Yoshi (Light Blue)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Yoshi (Black)",
+		"requires": "|Yoshi (Black)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Yoshi (Red)",
+		"requires": "|Yoshi (Red)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Yoshi (Yellow)",
+		"requires": "|Yoshi (Yellow)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Yoshi (White)",
+		"requires": "|Yoshi (White)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Yoshi (Dark Blue)",
+		"requires": "|Yoshi (Dark Blue)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Yoshi (Green)",
+		"requires": "|Yoshi (Green)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Yoshi (Orange)",
+		"requires": "|Yoshi (Orange)|",
 		"category": ["Win any Cup with..."]
 	},
 	{
@@ -896,8 +976,48 @@
 		"category": ["Win any Cup with..."]
 	},
 	{
-		"name": "Win with Shy Guy",
-		"requires": "|Shy Guy|",
+		"name": "Win with Shy Guy (Pink)",
+		"requires": "|Shy Guy (Pink)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Shy Guy (Light Blue)",
+		"requires": "|Shy Guy (Light Blue)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Shy Guy (Black)",
+		"requires": "|Shy Guy (Black)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Shy Guy (Red)",
+		"requires": "|Shy Guy (Red)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Shy Guy (Yellow)",
+		"requires": "|Shy Guy (Yellow)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Shy Guy (White)",
+		"requires": "|Shy Guy (White)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Shy Guy (Dark Blue)",
+		"requires": "|Shy Guy (Dark Blue)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Shy Guy (Green)",
+		"requires": "|Shy Guy (Green)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Shy Guy (Orange)",
+		"requires": "|Shy Guy (Orange)|",
 		"category": ["Win any Cup with..."]
 	},
 	{
@@ -948,6 +1068,11 @@
 	{
 		"name": "Win with Metal Mario",
 		"requires": "|Metal Mario|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Golden Mario",
+		"requires": "|Golden Mario|",
 		"category": ["Win any Cup with..."]
 	},
 	{
@@ -1041,13 +1166,43 @@
 		"category": ["Win any Cup with..."]
 	},
 	{
-		"name": "Win with Inkling",
-		"requires": "|Inkling|",
+		"name": "Win with Inkling Girl (Orange Hair)",
+		"requires": "|Inkling Girl (Orange Hair)|",
+		"category": ["Win any Cup with..."]
+	},
+    	{
+		"name": "Win with Inkling Girl (Green Hair)",
+		"requires": "|Inkling Girl (Green Hair)|",
+		"category": ["Win any Cup with..."]
+	},
+    	{
+		"name": "Win with Inkling Girl (Pink Hair)",
+		"requires": "|Inkling Girl (Pink Hair)|",
+		"category": ["Win any Cup with..."]
+	},
+    	{
+		"name": "Win with Inkling Boy (Dark Blue Hair)",
+		"requires": "|Inkling Boy (Dark Blue Hair)|",
+		"category": ["Win any Cup with..."]
+	},
+    	{
+		"name": "Win with Inkling Boy (Purple Hair)",
+		"requires": "|Inkling Boy (Purple Hair)|",
+		"category": ["Win any Cup with..."]
+	},
+    	{
+		"name": "Win with Inkling Boy (Cyan Hair)",
+		"requires": "|Inkling Boy (Cyan Hair)|",
 		"category": ["Win any Cup with..."]
 	},
 	{
-		"name": "Win with Villager",
-		"requires": "|Villager|",
+		"name": "Win with Male Villager",
+		"requires": "|Male Villager|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Female Villager",
+		"requires": "|Female Villager|",
 		"category": ["Win any Cup with..."]
 	},
 	{
@@ -1056,8 +1211,13 @@
 		"category": ["Win any Cup with..."]
 	},
 	{
-		"name": "Win with Link",
-		"requires": "|Link|",
+		"name": "Win with Link (Green Tunic)",
+		"requires": "|Link (Green Tunic)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Link (BOTW)",
+		"requires": "|Link (BOTW)|",
 		"category": ["Win any Cup with..."]
 	},
 	{
@@ -1076,11 +1236,40 @@
 		"category": ["Win any Cup with..."]
 	},
 	{
-		"name": "Win with Mii",
-		"requires": "|Mii|",
+		"name": "Win with Mii (Yours)",
+		"requires": "|Mii (Yours)|",
 		"category": ["Win any Cup with..."]
 	},
-
+	{
+		"name": "Win with Mii (male player in a red outfit)",
+		"requires": "|Mii (male player in a red outfit)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Mii (female player in a pink outfit)",
+		"requires": "|Mii (female player in a pink outfit)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Mii (male player in a green outfit)",
+		"requires": "|Mii (male player in a green outfit)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Mii (female player in a yellow outfit)",
+		"requires": "|Mii (female player in a yellow outfit)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Mii (male player in a dark blue outfit)",
+		"requires": "|Mii (male player in a dark blue outfit)|",
+		"category": ["Win any Cup with..."]
+	},
+	{
+		"name": "Win with Mii (female player in a light blue outfit)",
+		"requires": "|Mii (female player in a light blue outfit)|",
+		"category": ["Win any Cup with..."]
+	},
 	{
 		"name": "Balloon Battle Victory",
 		"requires": "|Balloon Battle|",
@@ -1107,9 +1296,15 @@
 		"category": ["Battle Mode"]
 	},
 	{
-		"victory": true,
 		"name": "All Rainbow Roads Complete",
+		"victory": true,
 		"category": ["Goal"],
 		"requires": "|Special Cup| AND |Lightning Cup| AND |Triforce Cup| AND |Moon Cup| AND |Spiny Cup|"
-	}
+	},
+	{
+        "name": "Mario Kart 8 Token",
+        "victory": true,
+        "category": ["Goal"],
+        "requires": "|MKTV Token:ALL|"
+    }   
 ]
