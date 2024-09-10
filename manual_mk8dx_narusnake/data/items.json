@@ -900,36 +900,6 @@
 		"count":1
 	},
 	{
-		"name": "Balloon Battle",
-		"category": ["Battle Modes"],
-		"count":1,
-		"progression": true
-	},
-	{
-		"name": "Renegade Roundup",
-		"category": ["Battle Modes"],
-		"count":1,
-		"progression": true
-	},
-	{
-		"name": "Bob-omb Blast",
-		"category": ["Battle Modes"],
-		"count":1,
-		"progression": true
-	},
-	{
-		"name": "Coin Runners",
-		"category": ["Battle Modes"],
-		"count":1,
-		"progression": true
-	},
-	{
-		"name": "Shine Thief",
-		"category": ["Battle Modes"],
-		"count":1,
-		"progression": true
-	},
-	{
 		"name": "Super Gliders",
 		"category": ["Gliders"],
 		"count":1
@@ -1004,10 +974,58 @@
 		"category": ["Gliders"],
 		"count":1
 	},
+		{
+		"name": "Grand Prix",
+		"category": ["Game_Mode"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "VS Race",
+		"category": ["Game_Mode"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Battle",
+		"category": ["Game_Mode"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Balloon Battle",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Renegade Roundup",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Bob-omb Blast",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Coin Runners",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shine Thief",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},
 	{
         "name": "MKTV Token",
         "category": ["Token"],
-        "count": 25,
+        "count": 100,
         "progression": true
     }
 ]

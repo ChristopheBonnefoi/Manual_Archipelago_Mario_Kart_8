@@ -1,7 +1,7 @@
 # Archipelago Manual for Mario Kart 8 Deluxe
 
 ## Welcome!
-Welcome to my Archipelago manual for Mario Kart 8 Deluxe on the Switch. This Archipelago setup is inspired by those created by rampantepsilon and jokerfactor. My goal is to create a comprehensive Archipelago with fun and challenging checks.
+Welcome to my Archipelago manual for Mario Kart 8 Deluxe on the Switch. This Archipelago setup is inspired by those created by RampantEpsilon and JokerFactor. My goal is to create a comprehensive Archipelago with fun and challenging checks.
 
 ## Project Status
 The project is currently in beta, and I plan to add many more features, as outlined in the **Future Features** section.
@@ -19,6 +19,8 @@ This goal requires completing all Rainbow Road tracks in the game, including tho
 ### Additional Explanations:
 For trophy-related checks (bronze, silver, and gold), obtaining the gold trophy will automatically validate the silver and bronze trophies.
 
+For cups, unlocking the tracks is validated for both Grand Prix and VS Race modes to avoid having to unlock the same tracks twice.
+
 ## Future Features (not guaranteed)
 - Introduce checks for Time Trial mode, requiring players to beat a ghost on each track.
 - Add checks and items for Race mode in the game.
@@ -28,6 +30,16 @@ For trophy-related checks (bronze, silver, and gold), obtaining the gold trophy 
 - Include difficulty settings in the item pool.
 
 ## Patch Notes
+
+### Version 0.3.0: 
+
+#### Additions: VS Race Update
+
+- Added the **Game_Modes** category to items.
+- Added the **VS Race** category for checks.
+- Modified the **Win the cups with...** category to **Win a race**.
+- Added game mode options in seed construction.
+- Adjusted tokens to 100.
 
 ### Version 0.2.0: Character Update
 
@@ -60,10 +72,10 @@ Adding all the color variants of each character makes the "Win any Cup with..." 
 ### Version 0.1.0
 
 #### Additions:
-- Created items in the *Characters* category.
-- Created items in the *Karts* category.
-- Created items in the *Wheels* category.
-- Created items in the *Gliders* category.
+- Created items in the **Characters** category.
+- Created items in the **Karts** category.
+- Created items in the **Wheels** category.
+- Created items in the **Gliders** category.
 - Added checks for cups, including 1st place and earning bronze, silver, and gold trophies.
 - Added checks for each character when they win a cup.
 

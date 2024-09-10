@@ -4,6 +4,10 @@
 	"filler_item_name": "Coin",
 	"starting_items": [
 		{
+			"item_categories": [ "Game_Mode" ],
+			"random": 1
+		},
+		{
 			"item_categories": [ "Cups" ],
 			"random": 1
 		},
