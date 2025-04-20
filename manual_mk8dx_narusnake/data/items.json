@@ -987,6 +987,12 @@
 		"progression": true
 	},
 	{
+		"name": "Time Trial",
+		"category": ["Game_Mode"],
+		"count":1,
+		"progression": true
+	},
+	{
 		"name": "Battle",
 		"category": ["Game_Mode"],
 		"count":1,

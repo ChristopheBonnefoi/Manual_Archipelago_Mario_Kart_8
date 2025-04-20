@@ -12,6 +12,10 @@
 			"random": 1
 		},
 		{
+			"item_categories": [ "Battle Modes" ],
+			"random": 1
+		},
+		{
 			"item_categories": [ "Characters" ],
 			"random": 1
 		},

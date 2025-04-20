@@ -88,6 +88,66 @@
         "category": ["Mushroom Cup"]
     },
 	{
+		"name": "(10 Coins|Mushroom Cup)  Mario Kart Stadium",
+		"requires": [
+			"Mushroom Cup"
+		],
+		"category": ["Mushroom Cup"]
+	},
+	{
+		"name": "(10 Coins|Mushroom Cup)  Water Park",
+		"requires": [
+			"Mushroom Cup"
+		],
+		"category": ["Mushroom Cup"]
+	},
+	{
+		"name": "(10 Coins|Mushroom Cup) Sweet Sweet Canyon",
+		"requires": [
+			"Mushroom Cup"
+		],
+		"category": ["Mushroom Cup"]
+	},
+	{
+		"name": "(10 Coins|Mushroom Cup) Thwomp Ruins",
+		"requires": [
+			"Mushroom Cup"
+		],
+		"category": ["Mushroom Cup"]
+	},
+	{
+		"name": "(Time Trial|Mushroom Cup) Win any ghost on Mario Kart Stadium",
+		"requires": [
+			"Mushroom Cup",
+			"Time Trial"
+		],
+		"category": ["Mushroom Cup"]
+	},
+	{
+		"name": "(Time Trial|Mushroom Cup) Win any ghost on Water Park",
+		"requires": [
+			"Mushroom Cup",
+			"Time Trial"
+		],
+		"category": ["Mushroom Cup"]
+	},
+	{
+		"name": "(Time Trial|Mushroom Cup) Win any ghost on Sweet Sweet Canyon",
+		"requires": [
+			"Mushroom Cup",
+			"Time Trial"
+		],
+		"category": ["Mushroom Cup"]
+	},
+	{
+		"name": "(Time Trial|Mushroom Cup) Win any ghost on Thwomp Ruins",
+		"requires": [
+			"Mushroom Cup",
+			"Time Trial"
+		],
+		"category": ["Mushroom Cup"]
+	},
+	{
 		"name": "(GP|Flower Cup) 1st Place Mario Circuit",
 		"requires": [
 			"Flower Cup",
@@ -175,6 +235,66 @@
         ],
         "category": ["Flower Cup"]
     },
+	{
+		"name": "(10 Coins|Flower Cup)  Mario Circuit",
+		"requires": [
+			"Flower Cup"
+		],
+		"category": ["Flower Cup"]
+	},
+	{
+		"name": "(10 Coins|Flower Cup)  Toad Harbor",
+		"requires": [
+			"Flower Cup"
+		],
+		"category": ["Flower Cup"]
+	},
+	{
+		"name": "(10 Coins|Flower Cup)  Twisted Mansion",
+		"requires": [
+			"Flower Cup"
+		],
+		"category": ["Flower Cup"]
+	},
+	{
+		"name": "(10 Coins|Flower Cup)  Shy Guy Falls",
+		"requires": [
+			"Flower Cup"
+		],
+		"category": ["Flower Cup"]
+	},
+	{
+		"name": "(Time Trial|Flower Cup) Win any ghost on Mario Circuit",
+		"requires": [
+			"Flower Cup",
+			"Time Trial"
+		],
+		"category": ["Flower Cup"]
+	},
+	{
+		"name": "(Time Trial|Flower Cup) Win any ghost on Toad Harbor",
+		"requires": [
+			"Flower Cup",
+			"Time Trial"
+		],
+		"category": ["Flower Cup"]
+	},
+	{
+		"name": "(Time Trial|Flower Cup) Win any ghost on Twisted Mansion",
+		"requires": [
+			"Flower Cup",
+			"Time Trial"
+		],
+		"category": ["Flower Cup"]
+	},
+	{
+		"name": "(Time Trial|Flower Cup) Win any ghost on Shy Guy Falls",
+		"requires": [
+			"Flower Cup",
+			"Time Trial"
+		],
+		"category": ["Flower Cup"]
+	},
 	{
 		"name": "(GP|Star Cup) 1st Place Sunshine Airport",
 		"requires": [
@@ -264,6 +384,66 @@
         "category": ["Star Cup"]
     },
 	{
+		"name": "(10 Coins|Star Cup)  Sunshine Airport",
+		"requires": [
+			"Star Cup"
+		],
+		"category": ["Star Cup"]
+	},
+	{
+		"name": "(10 Coins|Star Cup)  Dolphin Shoals",
+		"requires": [
+			"Star Cup"
+		],
+		"category": ["Star Cup"]
+	},
+	{
+		"name": "(10 Coins|Star Cup)  Electrodrome",
+		"requires": [
+			"Star Cup"
+		],
+		"category": ["Star Cup"]
+	},
+	{
+		"name": "(10 Coins|Star Cup)  Mount Wario",
+		"requires": [
+			"Star Cup"
+		],
+		"category": ["Star Cup"]
+	},
+	{
+		"name": "(Time Trial|Star Cup) Win any ghost on Sunshine Airport",
+		"requires": [
+			"Star Cup",
+			"Time Trial"
+		],
+		"category": ["Star Cup"]
+	},
+	{
+		"name": "(Time Trial|Star Cup) Win any ghost on Dolphin Shoals",
+		"requires": [
+			"Star Cup",
+			"Time Trial"
+		],
+		"category": ["Star Cup"]
+	},
+	{
+		"name": "(Time Trial|Star Cup) Win any ghost on Electrodrome",
+		"requires": [
+			"Star Cup",
+			"Time Trial"
+		],
+		"category": ["Star Cup"]
+	},
+	{
+		"name": "(Time Trial|Star Cup) Win any ghost on Mount Wario",
+		"requires": [
+			"Star Cup",
+			"Time Trial"
+		],
+		"category": ["Star Cup"]
+	},
+	{
 		"name": "(GP|Special Cup) 1st Place Cloudtop Cruise",
 		"requires": [
 			"Special Cup",
@@ -351,6 +531,66 @@
         ],
         "category": ["Special Cup"]
     },
+	{
+		"name": "(10 Coins|Special Cup)  Cloudtop Cruise",
+		"requires": [
+			"Special Cup"
+		],
+		"category": ["Special Cup"]
+	},
+	{
+		"name": "(10 Coins|Special Cup)  Bone-Dry Dunes",
+		"requires": [
+			"Special Cup"
+		],
+		"category": ["Special Cup"]
+	},
+	{
+		"name": "(10 Coins|Special Cup)  Bowser's Castle",
+		"requires": [
+			"Special Cup"
+		],
+		"category": ["Special Cup"]
+	},
+	{
+		"name": "(10 Coins|Special Cup)  Wii U Rainbow Road",
+		"requires": [
+			"Special Cup"
+		],
+		"category": ["Special Cup"]
+	},
+	{
+		"name": "(Time Trial|Special Cup) Win any ghost on Cloudtop Cruise",
+		"requires": [
+			"Special Cup",
+			"Time Trial"
+		],
+		"category": ["Special Cup"]
+	},
+	{
+		"name": "(Time Trial|Special Cup) Win any ghost on Bone-Dry Dunes",
+		"requires": [
+			"Special Cup",
+			"Time Trial"
+		],
+		"category": ["Special Cup"]
+	},
+	{
+		"name": "(Time Trial|Special Cup) Win any ghost on Bowser's Castle",
+		"requires": [
+			"Special Cup",
+			"Time Trial"
+		],
+		"category": ["Special Cup"]
+	},
+	{
+		"name": "(Time Trial|Special Cup) Win any ghost on Wii U Rainbow Road",
+		"requires": [
+			"Special Cup",
+			"Time Trial"
+		],
+		"category": ["Special Cup"]
+	},
 	{
 		"name": "(GP|Shell Cup) 1st Place Wii Moo Moo Meadows",
 		"requires": [
@@ -440,6 +680,66 @@
         "category": ["Shell Cup"]
     },
 	{
+		"name": "(10 Coins|Shell Cup)  Wii Moo Moo Meadows",
+		"requires": [
+			"Shell Cup"
+		],
+		"category": ["Shell Cup"]
+	},
+	{
+		"name": "(10 Coins|Shell Cup)  GBA Mario Circuit",
+		"requires": [
+			"Shell Cup"
+		],
+		"category": ["Shell Cup"]
+	},
+	{
+		"name": "(10 Coins|Shell Cup)  DS Cheep Cheep Beach",
+		"requires": [
+			"Shell Cup"
+		],
+		"category": ["Shell Cup"]
+	},
+	{
+		"name": "(10 Coins|Shell Cup)  N64 Toad's Turnpike",
+		"requires": [
+			"Shell Cup"
+		],
+		"category": ["Shell Cup"]
+	},
+	{
+		"name": "(Time Trial|Shell Cup) Win any ghost on Wii Moo Moo Meadows",
+		"requires": [
+			"Shell Cup",
+			"Time Trial"
+		],
+		"category": ["Shell Cup"]
+	},
+	{
+		"name": "(Time Trial|Shell Cup) Win any ghost on GBA Mario Circuit",
+		"requires": [
+			"Shell Cup",
+			"Time Trial"
+		],
+		"category": ["Shell Cup"]
+	},
+	{
+		"name": "(Time Trial|Shell Cup) Win any ghost on DS Cheep Cheep Beach",
+		"requires": [
+			"Shell Cup",
+			"Time Trial"
+		],
+		"category": ["Shell Cup"]
+	},
+	{
+		"name": "(Time Trial|Shell Cup) Win any ghost on N64 Toad's Turnpike",
+		"requires": [
+			"Shell Cup",
+			"Time Trial"
+		],
+		"category": ["Shell Cup"]
+	},
+	{
 		"name": "(GP|Banana Cup) 1st Place GCN Dry Dry Desert",
 		"requires": [
     		"Banana Cup",
@@ -528,6 +828,66 @@
         "category": ["Banana Cup"]
     },
 	{
+		"name": "(10 Coins|Banana Cup)  GCN Dry Dry Desert",
+		"requires": [
+			"Banana Cup"
+		],
+		"category": ["Banana Cup"]
+	},
+	{
+		"name": "(10 Coins|Banana Cup)  SNES Donut Plains 3",
+		"requires": [
+			"Banana Cup"
+		],
+		"category": ["Banana Cup"]
+	},
+	{
+		"name": "(10 Coins|Banana Cup)  N64 Royal Raceway",
+		"requires": [
+			"Banana Cup"
+		],
+		"category": ["Banana Cup"]
+	},
+	{
+		"name": "(10 Coins|Banana Cup)  3DS DK Jungle",
+		"requires": [
+			"Banana Cup"
+		],
+		"category": ["Banana Cup"]
+	},
+	{
+		"name": "(Time Trial|Banana Cup) Win any ghost on GCN Dry Dry Desert",
+		"requires": [
+			"Banana Cup",
+			"Time Trial"
+		],
+		"category": ["Banana Cup"]
+	},
+	{
+		"name": "(Time Trial|Banana Cup) Win any ghost on SNES Donut Plains 3",
+		"requires": [
+			"Banana Cup",
+			"Time Trial"
+		],
+		"category": ["Banana Cup"]
+	},
+	{
+		"name": "(Time Trial|Banana Cup) Win any ghost on N64 Royal Raceway",
+		"requires": [
+			"Banana Cup",
+			"Time Trial"
+		],
+		"category": ["Banana Cup"]
+	},
+	{
+		"name": "(Time Trial|Banana Cup) Win any ghost on 3DS DK Jungle",
+		"requires": [
+			"Banana Cup",
+			"Time Trial"
+		],
+		"category": ["Banana Cup"]
+	},
+	{
 		"name": "(GP|Leaf Cup) 1st Place DS Wario Stadium",
 				"requires": [
 				"Leaf Cup",
@@ -612,6 +972,70 @@
 		"requires": [
 			"Leaf Cup",
 			"VS Race"
+		],
+	"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(10 Coins|Leaf Cup)  DS Wario Stadium",
+				"requires": [
+				"Leaf Cup",
+				"Grand Prix"
+			],
+		"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(10 Coins|Leaf Cup)  GCN Sherbet Land",
+				"requires": [
+				"Leaf Cup",
+				"Grand Prix"
+			],
+		"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(10 Coins|Leaf Cup)  3DS Music Park",
+				"requires": [
+				"Leaf Cup",
+				"Grand Prix"
+			],
+		"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(10 Coins|Leaf Cup)  N64 Yoshi Valley",
+				"requires": [
+				"Leaf Cup",
+				"Grand Prix"
+			],
+		"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(Time Trial|Leaf Cup) Win any ghost on DS Wario Stadium",
+		"requires": [
+			"Leaf Cup",
+			"Time Trial"
+		],
+	"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(Time Trial|Leaf Cup) Win any ghost on GCN Sherbet Land",
+		"requires": [
+			"Leaf Cup",
+			"Time Trial"
+		],
+	"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(Time Trial|Leaf Cup) Win any ghost on 3DS Music Park",
+		"requires": [
+			"Leaf Cup",
+			"Time Trial"
+		],
+	"category": ["Leaf Cup"]
+	},
+	{
+		"name": "(Time Trial|Leaf Cup) Win any ghost on N64 Yoshi Valley",
+		"requires": [
+			"Leaf Cup",
+			"Time Trial"
 		],
 	"category": ["Leaf Cup"]
 	},
@@ -704,6 +1128,66 @@
 	"category": ["Lightning Cup"]
 	},
 	{
+		"name": "(10 Coins|Lightning Cup)  DS Tick-Tock Clock",
+		"requires": [
+			"Lightning Cup"
+		],
+		"category": ["Lightning Cup"]
+	},
+	{
+		"name": "(10 Coins|Lightning Cup)  3DS Piranha Plant Slide",
+		"requires": [
+			"Lightning Cup"
+		],
+		"category": ["Lightning Cup"]
+	},
+	{
+		"name": "(10 Coins|Lightning Cup)  Wii Grumble Volcano",
+		"requires": [
+			"Lightning Cup"
+		],
+		"category": ["Lightning Cup"]
+	},
+	{
+		"name": "(10 Coins|Lightning Cup)  N64 Rainbow Road",
+		"requires": [
+			"Lightning Cup"
+		],
+		"category": ["Lightning Cup"]
+	},
+	{
+		"name": "(Time Trial|Lightning Cup) Win any ghost on DS Tick-Tock Clock",
+		"requires": [
+			"Lightning Cup",
+			"Time Trial"
+		],
+	"category": ["Lightning Cup"]
+	},
+	{
+		"name": "(Time Trial|Lightning Cup) Win any ghost on 3DS Piranha Plant Slide",
+		"requires": [
+			"Lightning Cup",
+			"Time Trial"
+		],
+	"category": ["Lightning Cup"]
+	},
+	{
+		"name": "(Time Trial|Lightning Cup) Win any ghost on Wii Grumble Volcano",
+		"requires": [
+			"Lightning Cup",
+			"Time Trial"
+		],
+	"category": ["Lightning Cup"]
+	},
+	{
+		"name": "(Time Trial|Lightning Cup) Win any ghost on N64 Rainbow Road",
+		"requires": [
+			"Lightning Cup",
+			"Time Trial"
+		],
+	"category": ["Lightning Cup"]
+	},
+	{
 		"name": "(GP|Egg Cup) 1st Place GCN Yoshi Circuit",
 		"requires": [
 			"Egg Cup",
@@ -788,6 +1272,66 @@
 		"requires": [
 			"Egg Cup",
 			"VS Race"
+		],
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(10 Coins|Egg Cup) GCN Yoshi Circuit",
+		"requires": [
+			"Egg Cup"
+		],
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(10 Coins|Egg Cup) Excitebike Arena",
+		"requires": [
+			"Egg Cup"
+		],
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(10 Coins|Egg Cup) Dragon Driftway",
+		"requires": [
+			"Egg Cup"
+		],
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(10 Coins|Egg Cup) Mute City",
+		"requires": [
+			"Egg Cup"
+		],
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(Time Trial|Egg Cup) Win any ghost on GCN Yoshi Circuit",
+		"requires": [
+			"Egg Cup",
+			"Time Trial"
+		],
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(Time Trial|Egg Cup) Win any ghost on Excitebike Arena",
+		"requires": [
+			"Egg Cup",
+			"Time Trial"
+		],
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(Time Trial|Egg Cup) Win any ghost on Dragon Driftway",
+		"requires": [
+			"Egg Cup",
+			"Time Trial"
+		],
+		"category": ["Egg Cup"]
+	},
+	{
+		"name": "(Time Trial|Egg Cup) Win any ghost on Mute City",
+		"requires": [
+			"Egg Cup",
+			"Time Trial"
 		],
 		"category": ["Egg Cup"]
 	},
@@ -880,6 +1424,66 @@
 		"category": ["Triforce Cup"]
 	},
 	{
+		"name": "(10 Coins|Triforce Cup) Wii Wario's Gold Mine",
+		"requires": [
+			"Triforce Cup"
+		],
+		"category": ["Triforce Cup"]
+	},
+	{
+		"name": "(10 Coins|Triforce Cup) SNES Rainbow Road",
+		"requires": [
+			"Triforce Cup"
+		],
+		"category": ["Triforce Cup"]
+	},
+	{
+		"name": "(10 Coins|Triforce Cup) Ice Ice Outpost",
+		"requires": [
+			"Triforce Cup"
+		],
+		"category": ["Triforce Cup"]
+	},
+	{
+		"name": "(10 Coins|Triforce Cup) Hyrule Circuit",
+		"requires": [
+			"Triforce Cup"
+		],
+		"category": ["Triforce Cup"]
+	},
+	{
+		"name": "(Time Trial|Triforce Cup) Win any ghost on Wii Wario's Gold Mine",
+		"requires": [
+			"Triforce Cup",
+			"Time Trial"
+		],
+		"category": ["Triforce Cup"]
+	},
+	{
+		"name": "(Time Trial|Triforce Cup) Win any ghost on SNES Rainbow Road",
+		"requires": [
+			"Triforce Cup",
+			"Time Trial"
+		],
+		"category": ["Triforce Cup"]
+	},
+	{
+		"name": "(Time Trial|Triforce Cup) Win any ghost on Ice Ice Outpost",
+		"requires": [
+			"Triforce Cup",
+			"Time Trial"
+		],
+		"category": ["Triforce Cup"]
+	},
+	{
+		"name": "(Time Trial|Triforce Cup) Win any ghost on Hyrule Circuit",
+		"requires": [
+			"Triforce Cup",
+			"Time Trial"
+		],
+		"category": ["Triforce Cup"]
+	},
+	{
 		"name": "(GP|Crossing Cup) 1st Place Baby Park",
 		"requires": [
 			"Crossing Cup",
@@ -964,6 +1568,66 @@
 		"requires": [
 			"Crossing Cup",
 			"VS Race"
+		],
+		"category": ["Crossing Cup"]
+	},
+	{
+		"name": "(10 Coins|Crossing Cup) Baby Park",
+		"requires": [
+			"Crossing Cup"
+		],
+		"category": ["Crossing Cup"]
+	},
+	{
+		"name": "(10 Coins|Crossing Cup) Cheese Land",
+		"requires": [
+			"Crossing Cup"
+		],
+		"category": ["Crossing Cup"]
+	},
+	{
+		"name": "(10 Coins|Crossing Cup) Wild Woods",
+		"requires": [
+			"Crossing Cup"
+		],
+		"category": ["Crossing Cup"]
+	},
+	{
+		"name": "(10 Coins|Crossing Cup) Animal Crossing",
+		"requires": [
+			"Crossing Cup"
+		],
+		"category": ["Crossing Cup"]
+	},
+	{
+		"name": "(Time Trial|Crossing Cup) Win any ghost on Baby Park",
+		"requires": [
+			"Crossing Cup",
+			"Time Trial"
+		],
+		"category": ["Crossing Cup"]
+	},
+	{
+		"name": "(Time Trial|Crossing Cup) Win any ghost on Cheese Land",
+		"requires": [
+			"Crossing Cup",
+			"Time Trial"
+		],
+		"category": ["Crossing Cup"]
+	},
+	{
+		"name": "(Time Trial|Crossing Cup) Win any ghost on Wild Woods",
+		"requires": [
+			"Crossing Cup",
+			"Time Trial"
+		],
+		"category": ["Crossing Cup"]
+	},
+	{
+		"name": "(Time Trial|Crossing Cup) Win any ghost on Animal Crossing",
+		"requires": [
+			"Crossing Cup",
+			"Time Trial"
 		],
 		"category": ["Crossing Cup"]
 	},
@@ -1056,6 +1720,66 @@
 		"category": ["Bell Cup"]
 	},
 	{
+		"name": "(10 Coins|Bell Cup) 3DS Neo Bowser City",
+		"requires": [
+			"Bell Cup"
+		],
+		"category": ["Bell Cup"]
+	},
+	{
+		"name": "(10 Coins|Bell Cup) GBA Ribbon Road",
+		"requires": [
+			"Bell Cup"
+		],
+		"category": ["Bell Cup"]
+	},
+	{
+		"name": "(10 Coins|Bell Cup) Super Bell Subway",
+		"requires": [
+			"Bell Cup"
+		],
+		"category": ["Bell Cup"]
+	},
+	{
+		"name": "(10 Coins|Bell Cup) Big Blue",
+		"requires": [
+			"Bell Cup"
+		],
+		"category": ["Bell Cup"]
+	},
+	{
+		"name": "(Time Trial|Bell Cup) Win any ghost on 3DS Neo Bowser City",
+		"requires": [
+			"Bell Cup",
+			"Time Trial"
+		],
+		"category": ["Bell Cup"]
+	},
+	{
+		"name": "(Time Trial|Bell Cup) Win any ghost on GBA Ribbon Road",
+		"requires": [
+			"Bell Cup",
+			"Time Trial"
+		],
+		"category": ["Bell Cup"]
+	},
+	{
+		"name": "(Time Trial|Bell Cup) Win any ghost on Super Bell Subway",
+		"requires": [
+			"Bell Cup",
+			"Time Trial"
+		],
+		"category": ["Bell Cup"]
+	},
+	{
+		"name": "(Time Trial|Bell Cup) Win any ghost on Big Blue",
+		"requires": [
+			"Bell Cup",
+			"Time Trial"
+		],
+		"category": ["Bell Cup"]
+	},
+	{
 		"name": "(GP|Golden Dash Cup) 1st Place Tour Paris Promenade",
 		"requires": [
 			"Golden Dash Cup",
@@ -1140,6 +1864,66 @@
 		"requires": [
 			"Golden Dash Cup",
 			"VS Race"
+		],
+		"category": ["Golden Dash Cup"]
+	},
+	{
+		"name": "(10 Coins|Golden Dash Cup) Tour Paris Promenade",
+		"requires": [
+			"Golden Dash Cup"
+		],
+		"category": ["Golden Dash Cup"]
+	},
+	{
+		"name": "(10 Coins|Golden Dash Cup) 3DS Toad Circuit",
+		"requires": [
+			"Golden Dash Cup"
+		],
+		"category": ["Golden Dash Cup"]
+	},
+	{
+		"name": "(10 Coins|Golden Dash Cup) N64 Choco Mountain",
+		"requires": [
+			"Golden Dash Cup"
+		],
+		"category": ["Golden Dash Cup"]
+	},
+	{
+		"name": "(10 Coins|Golden Dash Cup) Wii Coconut Mall",
+		"requires": [
+			"Golden Dash Cup"
+		],
+		"category": ["Golden Dash Cup"]
+	},
+	{
+		"name": "(Time Trial|Golden Dash Cup) Win any ghost on Tour Paris Promenade",
+		"requires": [
+			"Golden Dash Cup",
+			"Time Trial"
+		],
+		"category": ["Golden Dash Cup"]
+	},
+	{
+		"name": "(Time Trial|Golden Dash Cup) Win any ghost on 3DS Toad Circuit",
+		"requires": [
+			"Golden Dash Cup",
+			"Time Trial"
+		],
+		"category": ["Golden Dash Cup"]
+	},
+	{
+		"name": "(Time Trial|Golden Dash Cup) Win any ghost on N64 Choco Mountain",
+		"requires": [
+			"Golden Dash Cup",
+			"Time Trial"
+		],
+		"category": ["Golden Dash Cup"]
+	},
+	{
+		"name": "(Time Trial|Golden Dash Cup) Win any ghost on Wii Coconut Mall",
+		"requires": [
+			"Golden Dash Cup",
+			"Time Trial"
 		],
 		"category": ["Golden Dash Cup"]
 	},
@@ -1232,6 +2016,66 @@
 		"category": ["Lucky Cat Cup"]
 	},
 	{
+		"name": "(10 Coins|Lucky Cat Cup) Tour Tokyo Blur",
+		"requires": [
+			"Lucky Cat Cup"
+		],
+		"category": ["Lucky Cat Cup"]
+	},
+	{
+		"name": "(10 Coins|Lucky Cat Cup) DS Shroom Ridge",
+		"requires": [
+			"Lucky Cat Cup"
+		],
+		"category": ["Lucky Cat Cup"]
+	},
+	{
+		"name": "(10 Coins|Lucky Cat Cup) GBA Sky Garden",
+		"requires": [
+			"Lucky Cat Cup"
+		],
+		"category": ["Lucky Cat Cup"]
+	},
+	{
+		"name": "(10 Coins|Lucky Cat Cup) Ninja Hideaway",
+		"requires": [
+			"Lucky Cat Cup"
+		],
+		"category": ["Lucky Cat Cup"]
+	},
+	{
+		"name": "(Time Trial|Lucky Cat Cup) Win any ghost on Tour Tokyo Blur",
+		"requires": [
+			"Lucky Cat Cup",
+			"Time Trial"
+		],
+		"category": ["Lucky Cat Cup"]
+	},
+	{
+		"name": "(Time Trial|Lucky Cat Cup) Win any ghost on DS Shroom Ridge",
+		"requires": [
+			"Lucky Cat Cup",
+			"Time Trial"
+		],
+		"category": ["Lucky Cat Cup"]
+	},
+	{
+		"name": "(Time Trial|Lucky Cat Cup) Win any ghost on GBA Sky Garden",
+		"requires": [
+			"Lucky Cat Cup",
+			"Time Trial"
+		],
+		"category": ["Lucky Cat Cup"]
+	},
+	{
+		"name": "(Time Trial|Lucky Cat Cup) Win any ghost on Ninja Hideaway",
+		"requires": [
+			"Lucky Cat Cup",
+			"Time Trial"
+		],
+		"category": ["Lucky Cat Cup"]
+	},
+	{
 		"name": "(GP|Turnip Cup) 1st Place Tour New York Minute",
 		"requires": [
 			"Turnip Cup",
@@ -1316,6 +2160,66 @@
 		"requires": [
 			"Turnip Cup",
 			"VS Race"
+		],
+		"category": ["Turnip Cup"]
+	},
+	{
+		"name": "(10 Coins|Turnip Cup) Tour New York Minute",
+		"requires": [
+			"Turnip Cup"
+		],
+		"category": ["Turnip Cup"]
+	},
+	{
+		"name": "(10 Coins|Turnip Cup) SNES Mario Circuit 3",
+		"requires": [
+			"Turnip Cup"
+		],
+		"category": ["Turnip Cup"]
+	},
+	{
+		"name": "(10 Coins|Turnip Cup) N64 Kalamari Desert",
+		"requires": [
+			"Turnip Cup"
+		],
+		"category": ["Turnip Cup"]
+	},
+	{
+		"name": "(10 Coins|Turnip Cup) DS Waluigi Pinball",
+		"requires": [
+			"Turnip Cup"
+		],
+		"category": ["Turnip Cup"]
+	},
+	{
+		"name": "(Time Trial|Turnip Cup) Win any ghost on Tour New York Minute",
+		"requires": [
+			"Turnip Cup",
+			"Time Trial"
+		],
+		"category": ["Turnip Cup"]
+	},
+	{
+		"name": "(Time Trial|Turnip Cup) Win any ghost on SNES Mario Circuit 3",
+		"requires": [
+			"Turnip Cup",
+			"Time Trial"
+		],
+		"category": ["Turnip Cup"]
+	},
+	{
+		"name": "(Time Trial|Turnip Cup) Win any ghost on N64 Kalamari Desert",
+		"requires": [
+			"Turnip Cup",
+			"Time Trial"
+		],
+		"category": ["Turnip Cup"]
+	},
+	{
+		"name": "(Time Trial|Turnip Cup) Win any ghost on DS Waluigi Pinball",
+		"requires": [
+			"Turnip Cup",
+			"Time Trial"
 		],
 		"category": ["Turnip Cup"]
 	},
@@ -1408,6 +2312,66 @@
 		"category": ["Propeller Cup"]
 	},
 	{
+		"name": "(10 Coins|Propeller Cup) Tour Sydney Sprint",
+		"requires": [
+			"Propeller Cup"
+		],
+		"category": ["Propeller Cup"]
+	},
+	{
+		"name": "(10 Coins|Propeller Cup) GBA Snow Land",
+		"requires": [
+			"Propeller Cup"
+		],
+		"category": ["Propeller Cup"]
+	},
+	{
+		"name": "(10 Coins|Propeller Cup)  Wii Mushroom Gorge",
+		"requires": [
+			"Propeller Cup"
+		],
+		"category": ["Propeller Cup"]
+	},
+	{
+		"name": "(10 Coins|Propeller Cup) Sky-High Sundae",
+		"requires": [
+			"Propeller Cup"
+		],
+		"category": ["Propeller Cup"]
+	},
+	{
+		"name": "(Time Trial|Propeller Cup) Win any ghost on Tour Sydney Sprint",
+		"requires": [
+			"Propeller Cup",
+			"Time Trial"
+		],
+		"category": ["Propeller Cup"]
+	},
+	{
+		"name": "(Time Trial|Propeller Cup) Win any ghost on GBA Snow Land",
+		"requires": [
+			"Propeller Cup",
+			"Time Trial"
+		],
+		"category": ["Propeller Cup"]
+	},
+	{
+		"name": "(Time Trial|Propeller Cup) Win any ghost on Wii Mushroom Gorge",
+		"requires": [
+			"Propeller Cup",
+			"Time Trial"
+		],
+		"category": ["Propeller Cup"]
+	},
+	{
+		"name": "(Time Trial|Propeller Cup) Win any ghost on Sky-High Sundae",
+		"requires": [
+			"Propeller Cup",
+			"Time Trial"
+		],
+		"category": ["Propeller Cup"]
+	},
+	{
 		"name": "(GP|Rock Cup) 1st Place Tour London Loop",
 		"requires": [
 			"Rock Cup",
@@ -1492,6 +2456,66 @@
 		"requires": [
 			"Rock Cup",
 			"VS Race"
+		],
+		"category": ["Rock Cup"]
+	},
+	{
+		"name": "(10 Coins|Rock Cup) Tour London Loop",
+		"requires": [
+			"Rock Cup"
+		],
+		"category": ["Rock Cup"]
+	},
+	{
+		"name": "(10 Coins|Rock Cup) GBA Boo Lake",
+		"requires": [
+			"Rock Cup"
+		],
+		"category": ["Rock Cup"]
+	},
+	{
+		"name": "(10 Coins|Rock Cup) 3DS Rock Rock Mountain",
+		"requires": [
+			"Rock Cup"
+		],
+		"category": ["Rock Cup"]
+	},
+	{
+		"name": "(10 Coins|Rock Cup) Wii Maple Treeway",
+		"requires": [
+			"Rock Cup"
+		],
+		"category": ["Rock Cup"]
+	},
+	{
+		"name": "(Time Trial|Rock Cup) Win any ghost on Tour London Loop",
+		"requires": [
+			"Rock Cup",
+			"Time Trial"
+		],
+		"category": ["Rock Cup"]
+	},
+	{
+		"name": "(Time Trial|Rock Cup) Win any ghost on GBA Boo Lake",
+		"requires": [
+			"Rock Cup",
+			"Time Trial"
+		],
+		"category": ["Rock Cup"]
+	},
+	{
+		"name": "(Time Trial|Rock Cup) Win any ghost on 3DS Rock Rock Mountain",
+		"requires": [
+			"Rock Cup",
+			"Time Trial"
+		],
+		"category": ["Rock Cup"]
+	},
+	{
+		"name": "(Time Trial|Rock Cup) Win any ghost on Wii Maple Treeway",
+		"requires": [
+			"Rock Cup",
+			"Time Trial"
 		],
 		"category": ["Rock Cup"]
 	},
@@ -1584,6 +2608,66 @@
 		"category": ["Moon Cup"]
 	},
 	{
+		"name": "(10 Coins|Moon Cup) Tour Berlin Byways",
+		"requires": [
+			"Moon Cup"
+		],
+		"category": ["Moon Cup"]
+	},
+	{
+		"name": "(10 Coins|Moon Cup) DS Peach Gardens",
+		"requires": [
+			"Moon Cup"
+		],
+		"category": ["Moon Cup"]
+	},
+	{
+		"name": "(10 Coins|Moon Cup) Merry Mountain",
+		"requires": [
+			"Moon Cup"
+		],
+		"category": ["Moon Cup"]
+	},
+	{
+		"name": "(10 Coins|Moon Cup) 3DS Rainbow Road",
+		"requires": [
+			"Moon Cup"
+		],
+		"category": ["Moon Cup"]
+	},
+	{
+		"name": "(Time Trial|Moon Cup) Win any ghost on Tour Berlin Byways",
+		"requires": [
+			"Moon Cup",
+			"Time Trial"
+		],
+		"category": ["Moon Cup"]
+	},
+	{
+		"name": "(Time Trial|Moon Cup) Win any ghost on DS Peach Gardens",
+		"requires": [
+			"Moon Cup",
+			"Time Trial"
+		],
+		"category": ["Moon Cup"]
+	},
+	{
+		"name": "(Time Trial|Moon Cup) Win any ghost on Merry Mountain",
+		"requires": [
+			"Moon Cup",
+			"Time Trial"
+		],
+		"category": ["Moon Cup"]
+	},
+	{
+		"name": "(Time Trial|Moon Cup) Win any ghost on 3DS Rainbow Road",
+		"requires": [
+			"Moon Cup",
+			"Time Trial"
+		],
+		"category": ["Moon Cup"]
+	},
+	{
 		"name": "(GP|Fruit Cup) 1st Place Tour Amsterdam Drift",
 		"requires": [
 			"Fruit Cup",
@@ -1668,6 +2752,66 @@
 		"requires": [
 			"Fruit Cup",
 			"VS Race"
+		],
+		"category": ["Fruit Cup"]
+	},
+	{
+		"name": "(10 Coins|Fruit Cup) Tour Amsterdam Drift",
+		"requires": [
+			"Fruit Cup"
+		],
+		"category": ["Fruit Cup"]
+	},
+	{
+		"name": "(10 Coins|Fruit Cup) GBA Riverside Park",
+		"requires": [
+			"Fruit Cup"
+		],
+		"category": ["Fruit Cup"]
+	},
+	{
+		"name": "(10 Coins|Fruit Cup) Wii DK Summit",
+		"requires": [
+			"Fruit Cup"
+		],
+		"category": ["Fruit Cup"]
+	},
+	{
+		"name": "(10 Coins|Fruit Cup) Yoshi's Island",
+		"requires": [
+			"Fruit Cup"
+		],
+		"category": ["Fruit Cup"]
+	},
+	{
+		"name": "(Time Trial|Fruit Cup) Win any ghost on Tour Amsterdam Drift",
+		"requires": [
+			"Fruit Cup",
+			"Time Trial"
+		],
+		"category": ["Fruit Cup"]
+	},
+	{
+		"name": "(Time Trial|Fruit Cup) Win any ghost on GBA Riverside Park",
+		"requires": [
+			"Fruit Cup",
+			"Time Trial"
+		],
+		"category": ["Fruit Cup"]
+	},
+	{
+		"name": "(Time Trial|Fruit Cup) Win any ghost on Wii DK Summit",
+		"requires": [
+			"Fruit Cup",
+			"Time Trial"
+		],
+		"category": ["Fruit Cup"]
+	},
+	{
+		"name": "(Time Trial|Fruit Cup) Win any ghost on Yoshi's Island",
+		"requires": [
+			"Fruit Cup",
+			"Time Trial"
 		],
 		"category": ["Fruit Cup"]
 	},
@@ -1760,6 +2904,66 @@
 		"category": ["Boomerang Cup"]
 	},
 	{
+		"name": "(10 Coins|Boomerang Cup) Tour Bangkok Rush",
+		"requires": [
+			"Boomerang Cup"
+		],
+		"category": ["Boomerang Cup"]
+	},
+	{
+		"name": "(10 Coins|Boomerang Cup) DS Mario Circuit",
+		"requires": [
+			"Boomerang Cup"
+		],
+		"category": ["Boomerang Cup"]
+	},
+	{
+		"name": "(10 Coins|Boomerang Cup) GCN Waluigi Stadium",
+		"requires": [
+			"Boomerang Cup"
+		],
+		"category": ["Boomerang Cup"]
+	},
+	{
+		"name": "(10 Coins|Boomerang Cup) Tour Singapore Speedway",
+		"requires": [
+			"Boomerang Cup"
+		],
+		"category": ["Boomerang Cup"]
+	},
+	{
+		"name": "(Time Trial|Boomerang Cup) Win any ghost on Tour Bangkok Rush",
+		"requires": [
+			"Boomerang Cup",
+			"Time Trial"
+		],
+		"category": ["Boomerang Cup"]
+	},
+	{
+		"name": "(Time Trial|Boomerang Cup) Win any ghost on DS Mario Circuit",
+		"requires": [
+			"Boomerang Cup",
+			"Time Trial"
+		],
+		"category": ["Boomerang Cup"]
+	},
+	{
+		"name": "(Time Trial|Boomerang Cup) Win any ghost on GCN Waluigi Stadium",
+		"requires": [
+			"Boomerang Cup",
+			"Time Trial"
+		],
+		"category": ["Boomerang Cup"]
+	},
+	{
+		"name": "(Time Trial|Boomerang Cup) Win any ghost on Tour Singapore Speedway",
+		"requires": [
+			"Boomerang Cup",
+			"Time Trial"
+		],
+		"category": ["Boomerang Cup"]
+	},
+	{
 		"name": "(GP|Feather Cup) 1st Place Tour Athens Dash",
 		"requires": [
 			"Feather Cup",
@@ -1845,6 +3049,66 @@
 		"requires": [
 			"Feather Cup",
 			"VS Race"
+		],
+		"category": ["Feather Cup"]
+	},
+	{
+		"name": "(10 Coins|Feather Cup) Tour Athens Dash",
+		"requires": [
+			"Feather Cup"
+		],
+		"category": ["Feather Cup"]
+	},
+	{
+		"name": "(10 Coins|Feather Cup) GCN Daisy Cruiser Rush",
+		"requires": [
+			"Feather Cup"
+		],
+		"category": ["Feather Cup"]
+	},
+	{
+		"name": "(10 Coins|Feather Cup) Wii Moonview Highway",
+		"requires": [
+			"Feather Cup"
+		],
+		"category": ["Feather Cup"]
+	},
+	{
+		"name": "(10 Coins|Feather Cup) Squeaky Clean Sprint",
+		"requires": [
+			"Feather Cup"
+		],
+		"category": ["Feather Cup"]
+	},
+	{
+		"name": "(Time Trial|Feather Cup) Win any ghost on Tour Athens Dash",
+		"requires": [
+			"Feather Cup",
+			"Time Trial"
+		],
+		"category": ["Feather Cup"]
+	},
+	{
+		"name": "(Time Trial|Feather Cup) Win any ghost on GCN Daisy Cruiser Rush",
+		"requires": [
+			"Feather Cup",
+			"Time Trial"
+		],
+		"category": ["Feather Cup"]
+	},
+	{
+		"name": "(Time Trial|Feather Cup) Win any ghost on Wii Moonview Highway",
+		"requires": [
+			"Feather Cup",
+			"Time Trial"
+		],
+		"category": ["Feather Cup"]
+	},
+	{
+		"name": "(Time Trial|Feather Cup) Win any ghost on Squeaky Clean Sprint",
+		"requires": [
+			"Feather Cup",
+			"Time Trial"
 		],
 		"category": ["Feather Cup"]
 	},
@@ -1945,6 +3209,66 @@
 		"category": ["Acorn Cup"]
 	},
 	{
+		"name": "(10 Coins|Cherry Cup) Tour Los Angeles Laps",
+		"requires": [
+			"Cherry Cup"
+		],
+		"category": ["Cherry Cup"]
+	},
+	{
+		"name": "(10 Coins|Cherry Cup) GBA Sunset Wilds",
+		"requires": [
+			"Cherry Cup"
+		],
+		"category": ["Cherry Cup"]
+	},
+	{
+		"name": "(10 Coins|Cherry Cup) Wii Koopa Cape",
+		"requires": [
+			"Cherry Cup"
+		],
+		"category": ["Cherry Cup"]
+	},
+	{
+		"name": "(10 Coins|Cherry Cup) Tour Vancouver Velocity",
+		"requires": [
+			"Cherry Cup"
+		],
+		"category": ["Cherry Cup"]
+	},
+	{
+		"name": "(Time Trial|Cherry Cup) Win any ghost on Tour Los Angeles Laps",
+		"requires": [
+			"Cherry Cup",
+			"Time Trial"
+		],
+		"category": ["Cherry Cup"]
+	},
+	{
+		"name": "(Time Trial|Cherry Cup) Win any ghost on GBA Sunset Wilds",
+		"requires": [
+			"Cherry Cup",
+			"Time Trial"
+		],
+		"category": ["Cherry Cup"]
+	},
+	{
+		"name": "(Time Trial|Cherry Cup) Win any ghost on Wii Koopa Cape",
+		"requires": [
+			"Cherry Cup",
+			"Time Trial"
+		],
+		"category": ["Cherry Cup"]
+	},
+	{
+		"name": "(Time Trial|Cherry Cup) Win any ghost on Tour Vancouver Velocity",
+		"requires": [
+			"Cherry Cup",
+			"Time Trial"
+		],
+		"category": ["Cherry Cup"]
+	},
+	{
 		"name": "(GP|Acorn Cup) 1st Place GCN DK Mountain",
 		"requires": [
 			"Acorn Cup",
@@ -2021,6 +3345,66 @@
 		"requires": [
 			"Acorn Cup",
 			"VS Race"
+		],
+		"category": ["Acorn Cup"]
+	},
+	{
+		"name": "(10 Coins|Acorn Cup) Tour Rome Avanti",
+		"requires": [
+			"Acorn Cup"
+		],
+		"category": ["Acorn Cup"]
+	},
+	{
+		"name": "(10 Coins|Acorn Cup) GCN DK Mountain",
+		"requires": [
+			"Acorn Cup"
+		],
+		"category": ["Acorn Cup"]
+	},
+	{
+		"name": "(10 Coins|Acorn Cup) Wii Daisy Circuit",
+		"requires": [
+			"Acorn Cup"
+		],
+		"category": ["Acorn Cup"]
+	},
+	{
+		"name": "(10 Coins|Acorn Cup) Piranha Plant Cove",
+		"requires": [
+			"Acorn Cup"
+		],
+		"category": ["Acorn Cup"]
+	},
+	{
+		"name": "(Time Trial|Acorn Cup) Win any ghost on Tour Rome Avanti",
+		"requires": [
+			"Acorn Cup",
+			"Time Trial"
+		],
+		"category": ["Acorn Cup"]
+	},
+	{
+		"name": "(Time Trial|Acorn Cup) Win any ghost on GCN DK Mountain",
+		"requires": [
+			"Acorn Cup",
+			"Time Trial"
+		],
+		"category": ["Acorn Cup"]
+	},
+	{
+		"name": "(Time Trial|Acorn Cup) Win any ghost on Wii Daisy Circuit",
+		"requires": [
+			"Acorn Cup",
+			"Time Trial"
+		],
+		"category": ["Acorn Cup"]
+	},
+	{
+		"name": "(Time Trial|Acorn Cup) Win any ghost on Piranha Plant Cove",
+		"requires": [
+			"Acorn Cup",
+			"Time Trial"
 		],
 		"category": ["Acorn Cup"]
 	},
@@ -2109,6 +3493,66 @@
 		"requires": [
 			"Spiny Cup",
 			"VS Race"
+		],
+		"category": ["Spiny Cup"]
+	},
+	{
+		"name": "(10 Coins|Spiny Cup) Tour Madrid Drive",
+		"requires": [
+			"Spiny Cup"
+		],
+		"category": ["Spiny Cup"]
+	},
+	{
+		"name": "(10 Coins|Spiny Cup) 3DS Rosalina's Ice World",
+		"requires": [
+			"Spiny Cup"
+		],
+		"category": ["Spiny Cup"]
+	},
+	{
+		"name": "(10 Coins|Spiny Cup) SNES Bowser Castle 3",
+		"requires": [
+			"Spiny Cup"
+		],
+		"category": ["Spiny Cup"]
+	},
+	{
+		"name": "(10 Coins|Spiny Cup) Wii Rainbow Road",
+		"requires": [
+			"Spiny Cup"
+		],
+		"category": ["Spiny Cup"]
+	},
+	{
+		"name": "(Time Trial|Spiny Cup) Win any ghost on Tour Madrid Drive",
+		"requires": [
+			"Spiny Cup",
+			"Time Trial"
+		],
+		"category": ["Spiny Cup"]
+	},
+	{
+		"name": "(Time Trial|Spiny Cup) Win any ghost on 3DS Rosalina's Ice World",
+		"requires": [
+			"Spiny Cup",
+			"Time Trial"
+		],
+		"category": ["Spiny Cup"]
+	},
+	{
+		"name": "(Time Trial|Spiny Cup) Win any ghost on SNES Bowser Castle 3",
+		"requires": [
+			"Spiny Cup",
+			"Time Trial"
+		],
+		"category": ["Spiny Cup"]
+	},
+	{
+		"name": "(Time Trial|Spiny Cup) Win any ghost on Wii Rainbow Road",
+		"requires": [
+			"Spiny Cup",
+			"Time Trial"
 		],
 		"category": ["Spiny Cup"]
 	},
