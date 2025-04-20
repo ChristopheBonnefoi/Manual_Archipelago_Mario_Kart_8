@@ -1,7 +1,7 @@
 {
 	"game": "MK8DX",
 	"creator": "NaruSnake",
-	"filler_item_name": "Coin",
+	"filler_item_name": "MKFan",
 	"starting_items": [
 		{
 			"item_categories": [ "Game_Mode" ],

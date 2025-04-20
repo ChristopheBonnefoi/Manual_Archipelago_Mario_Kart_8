@@ -33,6 +33,13 @@ Unlocking a track in Grand Prix or VS Race mode will validate it for both, so y
 
 ## Patch Notes
 
+### Version 0.6.0
+
+**Item Update**  
+- Added all in‑game items to the Archipelago item pool.  
+- Switched the Coin item filler to use the MKFan item set.
+
+
 ### Version 0.5.0
 
 **Time Trial Update**  
