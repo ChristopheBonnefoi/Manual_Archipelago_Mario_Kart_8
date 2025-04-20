@@ -1,2861 +1,332 @@
-[
-	{
-		"name": "(GP|Mushroom Cup) 1st Place Mario Kart Stadium",
-		"requires": [
-			"Mushroom Cup",
-			"Grand Prix"
-		],
-		"category": ["Mushroom Cup"]
-	},
-	{
-		"name": "(GP|Mushroom Cup) 1st Place Water Park",
-		"requires": [
-			"Mushroom Cup",
-			"Grand Prix"
-		],
-		"category": ["Mushroom Cup"]
-	},
-	{
-		"name": "(GP|Mushroom Cup) 1st Place Sweet Sweet Canyon",
-		"requires": [
-			"Mushroom Cup",
-			"Grand Prix"
-		],
-		"category": ["Mushroom Cup"]
-	},
-	{
-		"name": "(GP|Mushroom Cup) 1st Place Thwomp Ruins",
-		"requires": [
-			"Mushroom Cup",
-			"Grand Prix"
-		],
-		"category": ["Mushroom Cup"]
-	},
-	{
-		"name": "(GP|Mushroom Cup) Bronze Trophy",
-		"requires": [
-			"Mushroom Cup",
-			"Grand Prix"
-		],
-		"category": ["Mushroom Cup"]
-	},	
-	{
-		"name": "(GP|Mushroom Cup) Silver Trophy",
-		"requires": [
-			"Mushroom Cup",
-			"Grand Prix"
-		],
-		"category": ["Mushroom Cup"]
-	},
-	{
-		"name": "(GP|Mushroom Cup) Gold Trophy",
-		"requires": [
-			"Mushroom Cup",
-			"Grand Prix"
-		],
-		"category": ["Mushroom Cup"]
-	},
-	{
-        "name": "(VS Race|Mushroom Cup) 1st Place Mario Kart Stadium",
-        "requires": [
-            "Mushroom Cup",
-            "VS Race"
-        ],
-        "category": ["Mushroom Cup"]
-    },
-    {
-        "name": "(VS Race|Mushroom Cup) 1st Place Water Park",
-        "requires": [
-            "Mushroom Cup",
-            "VS Race"
-        ],
-        "category": ["Mushroom Cup"]
-    },
-    {
-        "name": "(VS Race|Mushroom Cup) 1st Place Sweet Sweet Canyon",
-        "requires": [
-            "Mushroom Cup",
-            "VS Race"
-        ],
-        "category": ["Mushroom Cup"]
-    },
-    {
-        "name": "(VS Race|Mushroom Cup) 1st Place Thwomp Ruins",
-        "requires": [
-            "Mushroom Cup",
-            "VS Race"
-        ],
-        "category": ["Mushroom Cup"]
-    },
-	{
-		"name": "(GP|Flower Cup) 1st Place Mario Circuit",
-		"requires": [
-			"Flower Cup",
-			"Grand Prix"
-		],
-		"category": ["Flower Cup"]
-	},
-	{
-		"name": "(GP|Flower Cup) 1st Place Toad Harbor",
-		"requires": [
-			"Flower Cup",
-			"Grand Prix"
-		],
-		"category": ["Flower Cup"]
-	},
-	{
-		"name": "(GP|Flower Cup) 1st Place Twisted Mansion",
-		"requires": [
-			"Flower Cup",
-			"Grand Prix"
-		],
-		"category": ["Flower Cup"]
-	},
-	{
-		"name": "(GP|Flower Cup) 1st Place Shy Guy Falls",
-		"requires": [
-			"Flower Cup",
-			"Grand Prix"
-		],
-		"category": ["Flower Cup"]
-	},
-	{
-		"name": "(GP|Flower Cup) Bronze Trophy",
-		"requires": [
-			"Flower Cup",
-			"Grand Prix"
-		],
-		"category": ["Flower Cup"]
-	},	
-	{
-		"name": "(GP|Flower Cup) Silver Trophy",
-		"requires": [
-			"Flower Cup",
-			"Grand Prix"
-		],
-		"category": ["Flower Cup"]
-	},
-	{
-		"name": "(GP|Flower Cup) Gold Trophy",
-		"requires": [
-			"Flower Cup",
-			"Grand Prix"
-		],
-		"category": ["Flower Cup"]
-	},
-	{
-        "name": "(VS Race|Flower Cup) 1st Place Mario Circuit",
-        "requires": [
-            "Flower Cup",
-            "VS Race"
-        ],
-        "category": ["Flower Cup"]
-    },
-    {
-        "name": "(VS Race|Flower Cup) 1st Place Toad Harbor",
-        "requires": [
-            "Flower Cup",
-            "VS Race"
-        ],
-        "category": ["Flower Cup"]
-    },
-    {
-        "name": "(VS Race|Flower Cup) 1st Place Twisted Mansion",
-        "requires": [
-            "Flower Cup",
-            "VS Race"
-        ],
-        "category": ["Flower Cup"]
-    },
-    {
-        "name": "(VS Race|Flower Cup) 1st Place Shy Guy Falls",
-        "requires": [
-            "Flower Cup",
-            "VS Race"
-        ],
-        "category": ["Flower Cup"]
-    },
-	{
-		"name": "(GP|Star Cup) 1st Place Sunshine Airport",
-		"requires": [
-			"Star Cup",
-			"Grand Prix"
-		],
-		"category": ["Star Cup"]
-	},
-	{
-		"name": "(GP|Star Cup) 1st Place Dolphin Shoals",
-		"requires": [
-			"Star Cup",
-			"Grand Prix"
-		],
-		"category": ["Star Cup"]
-	},
-	{
-		"name": "(GP|Star Cup) 1st Place Electrodrome",
-		"requires": [
-			"Star Cup",
-			"Grand Prix"
-		],
-		"category": ["Star Cup"]
-	},
-	{
-		"name": "(GP|Star Cup) 1st Place Mount Wario",
-		"requires": [
-			"Star Cup",
-			"Grand Prix"
-		],
-		"category": ["Star Cup"]
-	},
-	{
-		"name": "(GP|Star Cup) Bronze Trophy",
-		"requires": [
-			"Star Cup",
-			"Grand Prix"
-		],
-		"category": ["Star Cup"]
-	},	
-	{
-		"name": "(GP|Star Cup) Silver Trophy",
-		"requires": [
-			"Star Cup",
-			"Grand Prix"
-		],
-		"category": ["Star Cup"]
-	},
-	{
-		"name": "(GP|Star Cup) Gold Trophy",
-		"requires": [
-			"Star Cup",
-			"Grand Prix"
-		],
-		"category": ["Star Cup"]
-	},
-	{
-        "name": "(VS Race|Star Cup) 1st Place Sunshine Airport",
-        "requires": [
-            "Star Cup",
-            "VS Race"
-        ],
-        "category": ["Star Cup"]
-    },
-    {
-        "name": "(VS Race|Star Cup) 1st Place Dolphin Shoals",
-        "requires": [
-            "Star Cup",
-            "VS Race"
-        ],
-        "category": ["Star Cup"]
-    },
-    {
-        "name": "(VS Race|Star Cup) 1st Place Electrodrome",
-        "requires": [
-            "Star Cup",
-            "VS Race"
-        ],
-        "category": ["Star Cup"]
-    },
-    {
-        "name": "(VS Race|Star Cup) 1st Place Mount Wario",
-        "requires": [
-            "Star Cup",
-            "VS Race"
-        ],
-        "category": ["Star Cup"]
-    },
-	{
-		"name": "(GP|Special Cup) 1st Place Cloudtop Cruise",
-		"requires": [
-			"Special Cup",
-			"Grand Prix"
-		],
-		"category": ["Special Cup"]
-	},
-	{
-		"name": "(GP|Special Cup) 1st Place Bone-Dry Dunes",
-		"requires": [
-			"Special Cup",
-			"Grand Prix"
-		],
-		"category": ["Special Cup"]
-	},
-	{
-		"name": "(GP|Special Cup) 1st Place Bowser's Castle",
-		"requires": [
-			"Special Cup",
-			"Grand Prix"
-		],
-		"category": ["Special Cup"]
-	},
-	{
-		"name": "(GP|Special Cup) 1st Place Wii U Rainbow Road",
-		"requires": [
-			"Special Cup",
-			"Grand Prix"
-		],
-		"category": ["Special Cup"]
-	},
-	{
-		"name": "(GP|Special Cup) Bronze Trophy",
-		"requires": [
-			"Special Cup",
-			"Grand Prix"
-		],
-		"category": ["Special Cup"]
-	},
-	{
-		"name": "(GP|Special Cup) Silver Trophy",
-		"requires": [
-			"Special Cup",
-			"Grand Prix"
-		],
-		"category": ["Special Cup"]
-	},
-	{
-		"name": "(GP|Special Cup) Gold Trophy",
-		"requires": [
-			"Special Cup",
-			"Grand Prix"
-		],
-		"category": ["Special Cup"]
-	},
-	{
-        "name": "(VS Race|Special Cup) 1st Place Cloudtop Cruise",
-        "requires": [
-            "Special Cup",
-            "VS Race"
-        ],
-        "category": ["Special Cup"]
-    },
-    {
-        "name": "(VS Race|Special Cup) 1st Place Bone-Dry Dunes",
-        "requires": [
-            "Special Cup",
-            "VS Race"
-        ],
-        "category": ["Special Cup"]
-    },
-    {
-        "name": "(VS Race|Special Cup) 1st Place Bowser's Castle",
-        "requires": [
-            "Special Cup",
-            "VS Race"
-        ],
-        "category": ["Special Cup"]
-    },
-    {
-        "name": "(VS Race|Special Cup) 1st Place Wii U Rainbow Road",
-        "requires": [
-            "Special Cup",
-            "VS Race"
-        ],
-        "category": ["Special Cup"]
-    },
-	{
-		"name": "(GP|Shell Cup) 1st Place Wii Moo Moo Meadows",
-		"requires": [
-			"Shell Cup",
-			"Grand Prix"
-		],
-		"category": ["Shell Cup"]
-	},
-	{
-		"name": "(GP|Shell Cup) 1st Place GBA Mario Circuit",
-		"requires": [
-			"Shell Cup",
-			"Grand Prix"
-		],
-		"category": ["Shell Cup"]
-	},
-	{
-		"name": "(GP|Shell Cup) 1st Place DS Cheep Cheep Beach",
-		"requires": [
-			"Shell Cup",
-			"Grand Prix"
-		],
-		"category": ["Shell Cup"]
-	},
-	{
-		"name": "(GP|Shell Cup) 1st Place N64 Toad's Turnpike",
-		"requires": [
-			"Shell Cup",
-			"Grand Prix"
-		],
-		"category": ["Shell Cup"]
-	},
-	{
-		"name": "(GP|Shell Cup) Bronze Trophy",
-		"requires": [
-			"Shell Cup",
-			"Grand Prix"
-		],
-		"category": ["Shell Cup"]
-	},
-	{
-		"name": "(GP|Shell Cup) Silver Trophy",
-		"requires": [
-			"Shell Cup",
-			"Grand Prix"
-		],
-		"category": ["Shell Cup"]
-	},
-		{
-		"name": "(GP|Shell Cup) Gold Trophy",
-		"requires": [
-			"Shell Cup",
-			"Grand Prix"
-		],
-		"category": ["Shell Cup"]
-	},
-	{
-        "name": "(VS Race|Shell Cup) 1st Place Wii Moo Moo Meadows",
-        "requires": [
-            "Shell Cup",
-            "VS Race"
-        ],
-        "category": ["Shell Cup"]
-    },
-    {
-        "name": "(VS Race|Shell Cup) 1st Place GBA Mario Circuit",
-        "requires": [
-            "Shell Cup",
-            "VS Race"
-        ],
-        "category": ["Shell Cup"]
-    },
-    {
-        "name": "(VS Race|Shell Cup) 1st Place DS Cheep Cheep Beach",
-        "requires": [
-            "Shell Cup",
-            "VS Race"
-        ],
-        "category": ["Shell Cup"]
-    },
-    {
-        "name": "(VS Race|Shell Cup) 1st Place N64 Toad's Turnpike",
-        "requires": [
-            "Shell Cup",
-            "VS Race"
-        ],
-        "category": ["Shell Cup"]
-    },
-	{
-		"name": "(GP|Banana Cup) 1st Place GCN Dry Dry Desert",
-		"requires": [
-    		"Banana Cup",
-    		"Grand Prix"
-		],
-		"category": ["Banana Cup"]
-	},
-	{
-		"name": "(GP|Banana Cup) 1st Place SNES Donut Plains 3",
-		"requires": [
-    		"Banana Cup",
-    		"Grand Prix"
-		],
-		"category": ["Banana Cup"]
-	},
-	{
-		"name": "(GP|Banana Cup) 1st Place N64 Royal Raceway",
-		"requires": [
-    		"Banana Cup",
-    		"Grand Prix"
-		],
-		"category": ["Banana Cup"]
-	},
-	{
-		"name": "(GP|Banana Cup) 1st Place 3DS DK Jungle",
-		"requires": [
-    		"Banana Cup",
-    		"Grand Prix"
-		],
-		"category": ["Banana Cup"]
-	},
-	{
-		"name": "(GP|Banana Cup) Bronze Trophy",
-		"requires": [
-    		"Banana Cup",
-    		"Grand Prix"
-		],
-		"category": ["Banana Cup"]
-	},	
-	{
-		"name": "(GP|Banana Cup) Silver Trophy",
-		"requires": [
-    		"Banana Cup",
-    		"Grand Prix"
-		],
-		"category": ["Banana Cup"]
-	},
-	{
-		"name": "(GP|Banana Cup) Gold Trophy",
-		"requires": [
-    		"Banana Cup",
-    		"Grand Prix"
-		],
-		"category": ["Banana Cup"]
-	},
-	{
-        "name": "(VS Race|Banana Cup) 1st Place GCN Dry Dry Desert",
-        "requires": [
-            "Banana Cup",
-            "VS Race"
-        ],
-        "category": ["Banana Cup"]
-    },
-    {
-        "name": "(VS Race|Banana Cup) 1st Place SNES Donut Plains 3",
-        "requires": [
-            "Banana Cup",
-            "VS Race"
-        ],
-        "category": ["Banana Cup"]
-    },
-    {
-        "name": "(VS Race|Banana Cup) 1st Place N64 Royal Raceway",
-        "requires": [
-            "Banana Cup",
-            "VS Race"
-        ],
-        "category": ["Banana Cup"]
-    },
-    {
-        "name": "(VS Race|Banana Cup) 1st Place 3DS DK Jungle",
-        "requires": [
-            "Banana Cup",
-            "VS Race"
-        ],
-        "category": ["Banana Cup"]
-    },
-	{
-		"name": "(GP|Leaf Cup) 1st Place DS Wario Stadium",
-				"requires": [
-				"Leaf Cup",
-				"Grand Prix"
-			],
-		"category": ["Leaf Cup"]
-	},
-	{
-		"name": "(GP|Leaf Cup) 1st Place GCN Sherbet Land",
-				"requires": [
-				"Leaf Cup",
-				"Grand Prix"
-			],
-		"category": ["Leaf Cup"]
-	},
-	{
-		"name": "(GP|Leaf Cup) 1st Place 3DS Music Park",
-				"requires": [
-				"Leaf Cup",
-				"Grand Prix"
-			],
-		"category": ["Leaf Cup"]
-	},
-	{
-		"name": "(GP|Leaf Cup) 1st Place N64 Yoshi Valley",
-				"requires": [
-				"Leaf Cup",
-				"Grand Prix"
-			],
-		"category": ["Leaf Cup"]
-	},
-	{
-		"name": "(GP|Leaf Cup) Bronze Trophy",
-				"requires": [
-				"Leaf Cup",
-				"Grand Prix"
-			],
-		"category": ["Leaf Cup"]
-	},
-	{
-		"name": "(GP|Leaf Cup) Silver Trophy",
-				"requires": [
-				"Leaf Cup",
-				"Grand Prix"
-			],
-		"category": ["Leaf Cup"]
-	},
-	{
-		"name": "(GP|Leaf Cup) Gold Trophy",
-				"requires": [
-				"Leaf Cup",
-				"Grand Prix"
-			],
-		"category": ["Leaf Cup"]
-	},
-	{
-		"name": "(VS Race|Leaf Cup) 1st Place DS Wario Stadium",
-		"requires": [
-			"Leaf Cup",
-			"VS Race"
-		],
-	"category": ["Leaf Cup"]
-	},
-	{
-		"name": "(VS Race|Leaf Cup) 1st Place GCN Sherbet Land",
-		"requires": [
-			"Leaf Cup",
-			"VS Race"
-		],
-	"category": ["Leaf Cup"]
-	},
-	{
-		"name": "(VS Race|Leaf Cup) 1st Place 3DS Music Park",
-		"requires": [
-			"Leaf Cup",
-			"VS Race"
-		],
-	"category": ["Leaf Cup"]
-	},
-	{
-		"name": "(VS Race|Leaf Cup) 1st Place N64 Yoshi Valley",
-		"requires": [
-			"Leaf Cup",
-			"VS Race"
-		],
-	"category": ["Leaf Cup"]
-	},
-	{
-		"name": "(GP|Lightning Cup) 1st Place DS Tick-Tock Clock",
-		"requires": [
-			"Lightning Cup",
-			"Grand Prix"
-		],
-		"category": ["Lightning Cup"]
-	},
-	{
-		"name": "(GP|Lightning Cup) 1st Place 3DS Piranha Plant Slide",
-		"requires": [
-			"Lightning Cup",
-			"Grand Prix"
-		],
-		"category": ["Lightning Cup"]
-	},
-	{
-		"name": "(GP|Lightning Cup) 1st Place Wii Grumble Volcano",
-		"requires": [
-			"Lightning Cup",
-			"Grand Prix"
-		],
-		"category": ["Lightning Cup"]
-	},
-	{
-		"name": "(GP|Lightning Cup) 1st Place N64 Rainbow Road",
-		"requires": [
-			"Lightning Cup",
-			"Grand Prix"
-		],
-		"category": ["Lightning Cup"]
-	},
-	{
-		"name": "(GP|Lightning Cup) Bronze Trophy",
-		"requires": [
-			"Lightning Cup",
-			"Grand Prix"
-		],
-		"category": ["Lightning Cup"]
-	},
-	{
-		"name": "(GP|Lightning Cup) Silver Trophy",
-		"requires": [
-			"Lightning Cup",
-			"Grand Prix"
-		],
-		"category": ["Lightning Cup"]
-	},
-	{
-		"name": "(GP|Lightning Cup) Gold Trophy",
-		"requires": [
-			"Lightning Cup",
-			"Grand Prix"
-		],
-		"category": ["Lightning Cup"]
-	},
-	{
-		"name": "(VS Race|Lightning Cup) 1st Place DS Tick-Tock Clock",
-		"requires": [
-			"Lightning Cup",
-			"VS Race"
-		],
-	"category": ["Lightning Cup"]
-	},
-	{
-		"name": "(VS Race|Lightning Cup) 1st Place 3DS Piranha Plant Slide",
-		"requires": [
-			"Lightning Cup",
-			"VS Race"
-		],
-	"category": ["Lightning Cup"]
-	},
-	{
-		"name": "(VS Race|Lightning Cup) 1st Place Wii Grumble Volcano",
-		"requires": [
-			"Lightning Cup",
-			"VS Race"
-		],
-	"category": ["Lightning Cup"]
-	},
-	{
-		"name": "(VS Race|Lightning Cup) 1st Place N64 Rainbow Road",
-		"requires": [
-			"Lightning Cup",
-			"VS Race"
-		],
-	"category": ["Lightning Cup"]
-	},
-	{
-		"name": "(GP|Egg Cup) 1st Place GCN Yoshi Circuit",
-		"requires": [
-			"Egg Cup",
-			"Grand Prix"
-		],
-		"category": ["Egg Cup"]
-	},
-	{
-		"name": "(GP|Egg Cup) 1st Place Excitebike Arena",
-		"requires": [
-			"Egg Cup",
-			"Grand Prix"
-		],
-		"category": ["Egg Cup"]
-	},
-	{
-		"name": "(GP|Egg Cup) 1st Place Dragon Driftway",
-		"requires": [
-			"Egg Cup",
-			"Grand Prix"
-		],
-		"category": ["Egg Cup"]
-	},
-	{
-		"name": "(GP|Egg Cup) 1st Place Mute City",
-		"requires": [
-			"Egg Cup",
-			"Grand Prix"
-		],
-		"category": ["Egg Cup"]
-	},
-	{
-		"name": "(GP|Egg Cup) Bronze Trophy",
-		"requires": [
-			"Egg Cup",
-			"Grand Prix"
-		],
-		"category": ["Egg Cup"]
-	},
-	{
-		"name": "(GP|Egg Cup) Silver Trophy",
-		"requires": [
-			"Egg Cup",
-			"Grand Prix"
-		],
-		"category": ["Egg Cup"]
-	},
-	{
-		"name": "(GP|Egg Cup) Gold Trophy",
-		"requires": [
-			"Egg Cup",
-			"Grand Prix"
-		],
-		"category": ["Egg Cup"]
-	},
-	{
-		"name": "(VS Race|Egg Cup) 1st Place GCN Yoshi Circuit",
-		"requires": [
-			"Egg Cup",
-			"VS Race"
-		],
-		"category": ["Egg Cup"]
-	},
-	{
-		"name": "(VS Race|Egg Cup) 1st Place Excitebike Arena",
-		"requires": [
-			"Egg Cup",
-			"VS Race"
-		],
-		"category": ["Egg Cup"]
-	},
-	{
-		"name": "(VS Race|Egg Cup) 1st Place Dragon Driftway",
-		"requires": [
-			"Egg Cup",
-			"VS Race"
-		],
-		"category": ["Egg Cup"]
-	},
-	{
-		"name": "(VS Race|Egg Cup) 1st Place Mute City",
-		"requires": [
-			"Egg Cup",
-			"VS Race"
-		],
-		"category": ["Egg Cup"]
-	},
-	{
-		"name": "(GP|Triforce Cup) 1st Place Wii Wario's Gold Mine",
-		"requires": [
-			"Triforce Cup",
-			"Grand Prix"
-		],
-		"category": ["Triforce Cup"]
-	},
-	{
-		"name": "(GP|Triforce Cup) 1st Place SNES Rainbow Road",
-		"requires": [
-			"Triforce Cup",
-			"Grand Prix"
-		],
-		"category": ["Triforce Cup"]
-	},
-	{
-		"name": "(GP|Triforce Cup) 1st Place Ice Ice Outpost",
-		"requires": [
-			"Triforce Cup",
-			"Grand Prix"
-		],
-		"category": ["Triforce Cup"]
-	},
-	{
-		"name": "(GP|Triforce Cup) 1st Place Hyrule Circuit",
-		"requires": [
-			"Triforce Cup",
-			"Grand Prix"
-		],
-		"category": ["Triforce Cup"]
-	},
-	{
-		"name": "(GP|Triforce Cup) Bronze Trophy",
-		"requires": [
-			"Triforce Cup",
-			"Grand Prix"
-		],
-		"category": ["Triforce Cup"]
-	},
-	{
-		"name": "(GP|Triforce Cup) Silver Trophy",
-		"requires": [
-			"Triforce Cup",
-			"Grand Prix"
-		],
-		"category": ["Triforce Cup"]
-	},
-	{
-		"name": "(GP|Triforce Cup) Gold Trophy",
-		"requires": [
-			"Triforce Cup",
-			"Grand Prix"
-		],
-		"category": ["Triforce Cup"]
-	},
-	{
-		"name": "(VS Race|Triforce Cup) 1st Place Wii Wario's Gold Mine",
-		"requires": [
-			"Triforce Cup",
-			"VS Race"
-		],
-		"category": ["Triforce Cup"]
-	},
-	{
-		"name": "(VS Race|Triforce Cup) 1st Place SNES Rainbow Road",
-		"requires": [
-			"Triforce Cup",
-			"VS Race"
-		],
-		"category": ["Triforce Cup"]
-	},
-	{
-		"name": "(VS Race|Triforce Cup) 1st Place Ice Ice Outpost",
-		"requires": [
-			"Triforce Cup",
-			"VS Race"
-		],
-		"category": ["Triforce Cup"]
-	},
-	{
-		"name": "(VS Race|Triforce Cup) 1st Place Hyrule Circuit",
-		"requires": [
-			"Triforce Cup",
-			"VS Race"
-		],
-		"category": ["Triforce Cup"]
-	},
-	{
-		"name": "(GP|Crossing Cup) 1st Place Baby Park",
-		"requires": [
-			"Crossing Cup",
-			"Grand Prix"
-		],
-		"category": ["Crossing Cup"]
-	},
-	{
-		"name": "(GP|Crossing Cup) 1st Place Cheese Land",
-		"requires": [
-			"Crossing Cup",
-			"Grand Prix"
-		],
-		"category": ["Crossing Cup"]
-	},
-	{
-		"name": "(GP|Crossing Cup) 1st Place Wild Woods",
-		"requires": [
-			"Crossing Cup",
-			"Grand Prix"
-		],
-		"category": ["Crossing Cup"]
-	},
-	{
-		"name": "(GP|Crossing Cup) 1st Place Animal Crossing",
-		"requires": [
-			"Crossing Cup",
-			"Grand Prix"
-		],
-		"category": ["Crossing Cup"]
-	},
-	{
-		"name": "(GP|Crossing Cup) Bronze Trophy",
-		"requires": [
-			"Crossing Cup",
-			"Grand Prix"
-		],
-		"category": ["Crossing Cup"]
-	},
-	{
-		"name": "(GP|Crossing Cup) Silver Trophy",
-		"requires": [
-			"Crossing Cup",
-			"Grand Prix"
-		],
-		"category": ["Crossing Cup"]
-	},
-	{
-		"name": "(GP|Crossing Cup) Gold Trophy",
-		"requires": [
-			"Crossing Cup",
-			"Grand Prix"
-		],
-		"category": ["Crossing Cup"]
-	},
-	{
-		"name": "(VS Race|Crossing Cup) 1st Place Baby Park",
-		"requires": [
-			"Crossing Cup",
-			"VS Race"
-		],
-		"category": ["Crossing Cup"]
-	},
-	{
-		"name": "(VS Race|Crossing Cup) 1st Place Cheese Land",
-		"requires": [
-			"Crossing Cup",
-			"VS Race"
-		],
-		"category": ["Crossing Cup"]
-	},
-	{
-		"name": "(VS Race|Crossing Cup) 1st Place Wild Woods",
-		"requires": [
-			"Crossing Cup",
-			"VS Race"
-		],
-		"category": ["Crossing Cup"]
-	},
-	{
-		"name": "(VS Race|Crossing Cup) 1st Place Animal Crossing",
-		"requires": [
-			"Crossing Cup",
-			"VS Race"
-		],
-		"category": ["Crossing Cup"]
-	},
-	{
-		"name": "(GP|Bell Cup) 1st Place 3DS Neo Bowser City",
-		"requires": [
-			"Bell Cup",
-			"Grand Prix"
-		],
-		"category": ["Bell Cup"]
-	},
-	{
-		"name": "(GP|Bell Cup) 1st Place GBA Ribbon Road",
-		"requires": [
-			"Bell Cup",
-			"Grand Prix"
-		],
-		"category": ["Bell Cup"]
-	},
-	{
-		"name": "(GP|Bell Cup) 1st Place Super Bell Subway",
-		"requires": [
-			"Bell Cup",
-			"Grand Prix"
-		],
-		"category": ["Bell Cup"]
-	},
-	{
-		"name": "(GP|Bell Cup) 1st Place Big Blue",
-		"requires": [
-			"Bell Cup",
-			"Grand Prix"
-		],
-		"category": ["Bell Cup"]
-	},
-	{
-		"name": "(GP|Bell Cup) Bronze Trophy",
-		"requires": [
-			"Bell Cup",
-			"Grand Prix"
-		],
-		"category": ["Bell Cup"]
-	},
-	{
-		"name": "(GP|Bell Cup) Silver Trophy",
-		"requires": [
-			"Bell Cup",
-			"Grand Prix"
-		],
-		"category": ["Bell Cup"]
-	},
-	{
-		"name": "(GP|Bell Cup) Gold Trophy",
-		"requires": [
-			"Bell Cup",
-			"Grand Prix"
-		],
-		"category": ["Bell Cup"]
-	},
-	{
-		"name": "(VS Race|Bell Cup) 1st Place 3DS Neo Bowser City",
-		"requires": [
-			"Bell Cup",
-			"VS Race"
-		],
-		"category": ["Bell Cup"]
-	},
-	{
-		"name": "(VS Race|Bell Cup) 1st Place GBA Ribbon Road",
-		"requires": [
-			"Bell Cup",
-			"VS Race"
-		],
-		"category": ["Bell Cup"]
-	},
-	{
-		"name": "(VS Race|Bell Cup) 1st Place Super Bell Subway",
-		"requires": [
-			"Bell Cup",
-			"VS Race"
-		],
-		"category": ["Bell Cup"]
-	},
-	{
-		"name": "(VS Race|Bell Cup) 1st Place Big Blue",
-		"requires": [
-			"Bell Cup",
-			"VS Race"
-		],
-		"category": ["Bell Cup"]
-	},
-	{
-		"name": "(GP|Golden Dash Cup) 1st Place Tour Paris Promenade",
-		"requires": [
-			"Golden Dash Cup",
-			"Grand Prix"
-		],
-		"category": ["Golden Dash Cup"]
-	},
-	{
-		"name": "(GP|Golden Dash Cup) 1st Place 3DS Toad Circuit",
-		"requires": [
-			"Golden Dash Cup",
-			"Grand Prix"
-		],
-		"category": ["Golden Dash Cup"]
-	},
-	{
-		"name": "(GP|Golden Dash Cup) 1st Place N64 Choco Mountain",
-		"requires": [
-			"Golden Dash Cup",
-			"Grand Prix"
-		],
-		"category": ["Golden Dash Cup"]
-	},
-	{
-		"name": "(GP|Golden Dash Cup) 1st Place Wii Coconut Mall",
-		"requires": [
-			"Golden Dash Cup",
-			"Grand Prix"
-		],
-		"category": ["Golden Dash Cup"]
-	},
-	{
-		"name": "(GP|Golden Dash Cup) Bronze Trophy",
-		"requires": [
-			"Golden Dash Cup",
-			"Grand Prix"
-		],
-		"category": ["Golden Dash Cup"]
-	},
-	{
-		"name": "(GP|Golden Dash Cup) Silver Trophy",
-		"requires": [
-			"Golden Dash Cup",
-			"Grand Prix"
-		],
-		"category": ["Golden Dash Cup"]
-	},
-	{
-		"name": "(GP|Golden Dash Cup) Gold Trophy",
-		"requires": [
-			"Golden Dash Cup",
-			"Grand Prix"
-		],
-		"category": ["Golden Dash Cup"]
-	},
-	{
-		"name": "(VS Race|Golden Dash Cup) 1st Place Tour Paris Promenade",
-		"requires": [
-			"Golden Dash Cup",
-			"VS Race"
-		],
-		"category": ["Golden Dash Cup"]
-	},
-	{
-		"name": "(VS Race|Golden Dash Cup) 1st Place 3DS Toad Circuit",
-		"requires": [
-			"Golden Dash Cup",
-			"VS Race"
-		],
-		"category": ["Golden Dash Cup"]
-	},
-	{
-		"name": "(VS Race|Golden Dash Cup) 1st Place N64 Choco Mountain",
-		"requires": [
-			"Golden Dash Cup",
-			"VS Race"
-		],
-		"category": ["Golden Dash Cup"]
-	},
-	{
-		"name": "(VS Race|Golden Dash Cup) 1st Place Wii Coconut Mall",
-		"requires": [
-			"Golden Dash Cup",
-			"VS Race"
-		],
-		"category": ["Golden Dash Cup"]
-	},
-	{
-		"name": "(GP|Lucky Cat Cup) 1st Place Tour Tokyo Blur",
-		"requires": [
-			"Lucky Cat Cup",
-			"Grand Prix"
-		],
-		"category": ["Lucky Cat Cup"]
-	},
-	{
-		"name": "(GP|Lucky Cat Cup) 1st Place DS Shroom Ridge",
-		"requires": [
-			"Lucky Cat Cup",
-			"Grand Prix"
-		],
-		"category": ["Lucky Cat Cup"]
-	},
-	{
-		"name": "(GP|Lucky Cat Cup) 1st Place GBA Sky Garden",
-		"requires": [
-			"Lucky Cat Cup",
-			"Grand Prix"
-		],
-		"category": ["Lucky Cat Cup"]
-	},
-	{
-		"name": "(GP|Lucky Cat Cup) 1st Place Ninja Hideaway",
-		"requires": [
-			"Lucky Cat Cup",
-			"Grand Prix"
-		],
-		"category": ["Lucky Cat Cup"]
-	},
-	{
-		"name": "(GP|Lucky Cat Cup) Bronze Trophy",
-		"requires": [
-			"Lucky Cat Cup",
-			"Grand Prix"
-		],
-		"category": ["Lucky Cat Cup"]
-	},
-	{
-		"name": "(GP|Lucky Cat Cup) Silver Trophy",
-		"requires": [
-			"Lucky Cat Cup",
-			"Grand Prix"
-		],
-		"category": ["Lucky Cat Cup"]
-	},
-	{
-		"name": "(GP|Lucky Cat Cup) Gold Trophy",
-		"requires": [
-			"Lucky Cat Cup",
-			"Grand Prix"
-		],
-		"category": ["Lucky Cat Cup"]
-	},
-	{
-		"name": "(VS Race|Lucky Cat Cup) 1st Place Tour Tokyo Blur",
-		"requires": [
-			"Lucky Cat Cup",
-			"VS Race"
-		],
-		"category": ["Lucky Cat Cup"]
-	},
-	{
-		"name": "(VS Race|Lucky Cat Cup) 1st Place DS Shroom Ridge",
-		"requires": [
-			"Lucky Cat Cup",
-			"VS Race"
-		],
-		"category": ["Lucky Cat Cup"]
-	},
-	{
-		"name": "(VS Race|Lucky Cat Cup) 1st Place GBA Sky Garden",
-		"requires": [
-			"Lucky Cat Cup",
-			"VS Race"
-		],
-		"category": ["Lucky Cat Cup"]
-	},
-	{
-		"name": "(VS Race|Lucky Cat Cup) 1st Place Ninja Hideaway",
-		"requires": [
-			"Lucky Cat Cup",
-			"VS Race"
-		],
-		"category": ["Lucky Cat Cup"]
-	},
-	{
-		"name": "(GP|Turnip Cup) 1st Place Tour New York Minute",
-		"requires": [
-			"Turnip Cup",
-			"Grand Prix"
-		],
-		"category": ["Turnip Cup"]
-	},
-	{
-		"name": "(GP|Turnip Cup) 1st Place SNES Mario Circuit 3",
-		"requires": [
-			"Turnip Cup",
-			"Grand Prix"
-		],
-		"category": ["Turnip Cup"]
-	},
-	{
-		"name": "(GP|Turnip Cup) 1st Place N64 Kalamari Desert",
-		"requires": [
-			"Turnip Cup",
-			"Grand Prix"
-		],
-		"category": ["Turnip Cup"]
-	},
-	{
-		"name": "(GP|Turnip Cup) 1st Place DS Waluigi Pinball",
-		"requires": [
-			"Turnip Cup",
-			"Grand Prix"
-		],
-		"category": ["Turnip Cup"]
-	},
-	{
-		"name": "(GP|Turnip Cup) Bronze Trophy",
-		"requires": [
-			"Turnip Cup",
-			"Grand Prix"
-		],
-		"category": ["Turnip Cup"]
-	},
-	{
-		"name": "(GP|Turnip Cup) Silver Trophy",
-		"requires": [
-			"Turnip Cup",
-			"Grand Prix"
-		],
-		"category": ["Turnip Cup"]
-	},
-	{
-		"name": "(GP|Turnip Cup) Gold Trophy",
-		"requires": [
-			"Turnip Cup",
-			"Grand Prix"
-		],
-		"category": ["Turnip Cup"]
-	},
-	{
-		"name": "(VS Race|Turnip Cup) 1st Place Tour New York Minute",
-		"requires": [
-			"Turnip Cup",
-			"VS Race"
-		],
-		"category": ["Turnip Cup"]
-	},
-	{
-		"name": "(VS Race|Turnip Cup) 1st Place SNES Mario Circuit 3",
-		"requires": [
-			"Turnip Cup",
-			"VS Race"
-		],
-		"category": ["Turnip Cup"]
-	},
-	{
-		"name": "(VS Race|Turnip Cup) 1st Place N64 Kalamari Desert",
-		"requires": [
-			"Turnip Cup",
-			"VS Race"
-		],
-		"category": ["Turnip Cup"]
-	},
-	{
-		"name": "(VS Race|Turnip Cup) 1st Place DS Waluigi Pinball",
-		"requires": [
-			"Turnip Cup",
-			"VS Race"
-		],
-		"category": ["Turnip Cup"]
-	},
-	{
-		"name": "(GP|Propeller Cup) 1st Place Tour Sydney Sprint",
-		"requires": [
-			"Propeller Cup",
-			"Grand Prix"
-		],
-		"category": ["Propeller Cup"]
-	},
-	{
-		"name": "(GP|Propeller Cup) 1st Place GBA Snow Land",
-		"requires": [
-			"Propeller Cup",
-			"Grand Prix"
-		],
-		"category": ["Propeller Cup"]
-	},
-	{
-		"name": "(GP|Propeller Cup) 1st Place Wii Mushroom Gorge",
-		"requires": [
-			"Propeller Cup",
-			"Grand Prix"
-		],
-		"category": ["Propeller Cup"]
-	},
-	{
-		"name": "(GP|Propeller Cup) 1st Place Sky-High Sundae",
-		"requires": [
-			"Propeller Cup",
-			"Grand Prix"
-		],
-		"category": ["Propeller Cup"]
-	},
-	{
-		"name": "(GP|Propeller Cup) Bronze Trophy",
-		"requires": [
-			"Propeller Cup",
-			"Grand Prix"
-		],
-		"category": ["Propeller Cup"]
-	},
-	{
-		"name": "(GP|Propeller Cup) Silver Trophy",
-		"requires": [
-			"Propeller Cup",
-			"Grand Prix"
-		],
-		"category": ["Propeller Cup"]
-	},
-	{
-		"name": "(GP|Propeller Cup) Gold Trophy",
-		"requires": [
-			"Propeller Cup",
-			"Grand Prix"
-		],
-		"category": ["Propeller Cup"]
-	},
-	{
-		"name": "(VS Race|Propeller Cup) 1st Place Tour Sydney Sprint",
-		"requires": [
-			"Propeller Cup",
-			"VS Race"
-		],
-		"category": ["Propeller Cup"]
-	},
-	{
-		"name": "(VS Race|Propeller Cup) 1st Place GBA Snow Land",
-		"requires": [
-			"Propeller Cup",
-			"VS Race"
-		],
-		"category": ["Propeller Cup"]
-	},
-	{
-		"name": "(VS Race|Propeller Cup) 1st Place Wii Mushroom Gorge",
-		"requires": [
-			"Propeller Cup",
-			"VS Race"
-		],
-		"category": ["Propeller Cup"]
-	},
-	{
-		"name": "(VS Race|Propeller Cup) 1st Place Sky-High Sundae",
-		"requires": [
-			"Propeller Cup",
-			"VS Race"
-		],
-		"category": ["Propeller Cup"]
-	},
-	{
-		"name": "(GP|Rock Cup) 1st Place Tour London Loop",
-		"requires": [
-			"Rock Cup",
-			"Grand Prix"
-		],
-		"category": ["Rock Cup"]
-	},
-	{
-		"name": "(GP|Rock Cup) 1st Place GBA Boo Lake",
-		"requires": [
-			"Rock Cup",
-			"Grand Prix"
-		],
-		"category": ["Rock Cup"]
-	},
-	{
-		"name": "(GP|Rock Cup) 1st Place 3DS Rock Rock Mountain",
-		"requires": [
-			"Rock Cup",
-			"Grand Prix"
-		],
-		"category": ["Rock Cup"]
-	},
-	{
-		"name": "(GP|Rock Cup) 1st Place Wii Maple Treeway",
-		"requires": [
-			"Rock Cup",
-			"Grand Prix"
-		],
-		"category": ["Rock Cup"]
-	},
-	{
-		"name": "(GP|Rock Cup) Bronze Trophy",
-		"requires": [
-			"Rock Cup",
-			"Grand Prix"
-		],
-		"category": ["Rock Cup"]
-	},
-	{
-		"name": "(GP|Rock Cup) Silver Trophy",
-		"requires": [
-			"Rock Cup",
-			"Grand Prix"
-		],
-		"category": ["Rock Cup"]
-	},
-	{
-		"name": "(GP|Rock Cup) Gold Trophy",
-		"requires": [
-			"Rock Cup",
-			"Grand Prix"
-		],
-		"category": ["Rock Cup"]
-	},
-	{
-		"name": "(VS Race|Rock Cup) 1st Place Tour London Loop",
-		"requires": [
-			"Rock Cup",
-			"VS Race"
-		],
-		"category": ["Rock Cup"]
-	},
-	{
-		"name": "(VS Race|Rock Cup) 1st Place GBA Boo Lake",
-		"requires": [
-			"Rock Cup",
-			"VS Race"
-		],
-		"category": ["Rock Cup"]
-	},
-	{
-		"name": "(VS Race|Rock Cup) 1st Place 3DS Rock Rock Mountain",
-		"requires": [
-			"Rock Cup",
-			"VS Race"
-		],
-		"category": ["Rock Cup"]
-	},
-	{
-		"name": "(VS Race|Rock Cup) 1st Place Wii Maple Treeway",
-		"requires": [
-			"Rock Cup",
-			"VS Race"
-		],
-		"category": ["Rock Cup"]
-	},
-	{
-		"name": "(GP|Moon Cup) 1st Place Tour Berlin Byways",
-		"requires": [
-			"Moon Cup",
-			"Grand Prix"
-		],
-		"category": ["Moon Cup"]
-	},
-	{
-		"name": "(GP|Moon Cup) 1st Place DS Peach Gardens",
-		"requires": [
-			"Moon Cup",
-			"Grand Prix"
-		],
-		"category": ["Moon Cup"]
-	},
-	{
-		"name": "(GP|Moon Cup) 1st Place Merry Mountain",
-		"requires": [
-			"Moon Cup",
-			"Grand Prix"
-		],
-		"category": ["Moon Cup"]
-	},
-	{
-		"name": "(GP|Moon Cup) 1st Place 3DS Rainbow Road",
-		"requires": [
-			"Moon Cup",
-			"Grand Prix"
-		],
-		"category": ["Moon Cup"]
-	},
-	{
-		"name": "(GP|Moon Cup) Bronze Trophy",
-		"requires": [
-			"Moon Cup",
-			"Grand Prix"
-		],
-		"category": ["Moon Cup"]
-	},
-	{
-		"name": "(GP|Moon Cup) Silver Trophy",
-		"requires": [
-			"Moon Cup",
-			"Grand Prix"
-		],
-		"category": ["Moon Cup"]
-	},
-	{
-		"name": "(GP|Moon Cup) Gold Trophy",
-		"requires": [
-			"Moon Cup",
-			"Grand Prix"
-		],
-		"category": ["Moon Cup"]
-	},
-	{
-		"name": "(VS Race|Moon Cup) 1st Place Tour Berlin Byways",
-		"requires": [
-			"Moon Cup",
-			"VS Race"
-		],
-		"category": ["Moon Cup"]
-	},
-	{
-		"name": "(VS Race|Moon Cup) 1st Place DS Peach Gardens",
-		"requires": [
-			"Moon Cup",
-			"VS Race"
-		],
-		"category": ["Moon Cup"]
-	},
-	{
-		"name": "(VS Race|Moon Cup) 1st Place Merry Mountain",
-		"requires": [
-			"Moon Cup",
-			"VS Race"
-		],
-		"category": ["Moon Cup"]
-	},
-	{
-		"name": "(VS Race|Moon Cup) 1st Place 3DS Rainbow Road",
-		"requires": [
-			"Moon Cup",
-			"VS Race"
-		],
-		"category": ["Moon Cup"]
-	},
-	{
-		"name": "(GP|Fruit Cup) 1st Place Tour Amsterdam Drift",
-		"requires": [
-			"Fruit Cup",
-			"Grand Prix"
-		],
-		"category": ["Fruit Cup"]
-	},
-	{
-		"name": "(GP|Fruit Cup) 1st Place GBA Riverside Park",
-		"requires": [
-			"Fruit Cup",
-			"Grand Prix"
-		],
-		"category": ["Fruit Cup"]
-	},
-	{
-		"name": "(GP|Fruit Cup) 1st Place Wii DK Summit",
-		"requires": [
-			"Fruit Cup",
-			"Grand Prix"
-		],
-		"category": ["Fruit Cup"]
-	},
-	{
-		"name": "(GP|Fruit Cup) 1st Place Yoshi's Island",
-		"requires": [
-			"Fruit Cup",
-			"Grand Prix"
-		],
-		"category": ["Fruit Cup"]
-	},
-	{
-		"name": "(GP|Fruit Cup) Bronze Trophy",
-		"requires": [
-			"Fruit Cup",
-			"Grand Prix"
-		],
-		"category": ["Fruit Cup"]
-	},
-	{
-		"name": "(GP|Fruit Cup) Silver Trophy",
-		"requires": [
-			"Fruit Cup",
-			"Grand Prix"
-		],
-		"category": ["Fruit Cup"]
-	},
-	{
-		"name": "(GP|Fruit Cup) Gold Trophy",
-		"requires": [
-			"Fruit Cup",
-			"Grand Prix"
-		],
-		"category": ["Fruit Cup"]
-	},
-	{
-		"name": "(VS Race|Fruit Cup) 1st Place Tour Amsterdam Drift",
-		"requires": [
-			"Fruit Cup",
-			"VS Race"
-		],
-		"category": ["Fruit Cup"]
-	},
-	{
-		"name": "(VS Race|Fruit Cup) 1st Place GBA Riverside Park",
-		"requires": [
-			"Fruit Cup",
-			"VS Race"
-		],
-		"category": ["Fruit Cup"]
-	},
-	{
-		"name": "(VS Race|Fruit Cup) 1st Place Wii DK Summit",
-		"requires": [
-			"Fruit Cup",
-			"VS Race"
-		],
-		"category": ["Fruit Cup"]
-	},
-	{
-		"name": "(VS Race|Fruit Cup) 1st Place Yoshi's Island",
-		"requires": [
-			"Fruit Cup",
-			"VS Race"
-		],
-		"category": ["Fruit Cup"]
-	},
-	{
-		"name": "(GP|Boomerang Cup) 1st Place Tour Bangkok Rush",
-		"requires": [
-			"Boomerang Cup",
-			"Grand Prix"
-		],
-		"category": ["Boomerang Cup"]
-	},
-	{
-		"name": "(GP|Boomerang Cup) 1st Place DS Mario Circuit",
-		"requires": [
-			"Boomerang Cup",
-			"Grand Prix"
-		],
-		"category": ["Boomerang Cup"]
-	},
-	{
-		"name": "(GP|Boomerang Cup) 1st Place GCN Waluigi Stadium",
-		"requires": [
-			"Boomerang Cup",
-			"Grand Prix"
-		],
-		"category": ["Boomerang Cup"]
-	},
-	{
-		"name": "(GP|Boomerang Cup) 1st Place Tour Singapore Speedway",
-		"requires": [
-			"Boomerang Cup",
-			"Grand Prix"
-		],
-		"category": ["Boomerang Cup"]
-	},
-	{
-		"name": "(GP|Boomerang Cup) Bronze Trophy",
-		"requires": [
-			"Boomerang Cup",
-			"Grand Prix"
-		],
-		"category": ["Boomerang Cup"]
-	},
-	{
-		"name": "(GP|Boomerang Cup) Silver Trophy",
-		"requires": [
-			"Boomerang Cup",
-			"Grand Prix"
-		],
-		"category": ["Boomerang Cup"]
-	},
-	{
-		"name": "(GP|Boomerang Cup) Gold Trophy",
-		"requires": [
-			"Boomerang Cup",
-			"Grand Prix"
-		],
-		"category": ["Boomerang Cup"]
-	},
-	{
-		"name": "(VS Race|Boomerang Cup) 1st Place Tour Bangkok Rush",
-		"requires": [
-			"Boomerang Cup",
-			"VS Race"
-		],
-		"category": ["Boomerang Cup"]
-	},
-	{
-		"name": "(VS Race|Boomerang Cup) 1st Place DS Mario Circuit",
-		"requires": [
-			"Boomerang Cup",
-			"VS Race"
-		],
-		"category": ["Boomerang Cup"]
-	},
-	{
-		"name": "(VS Race|Boomerang Cup) 1st Place GCN Waluigi Stadium",
-		"requires": [
-			"Boomerang Cup",
-			"VS Race"
-		],
-		"category": ["Boomerang Cup"]
-	},
-	{
-		"name": "(VS Race|Boomerang Cup) 1st Place Tour Singapore Speedway",
-		"requires": [
-			"Boomerang Cup",
-			"VS Race"
-		],
-		"category": ["Boomerang Cup"]
-	},
-	{
-		"name": "(GP|Feather Cup) 1st Place Tour Athens Dash",
-		"requires": [
-			"Feather Cup",
-			"Grand Prix"
-		],
-		"category": ["Feather Cup"]
-	},
-	{
-		"name": "(GP|Feather Cup) 1st Place GCN Daisy Cruiser Rush",
-		"requires": [
-			"Feather Cup",
-			"Grand Prix"
-		],
-		"category": ["Feather Cup"]
-	},
-	{
-		"name": "(GP|Feather Cup) 1st Place Wii Moonview Highway",
-		"requires": [
-			"Feather Cup",
-			"Grand Prix"
-		],
-		"category": ["Feather Cup"]
-	},
-	{
-		"name": "(GP|Feather Cup) 1st Place Squeaky Clean Sprint",
-		"requires": [
-			"Feather Cup",
-			"Grand Prix"
-		],
-		"category": ["Feather Cup"]
-	},
-	
-	{
-		"name": "(GP|Feather Cup) Bronze Trophy",
-		"requires": [
-			"Feather Cup",
-			"Grand Prix"
-		],
-		"category": ["Feather Cup"]
-	},
-	{
-		"name": "(GP|Feather Cup) Silver Trophy",
-		"requires": [
-			"Feather Cup",
-			"Grand Prix"
-		],
-		"category": ["Feather Cup"]
-	},
-	{
-		"name": "(GP|Feather Cup) Gold Trophy",
-		"requires": [
-			"Feather Cup",
-			"Grand Prix"
-		],
-		"category": ["Feather Cup"]
-	},
-	{
-		"name": "(VS Race|Feather Cup) 1st Place Tour Athens Dash",
-		"requires": [
-			"Feather Cup",
-			"VS Race"
-		],
-		"category": ["Feather Cup"]
-	},
-	{
-		"name": "(VS Race|Feather Cup) 1st Place GCN Daisy Cruiser Rush",
-		"requires": [
-			"Feather Cup",
-			"VS Race"
-		],
-		"category": ["Feather Cup"]
-	},
-	{
-		"name": "(VS Race|Feather Cup) 1st Place Wii Moonview Highway",
-		"requires": [
-			"Feather Cup",
-			"VS Race"
-		],
-		"category": ["Feather Cup"]
-	},
-	{
-		"name": "(VS Race|Feather Cup) 1st Place Squeaky Clean Sprint",
-		"requires": [
-			"Feather Cup",
-			"VS Race"
-		],
-		"category": ["Feather Cup"]
-	},
-	{
-		"name": "(GP|Cherry Cup) 1st Place Tour Los Angeles Laps",
-		"requires": [
-			"Cherry Cup",
-			"Grand Prix"
-		],
-		"category": ["Cherry Cup"]
-	},
-	{
-		"name": "(GP|Cherry Cup) 1st Place GBA Sunset Wilds",
-		"requires": [
-			"Cherry Cup",
-			"Grand Prix"
-		],
-		"category": ["Cherry Cup"]
-	},
-	{
-		"name": "(GP|Cherry Cup) 1st Place Wii Koopa Cape",
-		"requires": [
-			"Cherry Cup",
-			"Grand Prix"
-		],
-		"category": ["Cherry Cup"]
-	},
-	{
-		"name": "(GP|Cherry Cup) 1st Place Tour Vancouver Velocity",
-		"requires": [
-			"Cherry Cup",
-			"Grand Prix"
-		],
-		"category": ["Cherry Cup"]
-	},
-	{
-		"name": "(GP|Cherry Cup) Bronze Trophy",
-		"requires": [
-			"Cherry Cup",
-			"Grand Prix"
-		],
-		"category": ["Cherry Cup"]
-	},
-	{
-		"name": "(GP|Cherry Cup) Silver Trophy",
-		"requires": [
-			"Cherry Cup",
-			"Grand Prix"
-		],
-		"category": ["Cherry Cup"]
-	},
-	{
-		"name": "(GP|Cherry Cup) Gold Trophy",
-		"requires": [
-			"Cherry Cup",
-			"Grand Prix"
-		],
-		"category": ["Cherry Cup"]
-	},
-	{
-		"name": "(VS Race|Cherry Cup) 1st Place Tour Los Angeles Laps",
-		"requires": [
-			"Cherry Cup",
-			"VS Race"
-		],
-		"category": ["Cherry Cup"]
-	},
-	{
-		"name": "(VS Race|Cherry Cup) 1st Place GBA Sunset Wilds",
-		"requires": [
-			"Cherry Cup",
-			"VS Race"
-		],
-		"category": ["Cherry Cup"]
-	},
-	{
-		"name": "(VS Race|Cherry Cup) 1st Place Wii Koopa Cape",
-		"requires": [
-			"Cherry Cup",
-			"VS Race"
-		],
-		"category": ["Cherry Cup"]
-	},
-	{
-		"name": "(VS Race|Cherry Cup) 1st Place Tour Vancouver Velocity",
-		"requires": [
-			"Cherry Cup",
-			"VS Race"
-		],
-		"category": ["Cherry Cup"]
-	},
-	{
-		"name": "(GP|Acorn Cup) 1st Place Tour Rome Avanti",
-		"requires": [
-			"Acorn Cup",
-			"Grand Prix"
-		],
-		"category": ["Acorn Cup"]
-	},
-	{
-		"name": "(GP|Acorn Cup) 1st Place GCN DK Mountain",
-		"requires": [
-			"Acorn Cup",
-			"Grand Prix"
-		],
-		"category": ["Acorn Cup"]
-	},
-	{
-		"name": "(GP|Acorn Cup) 1st Place Wii Daisy Circuit",
-		"requires": [
-			"Acorn Cup",
-			"Grand Prix"
-		],
-		"category": ["Acorn Cup"]
-	},
-	{
-		"name": "(GP|Acorn Cup) 1st Piranha Plant Cove",
-		"requires": [
-			"Acorn Cup",
-			"Grand Prix"
-		],
-		"category": ["Acorn Cup"]
-	},
-	{
-		"name": "(GP|Acorn Cup) Bronze Trophy",
-		"requires": [
-			"Acorn Cup",
-			"Grand Prix"
-		],
-		"category": ["Acorn Cup"]
-	},
-	{
-		"name": "(GP|Acorn Cup) Silver Trophy",
-		"requires": [
-			"Acorn Cup",
-			"Grand Prix"
-		],
-		"category": ["Acorn Cup"]
-	},
-	{
-		"name": "(GP|Acorn Cup) Gold Trophy",
-		"requires": [
-			"Acorn Cup",
-			"Grand Prix"
-		],
-		"category": ["Acorn Cup"]
-	},
-	{
-		"name": "(VS Race|Acorn Cup) 1st Place Tour Rome Avanti",
-		"requires": [
-			"Acorn Cup",
-			"VS Race"
-		],
-		"category": ["Acorn Cup"]
-	},
-	{
-		"name": "(VS Race|Acorn Cup) 1st Place GCN DK Mountain",
-		"requires": [
-			"Acorn Cup",
-			"VS Race"
-		],
-		"category": ["Acorn Cup"]
-	},
-	{
-		"name": "(VS Race|Acorn Cup) 1st Place Wii Daisy Circuit",
-		"requires": [
-			"Acorn Cup",
-			"VS Race"
-		],
-		"category": ["Acorn Cup"]
-	},
-	{
-		"name": "(VS Race|Acorn Cup) 1st Piranha Plant Cove",
-		"requires": [
-			"Acorn Cup",
-			"VS Race"
-		],
-		"category": ["Acorn Cup"]
-	},
-	{
-		"name": "(GP|Spiny Cup) 1st Place Tour Madrid Drive",
-		"requires": [
-			"Spiny Cup",
-			"Grand Prix"
-		],
-		"category": ["Spiny Cup"]
-	},
-	{
-		"name": "(GP|Spiny Cup) 1st Place 3DS Rosalina's Ice World",
-		"requires": [
-			"Spiny Cup",
-			"Grand Prix"
-		],
-		"category": ["Spiny Cup"]
-	},
-	{
-		"name": "(GP|Spiny Cup) 1st Place SNES Bowser Castle 3",
-		"requires": [
-			"Spiny Cup",
-			"Grand Prix"
-		],
-		"category": ["Spiny Cup"]
-	},
-	{
-		"name": "(GP|Spiny Cup) 1st Place Wii Rainbow Road",
-		"requires": [
-			"Spiny Cup",
-			"Grand Prix"
-		],
-		"category": ["Spiny Cup"]
-	},
-	{
-		"name": "(GP|Spiny Cup) Bronze Trophy",
-		"requires": [
-			"Spiny Cup",
-			"Grand Prix"
-		],
-		"category": ["Spiny Cup"]
-	},
-	{
-		"name": "(GP|Spiny Cup) Silver Trophy",
-		"requires": [
-			"Spiny Cup",
-			"Grand Prix"
-		],
-		"category": ["Spiny Cup"]
-	},
-	{
-		"name": "(GP|Spiny Cup) Gold Trophy",
-		"requires": [
-			"Spiny Cup",
-			"Grand Prix"
-		],
-		"category": ["Spiny Cup"]
-	},
-	{
-		"name": "(VS Race|Spiny Cup) 1st Place Tour Madrid Drive",
-		"requires": [
-			"Spiny Cup",
-			"VS Race"
-		],
-		"category": ["Spiny Cup"]
-	},
-	{
-		"name": "(VS Race|Spiny Cup) 1st Place 3DS Rosalina's Ice World",
-		"requires": [
-			"Spiny Cup",
-			"VS Race"
-		],
-		"category": ["Spiny Cup"]
-	},
-	{
-		"name": "(VS Race|Spiny Cup) 1st Place SNES Bowser Castle 3",
-		"requires": [
-			"Spiny Cup",
-			"VS Race"
-		],
-		"category": ["Spiny Cup"]
-	},
-	{
-		"name": "(VS Race|Spiny Cup) 1st Place Wii Rainbow Road",
-		"requires": [
-			"Spiny Cup",
-			"VS Race"
-		],
-		"category": ["Spiny Cup"]
-	},
-	{
-		"name": "Balloon Battle Victory",
-		"requires": [
-            "Balloon Battle",
-            "Battle"
-        ],
-		"category": ["Battle Mode"]
-	},
-	{
-		"name": "Renegade Roundup Victory",
-		"requires": [
-            "Renegade Roundup",
-            "Battle"
-        ],
-		"category": ["Battle Mode"]
-	},
-	{
-		"name": "Bob-omb Blast Victory",
-		"requires": [
-            "Bob-omb Blast",
-            "Battle"
-        ],
-		"category": ["Battle Mode"]
-	},
-	{
-		"name": "Coin Runners Victory",
-		"requires": [
-            "Coin Runners",
-            "Battle"
-        ],
-		"category": ["Battle Mode"]
-	},
-	{
-		"name": "Shine Thief Victory",
-		"requires": [
-            "Shine Thief",
-            "Battle"
-        ],
-		"category": ["Battle Mode"]
-	},
-	{
-        "name": "Win with Mario",
-        "requires": [
-            "Mario",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Luigi",
-        "requires": [
-            "Luigi",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Peach",
-        "requires": [
-            "Peach",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Daisy",
-        "requires": [
-            "Daisy",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Rosalina",
-        "requires": [
-            "Rosalina",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Tanooki Mario",
-        "requires": [
-            "Tanooki Mario",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Cat Peach",
-        "requires": [
-            "Cat Peach",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Birdo (Pink)",
-        "requires": [
-            "Birdo (Pink)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Birdo (Light Blue)",
-        "requires": [
-            "Birdo (Light Blue)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Birdo (Black)",
-        "requires": [
-            "Birdo (Black)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Birdo (Red)",
-        "requires": [
-            "Birdo (Red)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Birdo (Yellow)",
-        "requires": [
-            "Birdo (Yellow)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Birdo (White)",
-        "requires": [
-            "Birdo (White)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Birdo (Dark Blue)",
-        "requires": [
-            "Birdo (Dark Blue)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Birdo (Green)",
-        "requires": [
-            "Birdo (Green)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Birdo (Orange)",
-        "requires": [
-            "Birdo (Orange)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Yoshi (Pink)",
-        "requires": [
-            "Yoshi (Pink)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Yoshi (Light Blue)",
-        "requires": [
-            "Yoshi (Light Blue)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Yoshi (Black)",
-        "requires": [
-            "Yoshi (Black)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Yoshi (Red)",
-        "requires": [
-            "Yoshi (Red)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Yoshi (Yellow)",
-        "requires": [
-            "Yoshi (Yellow)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Yoshi (White)",
-        "requires": [
-            "Yoshi (White)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Yoshi (Dark Blue)",
-        "requires": [
-            "Yoshi (Dark Blue)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Yoshi (Green)",
-        "requires": [
-            "Yoshi (Green)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Yoshi (Orange)",
-        "requires": [
-            "Yoshi (Orange)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Koopa Troopa",
-        "requires": [
-            "Koopa Troopa",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Toad",
-        "requires": [
-            "Toad",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Shy Guy (Pink)",
-        "requires": [
-            "Shy Guy (Pink)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Shy Guy (Light Blue)",
-        "requires": [
-            "Shy Guy (Light Blue)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Shy Guy (Black)",
-        "requires": [
-            "Shy Guy (Black)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Shy Guy (Red)",
-        "requires": [
-            "Shy Guy (Red)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Shy Guy (Yellow)",
-        "requires": [
-            "Shy Guy (Yellow)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Shy Guy (White)",
-        "requires": [
-            "Shy Guy (White)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Shy Guy (Dark Blue)",
-        "requires": [
-            "Shy Guy (Dark Blue)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Shy Guy (Green)",
-        "requires": [
-            "Shy Guy (Green)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Shy Guy (Orange)",
-        "requires": [
-            "Shy Guy (Orange)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Lakitu",
-        "requires": [
-            "Lakitu",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with King Boo",
-        "requires": [
-            "King Boo",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Petey Piranha",
-        "requires": [
-            "Petey Piranha",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Toadette",
-        "requires": [
-            "Toadette",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Baby Mario",
-        "requires": [
-            "Baby Mario",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Baby Luigi",
-        "requires": [
-            "Baby Luigi",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Baby Peach",
-        "requires": [
-            "Baby Peach",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Baby Daisy",
-        "requires": [
-            "Baby Daisy",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Baby Rosalina",
-        "requires": [
-            "Baby Rosalina",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Metal Mario",
-        "requires": [
-            "Metal Mario",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Golden Mario",
-        "requires": [
-            "Golden Mario",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Pink Gold Peach",
-        "requires": [
-            "Pink Gold Peach",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Wiggler",
-        "requires": [
-            "Wiggler",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Wario",
-        "requires": [
-            "Wario",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Waluigi",
-        "requires": [
-            "Waluigi",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Donkey Kong",
-        "requires": [
-            "Donkey Kong",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Bowser",
-        "requires": [
-            "Bowser",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Dry Bones",
-        "requires": [
-            "Dry Bones",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Bowser Jr.",
-        "requires": [
-            "Bowser Jr.",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Dry Bowser",
-        "requires": [
-            "Dry Bowser",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Kamek",
-        "requires": [
-            "Kamek",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Lemmy",
-        "requires": [
-            "Lemmy",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Larry",
-        "requires": [
-            "Larry",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Wendy",
-        "requires": [
-            "Wendy",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Ludwig",
-        "requires": [
-            "Ludwig",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Iggy",
-        "requires": [
-            "Iggy",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Roy",
-        "requires": [
-            "Roy",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Morton",
-        "requires": [
-            "Morton",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Peachette",
-        "requires": [
-            "Peachette",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Inkling Girl (Orange Hair)",
-        "requires": [
-            "Inkling Girl (Orange Hair)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Inkling Girl (Green Hair)",
-        "requires": [
-            "Inkling Girl (Green Hair)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Inkling Girl (Pink Hair)",
-        "requires": [
-            "Inkling Girl (Pink Hair)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Inkling Boy (Dark Blue Hair)",
-        "requires": [
-            "Inkling Boy (Dark Blue Hair)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Inkling Boy (Purple Hair)",
-        "requires": [
-            "Inkling Boy (Purple Hair)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Inkling Boy (Cyan Hair)",
-        "requires": [
-            "Inkling Boy (Cyan Hair)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Male Villager",
-        "requires": [
-            "Male Villager",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Female Villager",
-        "requires": [
-            "Female Villager",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Isabelle",
-        "requires": [
-            "Isabelle",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Link (Green Tunic)",
-        "requires": [
-            "Link (Green Tunic)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Link (BOTW)",
-        "requires": [
-            "Link (BOTW)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Diddy Kong",
-        "requires": [
-            "Diddy Kong",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Funky Kong",
-        "requires": [
-            "Funky Kong",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Pauline",
-        "requires": [
-            "Pauline",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Mii (Yours)",
-        "requires": [
-            "Mii (Yours)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Mii (male player in a red outfit)",
-        "requires": [
-            "Mii (male player in a red outfit)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Mii (female player in a pink outfit)",
-        "requires": [
-            "Mii (female player in a pink outfit)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Mii (male player in a green outfit)",
-        "requires": [
-            "Mii (male player in a green outfit)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Mii (female player in a yellow outfit)",
-        "requires": [
-            "Mii (female player in a yellow outfit)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Mii (male player in a dark blue outfit)",
-        "requires": [
-            "Mii (male player in a dark blue outfit)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-    {
-        "name": "Win with Mii (female player in a light blue outfit)",
-        "requires": [
-            "Mii (female player in a light blue outfit)",
-            "VS Race"
-        ],
-        "category": ["Win a Race"]
-    },
-	{
-		"name": "All Rainbow Roads Complete",
-		"victory": true,
-		"category": ["Goal"],
-		"requires": [
-			"Special Cup",
-			"Lightning Cup",
-			"Triforce Cup",
-			"Moon Cup",
-			"Spiny Cup"
-		]
-	},
-	{
-        "name": "Mario Kart 8 Token",
-        "victory": true,
-        "category": ["Goal"],
-        "requires": "|MKTV Token:ALL|"
-    }   
-]
+{
+	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Beat the Game - Ryu",
+            "category": ["Starter Team", "Left Side"],
+            "requires": "|Ryu|"
+        },
+        {
+            "name": "Beat the Game - Chun-Li",
+            "category": ["Starter Team", "Left Side"],
+            "requires": "|Chun-Li|"
+        },
+        {
+            "name": "Beat the Game - Akuma",
+            "category": ["Starter Team", "Left Side"],
+            "requires": "|Akuma|"
+        },
+
+        {
+            "name": "Beat the Game - Jill",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Jill| and {ItemValue(star:5)}"
+        },
+        {
+            "name": "Beat the Game - Shuma-Gorath",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Shuma-Gorath|",
+            "hint_entrance": "Unlock Shuma-Gorath"
+        },
+        {
+            "name": "Beat the Game - Nemesis T-Type",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Nemesis T-Type|"
+        },
+        {
+            "name": "Beat the Game - Firebrand",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Firebrand|"
+        },
+        {
+            "name": "Beat the Game - Strider Hiryu",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Strider Hiryu|"
+        },
+        {
+            "name": "Beat the Game - Phoenix Wright",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Phoenix Wright|"
+        },
+        {
+            "name": "Beat the Game - Nova",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Nova|"
+        },
+        {
+            "name": "Beat the Game - Ghost Rider",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Ghost Rider|"
+        },
+        {
+            "name": "Beat the Game - Hawkeye",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Hawkeye|"
+        },
+        {
+            "name": "Beat the Game - Doctor Strange",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Doctor Strange|"
+        },
+        {
+            "name": "Beat the Game - Chris",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Chris|"
+        },
+        {
+            "name": "Beat the Game - Arthur",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Arthur|"
+        },
+        {
+            "name": "Beat the Game - Frank West",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Frank West|"
+        },
+        {
+            "name": "Beat the Game - Vergil",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Vergil|"
+        },
+        {
+            "name": "Beat the Game - Iron Fist",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Iron Fist|"
+        },
+        {
+            "name": "Beat the Game - Rocket Raccoon",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Rocket Raccoon|"
+        },
+        {
+            "name": "Beat the Game - Captain America",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Captain America|"
+        },
+        {
+            "name": "Beat the Game - Dormammu",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Dormammu|"
+        },
+        {
+            "name": "Beat the Game - Wesker",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Wesker|"
+        },
+        {
+            "name": "Beat the Game - Zero",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Zero|"
+        },
+        {
+            "name": "Beat the Game - Dante",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Dante|"
+        },
+        {
+            "name": "Beat the Game - Deadpool",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Deadpool| or {YamlEnabled(free_deadpool)}"
+        },
+        {
+            "name": "Beat the Game - Wolverine",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Wolverine|"
+        },
+        {
+            "name": "Beat the Game - Iron Man",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Iron Man|"
+        },
+        {
+            "name": "Beat the Game - Doctor Doom",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Doctor Doom|"
+        },
+        {
+            "name": "Beat the Game - Morrigan",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Morrigan|"
+        },
+        {
+            "name": "Beat the Game - Tron",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Tron|"
+        },
+        {
+            "name": "Beat the Game - Trish",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Trish|"
+        },
+        {
+            "name": "Beat the Game - X-23",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|X-23|"
+        },
+        {
+            "name": "Beat the Game - Storm",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Storm|"
+        },
+        {
+            "name": "Beat the Game - Thor",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Thor|"
+        },
+        {
+            "name": "Beat the Game - M.O.D.O.K.",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|M.O.D.O.K.|"
+        },
+        {
+            "name": "Beat the Game - Felicia",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Felicia|"
+        },
+        {
+            "name": "Beat the Game - Spencer",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Spencer|"
+        },
+        {
+            "name": "Beat the Game - Viewtiful Joe",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Viewtiful Joe|"
+        },
+        {
+            "name": "Beat the Game - Spider-Man",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Spider-Man|",
+            "prehint": true
+        },
+        {
+            "name": "Beat the Game - Sentinel",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Sentinel|"
+        },
+        {
+            "name": "Beat the Game - Hulk",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Hulk|"
+        },
+        {
+            "name": "Beat the Game - Super-Skrull",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Super-Skrull|"
+        },
+        {
+            "name": "Beat the Game - Hsien-Ko",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Hsien-Ko|"
+        },
+        {
+            "name": "Beat the Game - Haggar",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Haggar|"
+        },
+        {
+            "name": "Beat the Game - C. Viper",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|C. Viper|"
+        },
+        {
+            "name": "Beat the Game - Amaterasu",
+            "category": ["Unlocked Teams", "Left Side"],
+            "requires": "|Amaterasu|"
+        },
+        {
+            "name": "Beat the Game - Phoenix",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Phoenix|"
+        },
+        {
+            "name": "Beat the Game - Magneto",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Magneto|"
+        },
+        {
+            "name": "Beat the Game - She-Hulk",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|She-Hulk|"
+        },
+        {
+            "name": "Beat the Game - Taskmaster",
+            "category": ["Unlocked Teams", "Right Side"],
+            "requires": "|Taskmaster|"
+        },
+
+        {
+            "name": "We Saved the World!",
+            "victory": true,
+            "category": ["All Characters Complete!"],
+            "requires": [
+                "Jill",
+                "Shuma-Gorath",
+                "Nemesis T-Type",
+                "Firebrand",
+                "Strider Hiryu",
+                "Phoenix Wright",
+                "Nova",
+                "Ghost Rider",
+                "Hawkeye",
+                "Doctor Strange",
+                "Chris",
+                "Arthur",
+                "Frank West",
+                "Vergil",
+                "Iron Fist",
+                "Rocket Raccoon",
+                "Captain America",
+                "Dormammu",
+                "Wesker",
+                "Zero",
+                "Dante",
+                "Deadpool",
+                "Wolverine",
+                "Iron Man",
+                "Doctor Doom",
+                "Morrigan",
+                "Tron",
+                "Trish",
+                "X-23",
+                "Storm",
+                "Thor",
+                "M.O.D.O.K.",
+                "Felicia",
+                "Spencer",
+                "Viewtiful Joe",
+                "Spider-Man",
+                "Sentinel",
+                "Hulk",
+                "Super-Skrull",
+                "Hsien-Ko",
+                "Haggar",
+                "C. Viper",
+                "Amaterasu",
+                "Phoenix",
+                "Magneto",
+                "She-Hulk",
+                "Taskmaster"
+            ]
+        },
+        {
+            "name": "Marvel%",
+            "victory": true,
+            "category": ["All Characters Complete!"],
+            "requires": "|@Right Side:all|"
+        },
+        {
+            "name": "Capcom%",
+            "victory": true,
+            "category": ["All Characters Complete!"],
+            "requires": "|@Left Side:all|"
+        },
+        {
+            "name": "Stars%",
+            "victory": true,
+            "category": ["All Characters Complete!"],
+            "requires": "{ItemValue(star:10)} and {ItemValue(coins:10)}"
+        }
+    ]
+}
+
