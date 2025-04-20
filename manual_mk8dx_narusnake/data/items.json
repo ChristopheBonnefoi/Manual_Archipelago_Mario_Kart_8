@@ -1,409 +1,1031 @@
-{
-    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
-    "data": [
-        {
-            "name": "Jill",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "value": {"star": 5, "coins": 3},
-            "progression": true
-        },
-        {
-            "name": "Shuma-Gorath",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "value": {"star": 5},
-            "progression": true
-        },
-        {
-            "name": "Nemesis T-Type",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "value": {"coins": 7},
+[
+	{
+		"name": "Mushroom Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Flower Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Star Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Special Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shell Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Banana Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Leaf Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Lightning Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Egg Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Triforce Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Crossing Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Bell Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Golden Dash Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Lucky Cat Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Turnip Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Propeller Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Rock Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Moon Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Fruit Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Boomerang Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Feather Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Cherry Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Acorn Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Spiny Cup",
+		"category": ["Cups"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mario",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Luigi",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Peach",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Daisy",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Rosalina",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Tanooki Mario",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Cat Peach",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Birdo (Pink)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Birdo (Light Blue)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Birdo (Black)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Birdo (Red)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Birdo (Yellow)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Birdo (White)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Birdo (Dark Blue)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},	
+	{
+		"name": "Birdo (Green)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Birdo (Orange)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Green)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Light Blue)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Black)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Red)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Yellow)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (White)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Dark Blue)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Pink)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Yoshi (Orange)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Toad",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Koopa Troopa",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Red)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Light Blue)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Black)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Green)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Yellow)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (White)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Dark Blue)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Pink)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shy Guy (Orange)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Lakitu",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Toadette",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "King Boo",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Petey Piranha",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Baby Mario",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Baby Luigi",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Baby Peach",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Baby Daisy",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Baby Rosalina",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Metal Mario",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Golden Mario",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Pink Gold Peach",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Wiggler",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Wario",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Waluigi",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Donkey Kong",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Bowser",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Dry Bones",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Bowser Jr.",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Dry Bowser",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Kamek",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Lemmy",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Larry",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Wendy",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Ludwig",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Iggy",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Roy",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Morton",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Peachette",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Inkling Girl (Orange Hair)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Inkling Girl (Green Hair)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Inkling Girl (Pink Hair)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Inkling Boy (Dark Blue Hair)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Inkling Boy (Purple Hair)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Inkling Boy (Cyan Hair)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Male Villager",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Female Villager",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Isabelle",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Link (Green Tunic)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},	
+	{
+		"name": "Link (BOTW)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},	
+	{
+		"name": "Diddy Kong",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Funky Kong",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Pauline",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mii (Yours)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mii (male player in a red outfit)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mii (female player in a pink outfit)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mii (male player in a green outfit)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mii (female player in a yellow outfit)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mii (male player in a dark blue outfit)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mii (female player in a light blue outfit)",
+		"category": ["Characters"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Standard Kart",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Pipe Frame",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Mach 8",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Steel Driver",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Cat Cruiser",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Circuit Special",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Tri-Speeder",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Badwagon",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Prancer",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Biddybuggy",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Landship",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Sneeker",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Sports Coupe",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Gold Standard",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "GLA",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "W 25 Silver Arrow",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "300 SL Roadster",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Standard Bike",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Comet",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Sports Bike",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "The Duke",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Flame Rider",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Varmint",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Mr. Scooty",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Jet Bike",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Yoshi Bike",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Standard ATV",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Wild Wiggler",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Teddy Buggy",
+		"category": ["Karts"],
+		"count":1
+	},
+	{
+		"name": "Standard",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Monster",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Roller",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Slim",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Slick",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Metal",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Button",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Off-Road",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Sponge",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Wood",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Cushion",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Blue Standard",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Hot Monster",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Azure Roller",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Crimson Slim",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Cyber Slick",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Retro Off-Road",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Gold Tires",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "GLA Tires",
+		"category": ["Wheels"],
+		"count":1
+	},
+	{
+		"name": "Super Gliders",
+		"category": ["Gliders"],
+		"count":1
+	},
+	{
+		"name": "Cloud Gliders",
+		"category": ["Gliders"],
+		"count":1
+	},
+	{
+		"name": "Wario Wings",
+		"category": ["Gliders"],
+		"count":1
+	},
+	{
+		"name": "Waddle Wings",
+		"category": ["Gliders"],
+		"count":1
+	},
+	{
+		"name": "Peach Parasol",
+		"category": ["Gliders"],
+		"count":1
+	},
+	{
+		"name": "Parachute",
+		"category": ["Gliders"],
+		"count":1
+	},
+	{
+		"name": "Parafoil",
+		"category": ["Gliders"],
+		"count":1
+	},
+	{
+		"name": "Flower Glider",
+		"category": ["Gliders"],
+		"count":1
+	},
+	{
+		"name": "Bowser Kite",
+		"category": ["Gliders"],
+		"count":1
+	},
+	{
+		"name": "Plane Glider",
+		"category": ["Gliders"],
+		"count":1
+	},
+	{
+		"name": "MKTV Parafoil",
+		"category": ["Gliders"],
+		"count":1
+	},
+	{
+		"name": "Golden Glider",
+		"category": ["Gliders"],
+		"count":1
+	},
+	{
+		"name": "Hylian Kite",
+		"category": ["Gliders"],
+		"count":1
+	},
+	{
+		"name": "ParaGlider",
+		"category": ["Gliders"],
+		"count":1
+	},
+	{
+		"name": "Paper Glider",
+		"category": ["Gliders"],
+		"count":1
+	},
+		{
+		"name": "Grand Prix",
+		"category": ["Game_Mode"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "VS Race",
+		"category": ["Game_Mode"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Battle",
+		"category": ["Game_Mode"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Balloon Battle",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Renegade Roundup",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Bob-omb Blast",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Coin Runners",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shine Thief",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},
+	{
+        "name": "MKTV Token",
+        "category": ["Token"],
+        "count": 100,
         "progression": true
-        },
-        {
-            "name": "Firebrand",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Strider Hiryu",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Phoenix Wright",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Nova",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Ghost Rider",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Hawkeye",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Doctor Strange",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Chris",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Arthur",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Frank West",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Vergil",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Iron Fist",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Rocket Raccoon",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Captain America",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Dormammu",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Wesker",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Zero",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Ryu",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Dante",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Deadpool",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Wolverine",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Iron Man",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Doctor Doom",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Morrigan",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Tron",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Chun-Li",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Trish",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "X-23",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Storm",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Thor",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "M.O.D.O.K.",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Felicia",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Spencer",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Akuma",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Viewtiful Joe",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Spider-Man",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Sentinel",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Hulk",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Super-Skrull",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Hsien-Ko",
-            "category": [
-                "Characters",
-                "Left Side",
-                "Trash"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Haggar",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "C. Viper",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Amaterasu",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Phoenix",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Magneto",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "She-Hulk",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Taskmaster",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        }    ]
-
-}
+    }
+]
