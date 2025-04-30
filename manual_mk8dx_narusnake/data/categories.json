@@ -1,9 +1,23 @@
 {
-    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
-    "Example Logic only category": {
-        "hidden": true
+    "50CC": {
+      "hidden": true,
+      "yaml_option": ["run_50cc"]
     },
-    "Example Yaml-option category": {
-        "yaml_option": ["DLC_enabled"]
+    "100CC": {
+      "hidden": true,
+      "yaml_option": ["run_100cc"]
+    },
+    "150CC": {
+      "hidden": true,
+      "yaml_option": ["run_150cc"]
+    },
+    "Mirror": {
+      "hidden": true,
+      "yaml_option": ["run_mirror"]
+    },
+    "200CC": {
+      "hidden": true,
+      "yaml_option": ["run_200cc"]
     }
-}
+  }
+  

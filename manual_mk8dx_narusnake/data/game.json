@@ -8,6 +8,10 @@
 			"random": 1
 		},
 		{
+			"item_categories": ["Difficulty"],
+			"random": 1
+		},
+		{
 			"item_categories": [ "Cups" ],
 			"random": 1
 		},

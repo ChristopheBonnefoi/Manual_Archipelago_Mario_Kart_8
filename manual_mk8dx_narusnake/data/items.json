@@ -1,5 +1,59 @@
 [
+    {
+		"name": "Grand Prix",
+		"category": ["Game_Mode"],
+		"count":1,
+		"progression": true
+	},
 	{
+		"name": "VS Race",
+		"category": ["Game_Mode"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Time Trial",
+		"category": ["Game_Mode"],
+		"count":1,
+		"progression": true
+	},
+    {
+		"name": "Battle",
+		"category": ["Game_Mode"],
+		"count":1,
+		"progression": true
+	},
+    {
+		"name": "50CC",
+		"category": ["50CC", "Difficulty"],
+		"count":1,
+        "progression": true
+	},
+    {
+		"name": "100CC",
+		"category": ["100CC", "Difficulty"],
+		"count":1,
+        "progression": true
+	},
+    {
+		"name": "150CC",
+		"category": ["150CC", "Difficulty"],
+		"count":1,
+        "progression": true
+	},
+    {
+		"name": "Mirror",
+		"category": ["Mirror", "Difficulty"],
+		"count":1,
+        "progression": true
+	},
+    {
+		"name": "200CC",
+		"category": ["200CC", "Difficulty"],
+		"count":1,
+        "progression": true
+	},
+    {
 		"name": "Mushroom Cup",
 		"category": ["Cups"],
 		"count":1,
@@ -143,7 +197,36 @@
 		"count":1,
 		"progression": true
 	},
+    {
+		"name": "Balloon Battle",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},
 	{
+		"name": "Renegade Roundup",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Bob-omb Blast",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Coin Runners",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Shine Thief",
+		"category": ["Battle Modes"],
+		"count":1,
+		"progression": true
+	},{
 		"name": "Mario",
 		"category": ["Characters"],
 		"count":1,
@@ -659,7 +742,121 @@
 		"count":1,
 		"progression": true
 	},
+    {
+		"name": "Banana",
+		"category": ["Items"],
+		"count":1
+	},
 	{
+		"name": "Triple Bananas",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Green Shell",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Triple Green Shells",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Red Shell",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Triple Red Shells",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Spiny Shell",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Bob-omb",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Mushroom",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Triple Mushrooms",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Golden Mushroom",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Bullet Bill",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Blooper",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Lightning",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Super Star",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Fire Flower",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Boomerang Flower",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Piranha Plant",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Super Horn",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Crazy Eight",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Coin",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Feather",
+		"category": ["Items"],
+		"count":1
+	},
+	{
+		"name": "Boo",
+		"category": ["Items"],
+		"count":1
+	},{
 		"name": "Standard Kart",
 		"category": ["Karts"],
 		"count":1
@@ -974,176 +1171,7 @@
 		"category": ["Gliders"],
 		"count":1
 	},
-		{
-		"name": "Grand Prix",
-		"category": ["Game_Mode"],
-		"count":1,
-		"progression": true
-	},
-	{
-		"name": "VS Race",
-		"category": ["Game_Mode"],
-		"count":1,
-		"progression": true
-	},
-	{
-		"name": "Time Trial",
-		"category": ["Game_Mode"],
-		"count":1,
-		"progression": true
-	},
-	{
-		"name": "Battle",
-		"category": ["Game_Mode"],
-		"count":1,
-		"progression": true
-	},
-	{
-		"name": "Balloon Battle",
-		"category": ["Battle Modes"],
-		"count":1,
-		"progression": true
-	},
-	{
-		"name": "Renegade Roundup",
-		"category": ["Battle Modes"],
-		"count":1,
-		"progression": true
-	},
-	{
-		"name": "Bob-omb Blast",
-		"category": ["Battle Modes"],
-		"count":1,
-		"progression": true
-	},
-	{
-		"name": "Coin Runners",
-		"category": ["Battle Modes"],
-		"count":1,
-		"progression": true
-	},
-	{
-		"name": "Shine Thief",
-		"category": ["Battle Modes"],
-		"count":1,
-		"progression": true
-	},
-	{
-		"name": "Banana",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Triple Bananas",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Green Shell",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Triple Green Shells",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Red Shell",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Triple Red Shells",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Spiny Shell",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Bob-omb",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Mushroom",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Triple Mushrooms",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Golden Mushroom",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Bullet Bill",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Blooper",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Lightning",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Super Star",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Fire Flower",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Boomerang Flower",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Piranha Plant",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Super Horn",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Crazy Eight",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Coin",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Feather",
-		"category": ["Items"],
-		"count":1
-	},
-	{
-		"name": "Boo",
-		"category": ["Items"],
-		"count":1
-	},
-	{
+    {
         "name": "MKTV Token",
         "category": ["Token"],
         "count": 100,

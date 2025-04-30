@@ -63,13 +63,35 @@ Manual_MK8DX_NaruSnake:
 
   goal:
     # Choose your victory condition.
+    # All Rainbow Roads Complete is a goal where you will need to complete every Rainbow Road in the game, including DLC.
+    # Mario Kart Token: you will need to collect all the tokens to complete this run.
     all rainbow roads complete: 50
     mario kart 8 token: 0
 
-  DLC_enabled:
-    # Should items/locations linked to this option be enabled?
-    'false': 0
-    'true': 50
+  run_50cc:
+  # Setting this to False removes all 50cc checks from the seed
+    "false": 0
+    "true": 50
+
+  run_100cc:
+  # Setting this to False removes all 100cc checks from the seed
+    "false": 0
+    "true": 50
+
+  run_150cc:
+  # Setting this to False removes all 150cc checks from the seed
+    "false": 0
+    "true": 50
+
+  run_mirror:
+  # Setting this to False removes all Mirror checks from the seed
+    "false": 0
+    "true": 50
+
+  run_200cc:
+  # Setting this to False removes all 200cc checks from the seed
+    "false": 0
+    "true": 50
 
   # Item & Location Options
   local_items:

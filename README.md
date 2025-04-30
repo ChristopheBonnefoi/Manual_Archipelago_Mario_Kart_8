@@ -33,6 +33,15 @@ Unlocking a track in Grand Prix or VS Race mode will validate it for both, so y
 
 ## Patch Notes
 
+### Version 0.7.0
+
+**CC UPDATE**
+- Restructuring of `items.json`
+- Added items for 50CC, 100CC, 150CC, Mirror, and 200CC
+- Updated the YAML file with the new options: 50cc, 100cc, 150cc, Mirror, 200cc
+- Modified the checks to include 50cc, 100cc, 150cc, Mirror, and 200cc
+
+
 ### Version 0.6.0
 
 **Item Update**  
