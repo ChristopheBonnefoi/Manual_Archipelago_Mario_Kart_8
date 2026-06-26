@@ -2,14 +2,14 @@
 
 ## Welcome!
 Welcome to the repository for the Archipelago Manual integration for **Mario Kart 8 Deluxe**.
-This project turns Mario Kart 8 Deluxe objectives, cups, characters, vehicle parts, race modes, and token goals into an Archipelago multiworld experience.
+This project turns Mario Kart 8 Deluxe objectives, cups, characters, vehicle parts, race modes, DLC ownership, and token goals into an Archipelago multiworld experience.
 
-The manual targets **Mario Kart 8 Deluxe on Nintendo Switch**, including Booster Course Pass content where the player owns it. DLC-related checks can be disabled or skipped depending on the seed settings and the content available to the player.
+The manual targets **Mario Kart 8 Deluxe on Nintendo Switch**, including Booster Course Pass content where the player owns it. DLC and wave-related checks can be enabled or disabled from the YAML so players can match the content they actually own.
 
 ## Project Status
-The project has been refreshed for the current Manual Archipelago stable framework (`manual_stable_20260319`).
-This should be considered **Version 0.8.0**; Version 1.0.0 is reserved for the point where the project is considered complete.
-The Mario Kart 8 Deluxe data remains focused on race completion, Time Trials, coin checks, character checks, and configurable engine-class categories, while the package structure and Manual framework files have been updated for the latest stable base.
+The project is currently at **Version 0.9.0 - DLC Update**.
+Version 1.0.0 is reserved for the point where the project is considered complete.
+The current update focuses on DLC ownership options, Booster Course Pass wave filtering, golden unlock options, and cleaner documentation on top of the refreshed Manual Archipelago stable framework (`manual_stable_20260319`).
 
 ## Current Features
 - **All Rainbow Roads Complete**
@@ -18,6 +18,10 @@ The Mario Kart 8 Deluxe data remains focused on race completion, Time Trials, co
   Collect Mario Kart 8 Tokens as the token-based victory objective.
 - **Engine-Class Toggles**
   Enable or disable 50cc, 100cc, 150cc, Mirror, and 200cc checks from the YAML.
+- **DLC and Wave Options**
+  Enable or disable all DLC content, then choose individual Booster Course Pass waves from Wave 1 through Wave 6.
+- **Golden Unlock Options**
+  Enable or disable all golden unlocks together, or individually toggle Golden Mario, Gold Standard, Gold Tires, and Golden Glider.
 - **Race Mode Coverage**
   Includes Grand Prix, VS Race, Time Trial, and 10-coin race checks.
 - **Large Item Pool**
@@ -28,6 +32,27 @@ The Mario Kart 8 Deluxe data remains focused on race completion, Time Trials, co
 ---
 
 ## Patch Notes
+
+### Version 0.9.0 - DLC Update
+
+**DLC and wave options**
+- Added the `dlc` YAML option to enable or disable all DLC and Booster Course Pass content.
+- Added `dlc_wave_1` through `dlc_wave_6` so players can include only the Booster Course Pass waves they own.
+- Made `dlc = false` override every individual wave option, even if a wave is set to true.
+- Added hidden technical categories for `DLC` and each wave so items and checks can be filtered without showing extra client tabs.
+
+**Golden unlock options**
+- Added the `golden` YAML option to enable or disable all golden unlocks at once.
+- Added individual YAML options for `golden_mario`, `gold_standard`, `gold_tires`, and `golden_glider`.
+- Made `golden = false` override every individual golden option.
+- Kept DLC, wave, and golden technical categories hidden so client display stays focused on the original item categories.
+
+**Logic and goals**
+- Propagated DLC, wave, and golden categories to related locations through hooks instead of manually duplicating that data across every check.
+- Updated `All Rainbow Roads Complete` so it no longer requires DLC cups when DLC or the relevant wave is disabled.
+- Rebuilt `manual_mk8dx_narusnake.apworld` with the updated options, hooks, and documentation.
+
+---
 
 ### Version 0.8.0 - Manual Stable Update
 
@@ -122,10 +147,9 @@ The Mario Kart 8 Deluxe data remains focused on race completion, Time Trials, co
 ---
 
 ## Future Roadmap
-- **DLC option cleanup**: Make DLC ownership and Booster Course Pass handling clearer in the YAML and documentation.
 - **Goal variety**: Add more victory conditions around cups, engine classes, Time Trials, tokens, or mixed objectives.
 - **Category polish**: Review category visibility and grouping in the Manual client for easier tracking.
-- **Logic review**: Continue checking 200cc, VS Race, Time Trial, and coin-check logic for consistency.
+- **Logic review**: Continue checking 200cc, VS Race, Time Trial, coin checks, and DLC edge cases for consistency.
 - **YAML modernization**: Refresh the YAML template with newer Archipelago option patterns and clearer comments.
 
 ---

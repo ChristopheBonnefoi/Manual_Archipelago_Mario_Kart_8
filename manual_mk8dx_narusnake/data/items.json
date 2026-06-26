@@ -127,73 +127,117 @@
 	},
 	{
 		"name": "Golden Dash Cup",
-		"category": ["Cups"],
+		"category": ["DLC","Waves 1","Cups"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Lucky Cat Cup",
-		"category": ["Cups"],
+		"category": [
+			"DLC",
+			"Waves 1",
+			"Cups"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Turnip Cup",
-		"category": ["Cups"],
+		"category": [
+			"DLC",
+			"Waves 2",
+			"Cups"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Propeller Cup",
-		"category": ["Cups"],
+		"category": [
+			"DLC",
+			"Waves 2",
+			"Cups"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Rock Cup",
-		"category": ["Cups"],
+		"category": [
+			"DLC",
+			"Waves 3",
+			"Cups"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Moon Cup",
-		"category": ["Cups"],
+		"category": [
+			"DLC",
+			"Waves 3",
+			"Cups"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Fruit Cup",
-		"category": ["Cups"],
+		"category": [
+			"DLC",
+			"Waves 4",
+			"Cups"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Boomerang Cup",
-		"category": ["Cups"],
+		"category": [
+			"DLC",
+			"Waves 4",
+			"Cups"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Feather Cup",
-		"category": ["Cups"],
+		"category": [
+			"DLC",
+			"Waves 5",
+			"Cups"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Cherry Cup",
-		"category": ["Cups"],
+		"category": [
+			"DLC",
+			"Waves 5",
+			"Cups"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Acorn Cup",
-		"category": ["Cups"],
+		"category": [
+			"DLC",
+			"Waves 6",
+			"Cups"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Spiny Cup",
-		"category": ["Cups"],
+		"category": [
+			"DLC",
+			"Waves 6",
+			"Cups"
+		],
 		"count":1,
 		"progression": true
 	},
@@ -270,55 +314,91 @@
 	},
 	{
 		"name": "Birdo (Pink)",
-		"category": ["Characters"],
+		"category": ["Characters",
+				"DLC",
+				"Waves 4"
+			],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Birdo (Light Blue)",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 4"
+		],
+		
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Birdo (Black)",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 4"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Birdo (Red)",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 4"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Birdo (Yellow)",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 4"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Birdo (White)",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 4"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Birdo (Dark Blue)",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 4"
+		],
 		"count":1,
 		"progression": true
 	},	
 	{
 		"name": "Birdo (Green)",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 4"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Birdo (Orange)",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 4"
+		],
 		"count":1,
 		"progression": true
 	},
@@ -462,7 +542,11 @@
 	},
 	{
 		"name": "Petey Piranha",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 5"
+		],
 		"count":1,
 		"progression": true
 	},
@@ -504,7 +588,7 @@
 	},
 	{
 		"name": "Golden Mario",
-		"category": ["Characters"],
+		"category": ["Characters", "golden"],
 		"count":1,
 		"progression": true
 	},
@@ -516,7 +600,11 @@
 	},
 	{
 		"name": "Wiggler",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 5"
+		],
 		"count":1,
 		"progression": true
 	},
@@ -564,7 +652,11 @@
 	},
 	{
 		"name": "Kamek",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 5"
+		],
 		"count":1,
 		"progression": true
 	},
@@ -612,7 +704,11 @@
 	},
 	{
 		"name": "Peachette",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 6"
+		],
 		"count":1,
 		"progression": true
 	},
@@ -684,19 +780,31 @@
 	},	
 	{
 		"name": "Diddy Kong",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 6"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Funky Kong",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 6"
+		],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Pauline",
-		"category": ["Characters"],
+		"category": [
+			"Characters",
+			"DLC",
+			"Waves 6"
+		],
 		"count":1,
 		"progression": true
 	},
@@ -923,7 +1031,7 @@
 	},
 	{
 		"name": "Gold Standard",
-		"category": ["Karts"],
+		"category": ["Karts", "golden"],
 		"count":1
 	},
 	{
@@ -1088,7 +1196,7 @@
 	},
 	{
 		"name": "Gold Tires",
-		"category": ["Wheels"],
+		"category": ["Wheels", "golden"],
 		"count":1
 	},
 	{
@@ -1153,7 +1261,7 @@
 	},
 	{
 		"name": "Golden Glider",
-		"category": ["Gliders"],
+		"category": ["Gliders" , "golden"],
 		"count":1
 	},
 	{

@@ -1,23 +1,114 @@
 {
     "50CC": {
-      "hidden": true,
-      "yaml_option": ["run_50cc"]
+        "hidden": true,
+        "yaml_option": [
+            "run_50cc"
+        ]
     },
     "100CC": {
-      "hidden": true,
-      "yaml_option": ["run_100cc"]
+        "hidden": true,
+        "yaml_option": [
+            "run_100cc"
+        ]
     },
     "150CC": {
-      "hidden": true,
-      "yaml_option": ["run_150cc"]
+        "hidden": true,
+        "yaml_option": [
+            "run_150cc"
+        ]
     },
     "Mirror": {
-      "hidden": true,
-      "yaml_option": ["run_mirror"]
+        "hidden": true,
+        "yaml_option": [
+            "run_mirror"
+        ]
     },
     "200CC": {
-      "hidden": true,
-      "yaml_option": ["run_200cc"]
+        "hidden": true,
+        "yaml_option": [
+            "run_200cc"
+        ]
+    },
+    "DLC": {
+        "hidden": true,
+        "yaml_option": [
+            "dlc"
+        ]
+    },
+    "Waves 1": {
+        "hidden": true,
+        "yaml_option": [
+            "dlc",
+            "dlc_wave_1"
+        ]
+    },
+    "Waves 2": {
+        "hidden": true,
+        "yaml_option": [
+            "dlc",
+            "dlc_wave_2"
+        ]
+    },
+    "Waves 3": {
+        "hidden": true,
+        "yaml_option": [
+            "dlc",
+            "dlc_wave_3"
+        ]
+    },
+    "Waves 4": {
+        "hidden": true,
+        "yaml_option": [
+            "dlc",
+            "dlc_wave_4"
+        ]
+    },
+    "Waves 5": {
+        "hidden": true,
+        "yaml_option": [
+            "dlc",
+            "dlc_wave_5"
+        ]
+    },
+    "Waves 6": {
+        "hidden": true,
+        "yaml_option": [
+            "dlc",
+            "dlc_wave_6"
+        ]
+    },
+    "golden": {
+        "hidden": true,
+        "yaml_option": [
+            "golden"
+        ]
+    },
+    "Golden Mario Option": {
+        "hidden": true,
+        "yaml_option": [
+            "golden",
+            "golden_mario"
+        ]
+    },
+    "Gold Standard Option": {
+        "hidden": true,
+        "yaml_option": [
+            "golden",
+            "gold_standard"
+        ]
+    },
+    "Gold Tires Option": {
+        "hidden": true,
+        "yaml_option": [
+            "golden",
+            "gold_tires"
+        ]
+    },
+    "Golden Glider Option": {
+        "hidden": true,
+        "yaml_option": [
+            "golden",
+            "golden_glider"
+        ]
     }
-  }
-  
+}

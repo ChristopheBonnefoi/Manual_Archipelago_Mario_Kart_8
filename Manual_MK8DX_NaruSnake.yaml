@@ -1,4 +1,4 @@
-﻿# Q. What is this file?
+# Q. What is this file?
 # A. This file contains options which allow you to configure your multiworld experience while allowing
 #    others to play how they want as well.
 #
@@ -93,6 +93,67 @@ Manual_MK8DX_NaruSnake:
     "false": 0
     "true": 50
 
+  dlc:
+    # Setting this to false removes all DLC and Booster Course Pass items/checks.
+    # If this is false, individual wave options are ignored even when they are true.
+    "false": 0
+    "true": 50
+
+  dlc_wave_1:
+    # Golden Dash Cup and Lucky Cat Cup. Ignored if dlc is false.
+    "false": 0
+    "true": 50
+
+  dlc_wave_2:
+    # Turnip Cup and Propeller Cup. Ignored if dlc is false.
+    "false": 0
+    "true": 50
+
+  dlc_wave_3:
+    # Rock Cup and Moon Cup. Ignored if dlc is false.
+    "false": 0
+    "true": 50
+
+  dlc_wave_4:
+    # Fruit Cup, Boomerang Cup, and Birdo variants. Ignored if dlc is false.
+    "false": 0
+    "true": 50
+
+  dlc_wave_5:
+    # Feather Cup, Cherry Cup, Petey Piranha, Wiggler, and Kamek. Ignored if dlc is false.
+    "false": 0
+    "true": 50
+
+  dlc_wave_6:
+    # Acorn Cup, Spiny Cup, Diddy Kong, Funky Kong, Pauline, and Peachette. Ignored if dlc is false.
+    "false": 0
+    "true": 50
+
+  golden:
+    # Setting this to false removes all golden unlock items/checks.
+    # If this is false, individual golden item options are ignored even when they are true.
+    "false": 0
+    "true": 50
+
+  golden_mario:
+    # Enable Golden Mario and its related check. Ignored if golden is false.
+    "false": 0
+    "true": 50
+
+  gold_standard:
+    # Enable the Gold Standard kart item. Ignored if golden is false.
+    "false": 0
+    "true": 50
+
+  gold_tires:
+    # Enable the Gold Tires wheel item. Ignored if golden is false.
+    "false": 0
+    "true": 50
+
+  golden_glider:
+    # Enable the Golden Glider item. Ignored if golden is false.
+    "false": 0
+    "true": 50
   # Item & Location Options
   local_items:
     # Forces these items to be in their native world.

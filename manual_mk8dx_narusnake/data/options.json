@@ -2,13 +2,15 @@
     "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
     "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
     "core": {
-        "goal":{
+        "goal": {
             "_comment": [
                 "Using 'goal' as the name of an option let you override some of the generated goal parameters"
             ],
             "display_name": "The End Objective",
             "description": "How to End your Randomized playthrough.",
-            "aliases": {"easiest": 0},
+            "aliases": {
+                "easiest": 0
+            },
             "hidden": false
         },
         "death_link": {
@@ -22,11 +24,11 @@
         }
     },
     "user": {
-        "_commented_out_option":{
+        "_commented_out_option": {
             "type": "Toggle",
             "default": true
         },
-        "Example_Toggle":{
+        "Example_Toggle": {
             "description": [
                 "This is a Toggle",
                 "A simple boolean, aka True or False set the initial value with \"default\""
@@ -35,7 +37,7 @@
             "default": false,
             "group": "Example Options"
         },
-        "Example_Choice":{
+        "Example_Choice": {
             "type": "Choice",
             "description": [
                 "This is a Choice",
@@ -44,14 +46,14 @@
                 "Currently the only use for Choice in Manual outside of hooks is the goal"
             ],
             "values": {
-                "start":0,
-                "test":1
-             },
+                "start": 0,
+                "test": 1
+            },
             "default": 0,
             "allow_custom_value": false,
             "group": "Example Options"
         },
-        "Example_Range":{
+        "Example_Range": {
             "type": "Range",
             "description": [
                 "This is a Range",
@@ -62,21 +64,94 @@
             "range_start": 0,
             "default": 1,
             "range_end": 5,
-            "values": {"example": 2},
+            "values": {
+                "example": 2
+            },
             "group": "Example Options"
         },
-
-        "DLC_enabled":{
+        "dlc": {
             "display_name": "DLC Enabled",
-            "description": "Is the Dlc enabled?",
+            "description": "Enable Mario Kart 8 Deluxe DLC and Booster Course Pass items and checks. If this is false, all DLC waves are disabled even when individual wave options are true.",
             "type": "Toggle",
-            "visibility": [
-                "simple_ui",
-                "complex_ui",
-                "template"
-            ],
-            "default": true
+            "default": true,
+            "group": "DLC Options"
+        },
+        "dlc_wave_1": {
+            "display_name": "DLC Wave 1",
+            "description": "Enable Wave 1 Booster Course Pass cups and checks. Ignored when DLC Enabled is false.",
+            "type": "Toggle",
+            "default": true,
+            "group": "DLC Options"
+        },
+        "dlc_wave_2": {
+            "display_name": "DLC Wave 2",
+            "description": "Enable Wave 2 Booster Course Pass cups and checks. Ignored when DLC Enabled is false.",
+            "type": "Toggle",
+            "default": true,
+            "group": "DLC Options"
+        },
+        "dlc_wave_3": {
+            "display_name": "DLC Wave 3",
+            "description": "Enable Wave 3 Booster Course Pass cups and checks. Ignored when DLC Enabled is false.",
+            "type": "Toggle",
+            "default": true,
+            "group": "DLC Options"
+        },
+        "dlc_wave_4": {
+            "display_name": "DLC Wave 4",
+            "description": "Enable Wave 4 Booster Course Pass cups, characters, and checks. Ignored when DLC Enabled is false.",
+            "type": "Toggle",
+            "default": true,
+            "group": "DLC Options"
+        },
+        "dlc_wave_5": {
+            "display_name": "DLC Wave 5",
+            "description": "Enable Wave 5 Booster Course Pass cups, characters, and checks. Ignored when DLC Enabled is false.",
+            "type": "Toggle",
+            "default": true,
+            "group": "DLC Options"
+        },
+        "dlc_wave_6": {
+            "display_name": "DLC Wave 6",
+            "description": "Enable Wave 6 Booster Course Pass cups, characters, and checks. Ignored when DLC Enabled is false.",
+            "type": "Toggle",
+            "default": true,
+            "group": "DLC Options"
+        },
+        "golden": {
+            "display_name": "Golden Unlocks",
+            "description": "Enable all golden unlock items and related checks. If this is false, individual golden item options are ignored.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Unlock Options"
+        },
+        "golden_mario": {
+            "display_name": "Golden Mario",
+            "description": "Enable Golden Mario and its related check. Ignored when Golden Unlocks is false.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Unlock Options"
+        },
+        "gold_standard": {
+            "display_name": "Gold Standard",
+            "description": "Enable the Gold Standard kart item. Ignored when Golden Unlocks is false.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Unlock Options"
+        },
+        "gold_tires": {
+            "display_name": "Gold Tires",
+            "description": "Enable the Gold Tires wheel item. Ignored when Golden Unlocks is false.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Unlock Options"
+        },
+        "golden_glider": {
+            "display_name": "Golden Glider",
+            "description": "Enable the Golden Glider item. Ignored when Golden Unlocks is false.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Unlock Options"
         }
     }
-
 }

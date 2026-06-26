@@ -2,14 +2,14 @@
 
 ## Bienvenue !
 Bienvenue dans le dépôt de l'intégration Manual Archipelago pour **Mario Kart 8 Deluxe**.
-Ce projet transforme les objectifs de Mario Kart 8 Deluxe, les coupes, les personnages, les pièces de véhicule, les modes de course et les objectifs de jetons en expérience Archipelago multiworld.
+Ce projet transforme les objectifs de Mario Kart 8 Deluxe, les coupes, les personnages, les pièces de véhicule, les modes de course, la gestion du DLC et les objectifs de jetons en expérience Archipelago multiworld.
 
-Le manuel vise **Mario Kart 8 Deluxe sur Nintendo Switch**, avec le contenu du Pass circuits additionnels lorsque le joueur le possède. Les checks liés au DLC peuvent être désactivés ou ignorés selon les réglages de seed et le contenu disponible.
+Le manuel vise **Mario Kart 8 Deluxe sur Nintendo Switch**, avec le contenu du Pass circuits additionnels lorsque le joueur le possède. Les checks liés au DLC et aux vagues peuvent être activés ou désactivés depuis le YAML afin de correspondre au contenu réellement possédé par le joueur.
 
 ## État du projet
-Le projet a été rafraîchi pour la base stable actuelle de Manual Archipelago (`manual_stable_20260319`).
-Cette mise à jour doit être considérée comme la **Version 0.8.0** ; la Version 1.0.0 reste réservée au moment où le projet sera considéré comme terminé.
-Les données Mario Kart 8 Deluxe restent centrées sur les courses, les Contre-la-montre, les checks de pièces, les checks de personnages et les catégories de cylindrée configurables, tandis que la structure du package et les fichiers du framework Manual ont été mis à jour.
+Le projet est actuellement en **Version 0.9.0 - DLC Update**.
+La Version 1.0.0 reste réservée au moment où le projet sera considéré comme terminé.
+Cette mise à jour se concentre sur les options de possession du DLC, le filtrage des vagues du Pass circuits additionnels, les options d'unlocks dorés et une documentation plus claire, sur la base stable Manual Archipelago déjà rafraîchie (`manual_stable_20260319`).
 
 ## Fonctionnalités actuelles
 - **All Rainbow Roads Complete**
@@ -18,6 +18,10 @@ Les données Mario Kart 8 Deluxe restent centrées sur les courses, les Contre-l
   Récupérer les Mario Kart 8 Tokens pour l'objectif basé sur les jetons.
 - **Options de cylindrée**
   Activer ou désactiver les checks 50cc, 100cc, 150cc, Mirror et 200cc depuis le YAML.
+- **Options DLC et vagues**
+  Activer ou désactiver tout le contenu DLC, puis choisir individuellement les vagues du Pass circuits additionnels de la Wave 1 à la Wave 6.
+- **Options d'unlocks dorés**
+  Activer ou désactiver tous les unlocks dorés ensemble, ou gérer individuellement Golden Mario, Gold Standard, Gold Tires et Golden Glider.
 - **Modes de course couverts**
   Inclut Grand Prix, VS Race, Time Trial et les checks de 10 pièces en course.
 - **Grand pool d'objets**
@@ -28,6 +32,27 @@ Les données Mario Kart 8 Deluxe restent centrées sur les courses, les Contre-l
 ---
 
 ## Notes de version
+
+### Version 0.9.0 - DLC Update
+
+**Options DLC et vagues**
+- Ajout de l'option YAML `dlc` pour activer ou désactiver tout le contenu DLC et Pass circuits additionnels.
+- Ajout de `dlc_wave_1` à `dlc_wave_6` pour permettre aux joueurs d'inclure uniquement les vagues du Pass circuits additionnels qu'ils possèdent.
+- `dlc = false` désactive toutes les vagues individuelles, même si une wave est réglée sur true.
+- Ajout de catégories techniques cachées pour `DLC` et chaque wave afin de filtrer les objets et checks sans afficher d'onglets supplémentaires dans le client.
+
+**Options d'unlocks dorés**
+- Ajout de l'option YAML `golden` pour activer ou désactiver tous les unlocks dorés en une seule fois.
+- Ajout d'options individuelles pour `golden_mario`, `gold_standard`, `gold_tires` et `golden_glider`.
+- `golden = false` désactive toutes les options dorées individuelles.
+- Les catégories techniques DLC, waves et golden restent cachées afin que l'affichage du client reste centré sur les catégories d'origine.
+
+**Logique et objectifs**
+- Propagation des catégories DLC, waves et golden vers les locations liées via hooks, au lieu de dupliquer manuellement ces données dans chaque check.
+- Mise à jour de `All Rainbow Roads Complete` afin qu'il ne demande plus les coupes DLC lorsque le DLC ou la wave concernée est désactivée.
+- Reconstruction de `manual_mk8dx_narusnake.apworld` avec les options, hooks et documents mis à jour.
+
+---
 
 ### Version 0.8.0 - Mise à jour Manual stable
 
@@ -122,10 +147,9 @@ Les données Mario Kart 8 Deluxe restent centrées sur les courses, les Contre-l
 ---
 
 ## Feuille de route
-- **Nettoyage des options DLC** : rendre plus clair le comportement du DLC et du Pass circuits additionnels dans le YAML et la documentation.
 - **Variété des objectifs** : ajouter des conditions de victoire autour des coupes, cylindrées, Time Trials, jetons ou objectifs mixtes.
 - **Polissage des catégories** : revoir la visibilité et le groupement des catégories dans le client Manual.
-- **Revue de logique** : continuer à vérifier la cohérence des checks 200cc, VS Race, Time Trial et pièces.
+- **Revue de logique** : continuer à vérifier la cohérence des checks 200cc, VS Race, Time Trial, pièces et cas limites DLC.
 - **Modernisation du YAML** : rafraîchir le template YAML avec des patterns Archipelago plus récents et des commentaires plus clairs.
 
 ---

@@ -104,9 +104,38 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     return item_pool
 
+RAINBOW_ROAD_GOAL_REQUIREMENTS = [
+    ("Special Cup", None),
+    ("Lightning Cup", None),
+    ("Triforce Cup", None),
+    ("Moon Cup", "dlc_wave_3"),
+    ("Spiny Cup", "dlc_wave_6"),
+]
+
+
+def _is_manual_option_enabled(world: World, multiworld: MultiWorld, player: int, option_name: str) -> bool:
+    if not hasattr(world.options, option_name):
+        return True
+    return bool(get_option_value(multiworld, player, option_name))
+
+
+def _sync_rainbow_road_goal_requirements(world: World, multiworld: MultiWorld, player: int) -> None:
+    goal = world.location_name_to_location.get("All Rainbow Roads Complete")
+    if not goal:
+        return
+
+    dlc_enabled = _is_manual_option_enabled(world, multiworld, player, "dlc")
+    requirements: list[str] = []
+    for cup_name, wave_option in RAINBOW_ROAD_GOAL_REQUIREMENTS:
+        if wave_option is None or (dlc_enabled and _is_manual_option_enabled(world, multiworld, player, wave_option)):
+            requirements.append(cup_name)
+
+    goal["requires"] = requirements
+
+
 # Called before rules for accessing regions and locations are created. Not clear why you'd want this, but it's here.
 def before_set_rules(world: World, multiworld: MultiWorld, player: int):
-    pass
+    _sync_rainbow_road_goal_requirements(world, multiworld, player)
 
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
