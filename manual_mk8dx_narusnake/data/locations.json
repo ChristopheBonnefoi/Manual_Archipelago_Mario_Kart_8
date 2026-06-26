@@ -8475,10 +8475,11 @@
     {
         "name": "(200cc VS Race|Triforce Cup) 1st Place Wii Wario's Gold Mine",
         "requires": [
+            "200CC",
             "Triforce Cup",
             "VS Race"
         ],
-        "category": ["Triforce Cup"]
+        "category": ["200CC","Triforce Cup VS Race"]
     },
     {
         "name": "(200cc VS Race|Triforce Cup) 1st Place SNES Rainbow Road",
