@@ -177,6 +177,23 @@
             "range_end": 400,
             "default": 100,
             "group": "Goal Options"
+        },
+        "character_variants": {
+            "display_name": "Character Variants",
+            "description": [
+                "Controls how characters that share a selection slot are handled.",
+                "Separate keeps every color or form as its own item.",
+                "Progressive replaces each group with repeated Progressive items.",
+                "Character Only uses one item to unlock every color or form in that group."
+            ],
+            "type": "Choice",
+            "values": {
+                "separate": 0,
+                "progressive": 1,
+                "character_only": 2
+            },
+            "default": 0,
+            "group": "Character Options"
         }
     }
 }

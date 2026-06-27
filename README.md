@@ -7,9 +7,9 @@ This project turns Mario Kart 8 Deluxe objectives, cups, characters, vehicle par
 The manual targets **Mario Kart 8 Deluxe on Nintendo Switch**, including Booster Course Pass content where the player owns it. DLC and wave-related checks can be enabled or disabled from the YAML so players can match the content they actually own.
 
 ## Project Status
-The project is currently at **Version 0.10.0 - Filler Update**.
+The project is currently at **Version 0.11.0 - Character Update**.
 Version 1.0.0 is reserved for the point where the project is considered complete.
-The current update focuses on filler item handling, MKTV Token goal configuration, and MK8D-specific hooks adapted from the Tekken 3 manual. It keeps the DLC ownership options, Booster Course Pass wave filtering, golden unlock options, and refreshed Manual Archipelago stable framework (`manual_stable_20260319`) from the previous updates.
+The current update focuses on character variant handling, progressive character groups, character-only unlocks, harmonized requirement syntax, and a cleaner item order. It keeps the DLC ownership options, MKTV Token goal configuration, and refreshed Manual Archipelago stable framework (`manual_stable_20260319`) from previous updates.
 
 ## Current Features
 - **All Rainbow Roads Complete**
@@ -22,6 +22,8 @@ The current update focuses on filler item handling, MKTV Token goal configuratio
   Enable or disable all DLC content, then choose individual Booster Course Pass waves from Wave 1 through Wave 6.
 - **Golden Unlock Options**
   Enable or disable all golden unlocks together, or individually toggle Golden Mario, Gold Standard, Gold Tires, and Golden Glider.
+- **Character Variant Modes**
+  Choose whether characters that share a selection slot use separate items, repeated `Progressive - Character` items, or one character-only unlock for every form/color.
 - **Configurable Token Goal**
   Set required MKTV Tokens and available surplus from the YAML. Token items are removed when the selected goal does not need them.
 - **Filler Item Pool**
@@ -36,6 +38,27 @@ The current update focuses on filler item handling, MKTV Token goal configuratio
 ---
 
 ## Patch Notes
+
+### Version 0.11.0 - Character Update
+
+**Character variant option**
+- Added the global `character_variants` YAML option with `separate`, `progressive`, and `character_only` modes.
+- Kept `separate` as the default so existing character checks behave like previous versions unless the player opts in.
+- Added character-only and progressive items for Birdo, Yoshi, Shy Guy, Inkling, Villager, Link, Mii, and the Koopalings.
+
+**Progressive and character-only logic**
+- Variant checks now accept the exact variant item, the matching `Progressive - Character:N` count, or the base character-only item.
+- `character_only` unlocks every color/form in that group at once.
+- `progressive` unlocks colors/forms in the configured selection order by requiring additional copies of the progressive item.
+- Birdo group items still respect the DLC and Wave 4 options.
+
+**Requirement cleanup**
+- Converted location requirements to the explicit `|Item| AND (|A| OR |B|)` string format for consistency.
+- Harmonized race-mode OR requirements used by 10-coin checks.
+
+**Item ordering**
+- Reordered `items.json` by category, then alphabetically within each category.
+- Preserved custom selection order for character groups with multiple colors/forms.
 
 ### Version 0.10.0 - Filler Update
 

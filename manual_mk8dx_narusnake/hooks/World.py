@@ -19,6 +19,61 @@ FILLER_ITEM_NAMES = tuple(
     if FILLER_CATEGORY_NAME in item.get("category", [])
 )
 
+CHARACTER_VARIANT_OPTION_NAME = "character_variants"
+CHARACTER_VARIANT_SEPARATE = 0
+CHARACTER_VARIANT_PROGRESSIVE = 1
+CHARACTER_VARIANT_ONLY = 2
+CHARACTER_VARIANT_GROUPS = (
+    {
+        "base": 'Birdo',
+        "progressive": 'Progressive - Birdo',
+        "variants": ('Birdo (Pink)', 'Birdo (Light Blue)', 'Birdo (Black)', 'Birdo (Red)', 'Birdo (Yellow)', 'Birdo (White)', 'Birdo (Dark Blue)', 'Birdo (Green)', 'Birdo (Orange)'),
+        "required_options": ('dlc', 'dlc_wave_4'),
+    },
+    {
+        "base": 'Yoshi',
+        "progressive": 'Progressive - Yoshi',
+        "variants": ('Yoshi (Green)', 'Yoshi (Light Blue)', 'Yoshi (Black)', 'Yoshi (Red)', 'Yoshi (Yellow)', 'Yoshi (White)', 'Yoshi (Dark Blue)', 'Yoshi (Pink)', 'Yoshi (Orange)'),
+        "required_options": (),
+    },
+    {
+        "base": 'Shy Guy',
+        "progressive": 'Progressive - Shy Guy',
+        "variants": ('Shy Guy (Red)', 'Shy Guy (Light Blue)', 'Shy Guy (Black)', 'Shy Guy (Green)', 'Shy Guy (Yellow)', 'Shy Guy (White)', 'Shy Guy (Dark Blue)', 'Shy Guy (Pink)', 'Shy Guy (Orange)'),
+        "required_options": (),
+    },
+    {
+        "base": 'Inkling',
+        "progressive": 'Progressive - Inkling',
+        "variants": ('Inkling Girl (Orange Hair)', 'Inkling Girl (Green Hair)', 'Inkling Girl (Pink Hair)', 'Inkling Boy (Dark Blue Hair)', 'Inkling Boy (Purple Hair)', 'Inkling Boy (Cyan Hair)'),
+        "required_options": (),
+    },
+    {
+        "base": 'Villager',
+        "progressive": 'Progressive - Villager',
+        "variants": ('Male Villager', 'Female Villager'),
+        "required_options": (),
+    },
+    {
+        "base": 'Link',
+        "progressive": 'Progressive - Link',
+        "variants": ('Link (Green Tunic)', 'Link (BOTW)'),
+        "required_options": (),
+    },
+    {
+        "base": 'Mii',
+        "progressive": 'Progressive - Mii',
+        "variants": ('Mii (Yours)', 'Mii (male player in a red outfit)', 'Mii (female player in a pink outfit)', 'Mii (male player in a green outfit)', 'Mii (female player in a yellow outfit)', 'Mii (male player in a dark blue outfit)', 'Mii (female player in a light blue outfit)'),
+        "required_options": (),
+    },
+    {
+        "base": 'Koopalings',
+        "progressive": 'Progressive - Koopalings',
+        "variants": ('Lemmy', 'Larry', 'Wendy', 'Ludwig', 'Iggy', 'Roy', 'Morton'),
+        "required_options": (),
+    },
+)
+
 RAINBOW_ROAD_GOAL_REQUIREMENTS = [
     ("Special Cup", None),
     ("Lightning Cup", None),
@@ -63,6 +118,44 @@ def _is_manual_option_enabled(world: World, multiworld: MultiWorld, player: int,
     return bool(get_option_value(multiworld, player, option_name))
 
 
+def _character_variant_mode(world: World, multiworld: MultiWorld, player: int) -> int:
+    mode = _int_option(world, multiworld, player, CHARACTER_VARIANT_OPTION_NAME, CHARACTER_VARIANT_SEPARATE)
+    if mode not in {CHARACTER_VARIANT_SEPARATE, CHARACTER_VARIANT_PROGRESSIVE, CHARACTER_VARIANT_ONLY}:
+        return CHARACTER_VARIANT_SEPARATE
+    return mode
+
+
+def _character_group_enabled(world: World, multiworld: MultiWorld, player: int, group: dict) -> bool:
+    return all(_is_manual_option_enabled(world, multiworld, player, option_name) for option_name in group["required_options"])
+
+
+def _sync_character_variant_item_counts(item_config: dict[str, int | dict], world: World, multiworld: MultiWorld, player: int) -> None:
+    mode = _character_variant_mode(world, multiworld, player)
+
+    for group in CHARACTER_VARIANT_GROUPS:
+        base_item = group["base"]
+        progressive_item = group["progressive"]
+        variants = group["variants"]
+        enabled = _character_group_enabled(world, multiworld, player, group)
+
+        item_config[base_item] = 0
+        item_config[progressive_item] = 0
+
+        if mode == CHARACTER_VARIANT_SEPARATE:
+            continue
+
+        for variant_item in variants:
+            item_config[variant_item] = 0
+
+        if not enabled:
+            continue
+
+        if mode == CHARACTER_VARIANT_PROGRESSIVE:
+            item_config[progressive_item] = len(variants)
+        elif mode == CHARACTER_VARIANT_ONLY:
+            item_config[base_item] = 1
+
+
 def _sync_rainbow_road_goal_requirements(world: World, multiworld: MultiWorld, player: int) -> None:
     goal = world.location_name_to_location.get("All Rainbow Roads Complete")
     if not goal:
@@ -74,7 +167,7 @@ def _sync_rainbow_road_goal_requirements(world: World, multiworld: MultiWorld, p
         if wave_option is None or (dlc_enabled and _is_manual_option_enabled(world, multiworld, player, wave_option)):
             requirements.append(cup_name)
 
-    goal["requires"] = requirements
+    goal["requires"] = " AND ".join(f"|{requirement}|" for requirement in requirements)
 
 
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
@@ -102,6 +195,8 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 
 def before_create_items_all(item_config: dict[str, int | dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int | dict]:
+    _sync_character_variant_item_counts(item_config, world, multiworld, player)
+
     if _selected_goal_requires_tokens(world, multiworld, player):
         required_count = _required_token_count(world, multiworld, player)
         available_count = _available_token_count(world, multiworld, player)

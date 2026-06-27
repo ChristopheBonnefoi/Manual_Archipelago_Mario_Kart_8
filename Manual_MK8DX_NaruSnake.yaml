@@ -93,6 +93,15 @@ Manual_MK8DX_NaruSnake:
     "false": 0
     "true": 50
 
+  character_variants:
+    # Controls characters that share the same selection slot.
+    # separate: each color/form is its own item, matching the original check logic.
+    # progressive: each group uses repeated Progressive - Character items.
+    # character_only: one item unlocks every color/form in that group.
+    separate: 50
+    progressive: 0
+    character_only: 0
+
   mktv_tokens_required:
     # Number of MKTV Tokens required when the Mario Kart 8 Token goal is selected.
     # Minimum value is 1

@@ -7,9 +7,9 @@ Ce projet transforme les objectifs de Mario Kart 8 Deluxe, les coupes, les perso
 Le manuel vise **Mario Kart 8 Deluxe sur Nintendo Switch**, avec le contenu du Pass circuits additionnels lorsque le joueur le possède. Les checks liés au DLC et aux vagues peuvent être activés ou désactivés depuis le YAML afin de correspondre au contenu réellement possédé par le joueur.
 
 ## État du projet
-Le projet est actuellement en **Version 0.10.0 - Filler Update**.
+Le projet est actuellement en **Version 0.11.0 - Character Update**.
 La Version 1.0.0 reste réservée au moment où le projet sera considéré comme terminé.
-Cette mise à jour se concentre sur la gestion des fillers, la configuration de l'objectif MKTV Token et l'adaptation des hooks MK8D à partir du manuel Tekken 3. Elle conserve les options de possession du DLC, le filtrage des vagues du Pass circuits additionnels, les options d'unlocks dorés et la base stable Manual Archipelago déjà rafraîchie (`manual_stable_20260319`).
+Cette mise à jour se concentre sur la gestion des variantes de personnages, les groupes progressifs, les unlocks character-only, l'harmonisation des requirements et un ordre d'items plus propre. Elle conserve les options DLC, la configuration de l'objectif MKTV Token et la base stable Manual Archipelago déjà rafraîchie (`manual_stable_20260319`).
 
 ## Fonctionnalités actuelles
 - **All Rainbow Roads Complete**
@@ -22,6 +22,8 @@ Cette mise à jour se concentre sur la gestion des fillers, la configuration de 
   Activer ou désactiver tout le contenu DLC, puis choisir individuellement les vagues du Pass circuits additionnels de la Wave 1 à la Wave 6.
 - **Options d'unlocks dorés**
   Activer ou désactiver tous les unlocks dorés ensemble, ou gérer individuellement Golden Mario, Gold Standard, Gold Tires et Golden Glider.
+- **Modes de variantes de personnages**
+  Choisir si les personnages partageant une case de sélection utilisent des items séparés, des items `Progressive - Character` répétés ou un seul unlock character-only pour toutes les formes/couleurs.
 - **Objectif jetons configurable**
   Définir le nombre de MKTV Tokens requis et le surplus disponible depuis le YAML. Les tokens sont retirés du pool quand l'objectif choisi n'en a pas besoin.
 - **Pool d'objets filler**
@@ -36,6 +38,27 @@ Cette mise à jour se concentre sur la gestion des fillers, la configuration de 
 ---
 
 ## Notes de version
+
+### Version 0.11.0 - Character Update
+
+**Option de variantes de personnages**
+- Ajout de l'option globale `character_variants` avec les modes `separate`, `progressive` et `character_only`.
+- `separate` reste le défaut afin que les checks personnages gardent le comportement des versions précédentes tant que le joueur ne change pas l'option.
+- Ajout des items character-only et progressifs pour Birdo, Yoshi, Shy Guy, Inkling, Villager, Link, Mii et les Koopalings.
+
+**Logique progressive et character-only**
+- Les checks de variantes acceptent maintenant l'item exact, le compteur `Progressive - Character:N` correspondant ou l'item character-only de base.
+- `character_only` débloque toutes les couleurs/formes du groupe en une fois.
+- `progressive` débloque les couleurs/formes dans l'ordre de sélection configuré en demandant plusieurs copies de l'item progressif.
+- Le groupe Birdo respecte toujours les options DLC et Wave 4.
+
+**Nettoyage des requirements**
+- Conversion des requirements de locations au format explicite `|Item| AND (|A| OR |B|)` pour harmoniser la logique.
+- Harmonisation des requirements OR des modes de course utilisés par les checks de 10 pièces.
+
+**Ordre des items**
+- Réorganisation de `items.json` par catégorie, puis par ordre alphabétique dans chaque catégorie.
+- Conservation de l'ordre de sélection personnalisé pour les groupes de personnages à plusieurs couleurs/formes.
 
 ### Version 0.10.0 - Filler Update
 
