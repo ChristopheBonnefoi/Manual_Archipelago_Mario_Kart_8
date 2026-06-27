@@ -152,6 +152,31 @@
             "type": "Toggle",
             "default": true,
             "group": "Unlock Options"
+        },
+        "mktv_tokens_required": {
+            "display_name": "MKTV Tokens Required",
+            "description": [
+                "Choose how many MKTV Tokens are required for the Mario Kart 8 Token goal.",
+                "MKTV Tokens are only added to the item pool when the selected goal requires them."
+            ],
+            "type": "Range",
+            "range_start": 1,
+            "range_end": 100,
+            "default": 100,
+            "group": "Goal Options"
+        },
+        "mktv_tokens_available_percentage": {
+            "display_name": "MKTV Tokens Available Percentage",
+            "description": [
+                "Controls how many MKTV Token items are placed compared to the required amount.",
+                "100 means only the required amount is placed. 200 means double the required amount is placed.",
+                "The final amount is capped at 100 MKTV Tokens."
+            ],
+            "type": "Range",
+            "range_start": 100,
+            "range_end": 400,
+            "default": 100,
+            "group": "Goal Options"
         }
     }
 }

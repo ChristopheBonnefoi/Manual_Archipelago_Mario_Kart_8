@@ -1,4 +1,3 @@
-# called after the game.json file has been loaded
 DLC_CUP_WAVES = {
     "Golden Dash Cup": "Waves 1",
     "Lucky Cat Cup": "Waves 1",
@@ -41,6 +40,10 @@ GOLDEN_ITEM_OPTIONS = {
 }
 
 
+def _build_location_sort_key(location_index: int) -> str:
+    return f"{location_index:06d}"
+
+
 def _ensure_category(entry: dict, category: str) -> None:
     categories = entry.setdefault("category", [])
     if isinstance(categories, str):
@@ -71,8 +74,8 @@ def _add_golden_categories(entry: dict) -> None:
 
 def after_load_game_file(game_table: dict) -> dict:
     return game_table
-# called after the items.json file has been loaded, before any item loading or processing has occurred
-# if you need access to the items after processing to add ids, etc., you should use the hooks in World.py
+
+
 def after_load_item_file(item_table: list) -> list:
     for item in item_table:
         _add_dlc_categories(item, DLC_CUP_WAVES)
@@ -80,31 +83,28 @@ def after_load_item_file(item_table: list) -> list:
         _add_golden_categories(item)
     return item_table
 
-# NOTE: Progressive items are not currently supported in Manual. Once they are,
-#       this hook will provide the ability to meaningfully change those.
+
 def after_load_progressive_item_file(progressive_item_table: list) -> list:
     return progressive_item_table
 
-# called after the locations.json file has been loaded, before any location loading or processing has occurred
-# if you need access to the locations after processing to add ids, etc., you should use the hooks in World.py
+
 def after_load_location_file(location_table: list) -> list:
-    for location in location_table:
+    for location_index, location in enumerate(location_table):
+        location["sort-key"] = _build_location_sort_key(location_index)
         _add_dlc_categories(location, DLC_CUP_WAVES)
         _add_dlc_categories(location, DLC_CHARACTER_WAVES)
         _add_golden_categories(location)
     return location_table
 
-# called after the events.json file has been loaded, before any processing has occurred
-# If you need access to the events after processing, you should use the hooks in World.py
+
 def after_load_event_file(event_table: list) -> list:
     return event_table
 
-# called after the regions.json file has been loaded, before any location loading or processing has occurred
-# if you need access to the locations after processing to add ids, etc., you should use the hooks in World.py
+
 def after_load_region_file(region_table: dict) -> dict:
     return region_table
 
-# called after the categories.json file has been loaded
+
 def after_load_category_file(category_table: dict) -> dict:
     category_table.setdefault("DLC", {})
     category_table["DLC"].update({"hidden": True, "yaml_option": ["dlc"]})
@@ -122,15 +122,15 @@ def after_load_category_file(category_table: dict) -> dict:
         category_table.setdefault(category, {})
         category_table[category].update({"hidden": True, "yaml_option": ["golden", option]})
 
+    category_table.setdefault("Filler", {})
+    category_table["Filler"].setdefault("hidden", False)
+
     return category_table
 
-# called after the categories.json file has been loaded
+
 def after_load_option_file(option_table: dict) -> dict:
-    # option_table["core"] is the dictionary of modification of existing options
-    # option_table["user"] is the dictionary of custom options
     return option_table
 
-# called after the meta.json file has been loaded and just before the properties of the apworld are defined. You can use this hook to change what is displayed on the webhost
-# for more info check https://github.com/ArchipelagoMW/Archipelago/blob/main/docs/world%20api.md#webworld-class
+
 def after_load_meta_file(meta_table: dict) -> dict:
     return meta_table

@@ -7,31 +7,55 @@ Ce projet transforme les objectifs de Mario Kart 8 Deluxe, les coupes, les perso
 Le manuel vise **Mario Kart 8 Deluxe sur Nintendo Switch**, avec le contenu du Pass circuits additionnels lorsque le joueur le possède. Les checks liés au DLC et aux vagues peuvent être activés ou désactivés depuis le YAML afin de correspondre au contenu réellement possédé par le joueur.
 
 ## État du projet
-Le projet est actuellement en **Version 0.9.0 - DLC Update**.
+Le projet est actuellement en **Version 0.10.0 - Filler Update**.
 La Version 1.0.0 reste réservée au moment où le projet sera considéré comme terminé.
-Cette mise à jour se concentre sur les options de possession du DLC, le filtrage des vagues du Pass circuits additionnels, les options d'unlocks dorés et une documentation plus claire, sur la base stable Manual Archipelago déjà rafraîchie (`manual_stable_20260319`).
+Cette mise à jour se concentre sur la gestion des fillers, la configuration de l'objectif MKTV Token et l'adaptation des hooks MK8D à partir du manuel Tekken 3. Elle conserve les options de possession du DLC, le filtrage des vagues du Pass circuits additionnels, les options d'unlocks dorés et la base stable Manual Archipelago déjà rafraîchie (`manual_stable_20260319`).
 
 ## Fonctionnalités actuelles
 - **All Rainbow Roads Complete**
   Terminer tous les objectifs Rainbow Road inclus dans la seed.
 - **Mario Kart 8 Token**
-  Récupérer les Mario Kart 8 Tokens pour l'objectif basé sur les jetons.
+  Récupérer des MKTV Tokens configurables pour l'objectif basé sur les jetons.
 - **Options de cylindrée**
   Activer ou désactiver les checks 50cc, 100cc, 150cc, Mirror et 200cc depuis le YAML.
 - **Options DLC et vagues**
   Activer ou désactiver tout le contenu DLC, puis choisir individuellement les vagues du Pass circuits additionnels de la Wave 1 à la Wave 6.
 - **Options d'unlocks dorés**
   Activer ou désactiver tous les unlocks dorés ensemble, ou gérer individuellement Golden Mario, Gold Standard, Gold Tires et Golden Glider.
+- **Objectif jetons configurable**
+  Définir le nombre de MKTV Tokens requis et le surplus disponible depuis le YAML. Les tokens sont retirés du pool quand l'objectif choisi n'en a pas besoin.
+- **Pool d'objets filler**
+  Utilise la catégorie dédiée `Filler` avec les fillers traduits en anglais pour remplir les emplacements supplémentaires du pool.
 - **Modes de course couverts**
   Inclut Grand Prix, VS Race, Time Trial et les checks de 10 pièces en course.
 - **Grand pool d'objets**
-  Randomise personnages, coupes, modes bataille, modes de jeu, difficultés, karts, roues, ailes, objets de course et jetons.
+  Randomise personnages, coupes, modes bataille, modes de jeu, difficultés, karts, roues, ailes, objets de course, tokens et fillers.
 - **Départ de seed**
   La seed commence avec un objet aléatoire de catégories importantes comme mode de jeu, difficulté, coupe, personnage, kart, roues et aile.
 
 ---
 
 ## Notes de version
+
+### Version 0.10.0 - Filler Update
+
+**Adaptation des hooks**
+- Reprise de la structure de hooks du manuel Tekken 3 et adaptation à MK8D pour `Data.py`, `Helpers.py`, `Options.py`, `Rules.py` et `World.py`.
+- Ajout d'un filtrage côté hooks pour les cylindrées, les vagues DLC et les unlocks dorés afin que les options YAML désactivées retirent bien les objets et checks liés.
+- Ajout de clés de tri automatiques pour les locations et propagation des catégories DLC, waves et golden via hooks.
+
+**Objets filler**
+- Traduction en anglais des 72 nouveaux objets filler dans `items.json`.
+- Ajout d'une sélection de filler basée sur la catégorie `Filler`, afin que les emplacements supplémentaires utilisent la liste dédiée MK8D.
+- Les catégories techniques DLC, waves et golden restent cachées, tandis que les fillers restent dans leur catégorie visible.
+
+**Objectif token**
+- Ajout des options `mktv_tokens_required` et `mktv_tokens_available_percentage` dans `options.json` et dans le template YAML.
+- Les objets `MKTV Token` sont générés uniquement lorsque l'objectif de victoire sélectionné les demande.
+- Les MKTV Tokens requis sont en progression, tandis que les tokens de surplus sont classés utiles.
+
+**Build**
+- Reconstruction de `manual_mk8dx_narusnake.apworld` avec les hooks, options, fillers et template YAML mis à jour.
 
 ### Version 0.9.0 - DLC Update
 

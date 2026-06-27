@@ -110,5 +110,8 @@
             "golden",
             "golden_glider"
         ]
+    },
+    "Filler": {
+        "hidden": false
     }
 }

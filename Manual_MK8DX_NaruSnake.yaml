@@ -64,7 +64,7 @@ Manual_MK8DX_NaruSnake:
   goal:
     # Choose your victory condition.
     # All Rainbow Roads Complete is a goal where you will need to complete every Rainbow Road in the game, including DLC.
-    # Mario Kart Token: you will need to collect all the tokens to complete this run.
+    # Mario Kart 8 Token: you will need to collect all the tokens to complete this run.
     all rainbow roads complete: 50
     mario kart 8 token: 0
 
@@ -92,6 +92,25 @@ Manual_MK8DX_NaruSnake:
   # Setting this to False removes all 200cc checks from the seed
     "false": 0
     "true": 50
+
+  mktv_tokens_required:
+    # Number of MKTV Tokens required when the Mario Kart 8 Token goal is selected.
+    # Minimum value is 1
+    # Maximum value is 100
+    random: 0
+    random-low: 0
+    random-high: 0
+    100: 50
+
+  mktv_tokens_available_percentage:
+    # Percentage of required MKTV Tokens that will be placed in the item pool.
+    # 100 means exactly the required amount. 200 means double, capped at 100 tokens.
+    # Minimum value is 100
+    # Maximum value is 400
+    random: 0
+    random-low: 0
+    random-high: 0
+    100: 50
 
   dlc:
     # Setting this to false removes all DLC and Booster Course Pass items/checks.

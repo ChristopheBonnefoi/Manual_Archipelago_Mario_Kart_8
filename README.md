@@ -7,31 +7,55 @@ This project turns Mario Kart 8 Deluxe objectives, cups, characters, vehicle par
 The manual targets **Mario Kart 8 Deluxe on Nintendo Switch**, including Booster Course Pass content where the player owns it. DLC and wave-related checks can be enabled or disabled from the YAML so players can match the content they actually own.
 
 ## Project Status
-The project is currently at **Version 0.9.0 - DLC Update**.
+The project is currently at **Version 0.10.0 - Filler Update**.
 Version 1.0.0 is reserved for the point where the project is considered complete.
-The current update focuses on DLC ownership options, Booster Course Pass wave filtering, golden unlock options, and cleaner documentation on top of the refreshed Manual Archipelago stable framework (`manual_stable_20260319`).
+The current update focuses on filler item handling, MKTV Token goal configuration, and MK8D-specific hooks adapted from the Tekken 3 manual. It keeps the DLC ownership options, Booster Course Pass wave filtering, golden unlock options, and refreshed Manual Archipelago stable framework (`manual_stable_20260319`) from the previous updates.
 
 ## Current Features
 - **All Rainbow Roads Complete**
   Complete every Rainbow Road objective included in the generated seed.
 - **Mario Kart 8 Token**
-  Collect Mario Kart 8 Tokens as the token-based victory objective.
+  Collect configurable MKTV Tokens as the token-based victory objective.
 - **Engine-Class Toggles**
   Enable or disable 50cc, 100cc, 150cc, Mirror, and 200cc checks from the YAML.
 - **DLC and Wave Options**
   Enable or disable all DLC content, then choose individual Booster Course Pass waves from Wave 1 through Wave 6.
 - **Golden Unlock Options**
   Enable or disable all golden unlocks together, or individually toggle Golden Mario, Gold Standard, Gold Tires, and Golden Glider.
+- **Configurable Token Goal**
+  Set required MKTV Tokens and available surplus from the YAML. Token items are removed when the selected goal does not need them.
+- **Filler Item Pool**
+  Uses the dedicated `Filler` category with translated English filler items for extra item pool slots.
 - **Race Mode Coverage**
   Includes Grand Prix, VS Race, Time Trial, and 10-coin race checks.
 - **Large Item Pool**
-  Randomizes characters, cups, battle modes, game modes, difficulties, karts, wheels, gliders, race items, and tokens.
+  Randomizes characters, cups, battle modes, game modes, difficulties, karts, wheels, gliders, race items, tokens, and fillers.
 - **Starting Loadout**
   Seeds start with one randomized item from key gameplay categories such as game mode, difficulty, cup, character, kart, wheels, and glider.
 
 ---
 
 ## Patch Notes
+
+### Version 0.10.0 - Filler Update
+
+**Hook adaptation**
+- Ported the Tekken 3 Manual hook structure to MK8D and adapted `Data.py`, `Helpers.py`, `Options.py`, `Rules.py`, and `World.py`.
+- Added hook-side filtering for engine classes, DLC waves, and golden unlocks so disabled YAML options remove their related items and checks.
+- Added automatic location sort keys and hook-driven DLC, wave, and golden category propagation.
+
+**Filler items**
+- Translated the 72 new filler item names in `items.json` to English.
+- Added filler selection from the `Filler` category so extra item pool slots can use the dedicated MK8D filler list.
+- Kept technical DLC, wave, and golden categories hidden while leaving filler items in their own visible category.
+
+**Token goal**
+- Added `mktv_tokens_required` and `mktv_tokens_available_percentage` options to `options.json` and the YAML template.
+- `MKTV Token` items are only generated when the selected victory goal requires them.
+- Required MKTV Tokens are progression items, while optional surplus tokens are useful items.
+
+**Build**
+- Rebuilt `manual_mk8dx_narusnake.apworld` with the updated hooks, options, filler items, and YAML template.
 
 ### Version 0.9.0 - DLC Update
 
