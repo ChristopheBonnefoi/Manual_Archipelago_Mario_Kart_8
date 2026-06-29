@@ -1,2305 +1,1964 @@
 [
     {
         "name": "Battle",
-        "category": [
-            "Game_Mode"
-        ],
+        "category": ["Game_Mode"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Grand Prix",
-        "category": [
-            "Game_Mode"
-        ],
+        "category": ["Game_Mode"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Time Trial",
-        "category": [
-            "Game_Mode"
-        ],
+        "category": ["Game_Mode"],
         "count": 1,
         "progression": true
     },
     {
         "name": "VS Race",
-        "category": [
-            "Game_Mode"
-        ],
+        "category": ["Game_Mode"],
         "count": 1,
         "progression": true
     },
     {
         "name": "100CC",
-        "category": [
-            "100CC",
-            "Difficulty"
-        ],
+        "category": ["100CC", "Difficulty"],
         "count": 1,
         "progression": true
     },
     {
         "name": "150CC",
-        "category": [
-            "150CC",
-            "Difficulty"
-        ],
+        "category": ["150CC", "Difficulty"],
         "count": 1,
         "progression": true
     },
     {
         "name": "200CC",
-        "category": [
-            "200CC",
-            "Difficulty"
-        ],
+        "category": ["200CC", "Difficulty"],
         "count": 1,
         "progression": true
     },
     {
         "name": "50CC",
-        "category": [
-            "50CC",
-            "Difficulty"
-        ],
+        "category": ["50CC", "Difficulty"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Mirror",
-        "category": [
-            "Mirror",
-            "Difficulty"
-        ],
+        "category": ["Mirror", "Difficulty"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Acorn Cup",
-        "category": [
-            "DLC",
-            "Waves 6",
-            "Cups"
-        ],
+        "category": ["DLC", "Waves 6", "Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Banana Cup",
-        "category": [
-            "Cups"
-        ],
+        "category": ["Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Bell Cup",
-        "category": [
-            "Cups"
-        ],
+        "category": ["Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Boomerang Cup",
-        "category": [
-            "DLC",
-            "Waves 4",
-            "Cups"
-        ],
+        "category": ["DLC", "Waves 4", "Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Cherry Cup",
-        "category": [
-            "DLC",
-            "Waves 5",
-            "Cups"
-        ],
+        "category": ["DLC", "Waves 5", "Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Crossing Cup",
-        "category": [
-            "Cups"
-        ],
+        "category": ["Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Egg Cup",
-        "category": [
-            "Cups"
-        ],
+        "category": ["Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Feather Cup",
-        "category": [
-            "DLC",
-            "Waves 5",
-            "Cups"
-        ],
+        "category": ["DLC", "Waves 5", "Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Flower Cup",
-        "category": [
-            "Cups"
-        ],
+        "category": ["Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Fruit Cup",
-        "category": [
-            "DLC",
-            "Waves 4",
-            "Cups"
-        ],
+        "category": ["DLC", "Waves 4", "Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Golden Dash Cup",
-        "category": [
-            "DLC",
-            "Waves 1",
-            "Cups"
-        ],
+        "category": ["DLC", "Waves 1", "Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Leaf Cup",
-        "category": [
-            "Cups"
-        ],
+        "category": ["Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Lightning Cup",
-        "category": [
-            "Cups"
-        ],
+        "category": ["Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Lucky Cat Cup",
-        "category": [
-            "DLC",
-            "Waves 1",
-            "Cups"
-        ],
+        "category": ["DLC", "Waves 1", "Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Moon Cup",
-        "category": [
-            "DLC",
-            "Waves 3",
-            "Cups"
-        ],
+        "category": ["DLC", "Waves 3", "Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Mushroom Cup",
-        "category": [
-            "Cups"
-        ],
+        "category": ["Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Propeller Cup",
-        "category": [
-            "DLC",
-            "Waves 2",
-            "Cups"
-        ],
+        "category": ["DLC", "Waves 2", "Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Rock Cup",
-        "category": [
-            "DLC",
-            "Waves 3",
-            "Cups"
-        ],
+        "category": ["DLC", "Waves 3", "Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Shell Cup",
-        "category": [
-            "Cups"
-        ],
+        "category": ["Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Special Cup",
-        "category": [
-            "Cups"
-        ],
+        "category": ["Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Spiny Cup",
-        "category": [
-            "DLC",
-            "Waves 6",
-            "Cups"
-        ],
+        "category": ["DLC", "Waves 6", "Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Star Cup",
-        "category": [
-            "Cups"
-        ],
+        "category": ["Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Triforce Cup",
-        "category": [
-            "Cups"
-        ],
+        "category": ["Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Turnip Cup",
-        "category": [
-            "DLC",
-            "Waves 2",
-            "Cups"
-        ],
+        "category": ["DLC", "Waves 2", "Cups"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Balloon Battle",
-        "category": [
-            "Battle Modes"
-        ],
+        "category": ["Battle Modes"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Bob-omb Blast",
-        "category": [
-            "Battle Modes"
-        ],
+        "category": ["Battle Modes"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Coin Runners",
-        "category": [
-            "Battle Modes"
-        ],
+        "category": ["Battle Modes"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Renegade Roundup",
-        "category": [
-            "Battle Modes"
-        ],
+        "category": ["Battle Modes"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Shine Thief",
-        "category": [
-            "Battle Modes"
-        ],
+        "category": ["Battle Modes"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Baby Daisy",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Baby Luigi",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Baby Mario",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Baby Peach",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Baby Rosalina",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Birdo",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 4"
-        ],
+        "category": ["Characters", "DLC", "Waves 4"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Progressive - Birdo",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 4"
-        ],
+        "category": ["Characters", "DLC", "Waves 4"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Birdo (Pink)",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 4"
-        ],
+        "category": ["Characters", "DLC", "Waves 4"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Birdo (Light Blue)",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 4"
-        ],
+        "category": ["Characters", "DLC", "Waves 4"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Birdo (Black)",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 4"
-        ],
+        "category": ["Characters", "DLC", "Waves 4"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Birdo (Red)",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 4"
-        ],
+        "category": ["Characters", "DLC", "Waves 4"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Birdo (Yellow)",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 4"
-        ],
+        "category": ["Characters", "DLC", "Waves 4"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Birdo (White)",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 4"
-        ],
+        "category": ["Characters", "DLC", "Waves 4"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Birdo (Dark Blue)",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 4"
-        ],
+        "category": ["Characters", "DLC", "Waves 4"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Birdo (Green)",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 4"
-        ],
+        "category": ["Characters", "DLC", "Waves 4"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Birdo (Orange)",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 4"
-        ],
+        "category": ["Characters", "DLC", "Waves 4"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Bowser",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Bowser Jr.",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Cat Peach",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Daisy",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Diddy Kong",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 6"
-        ],
+        "category": ["Characters", "DLC", "Waves 6"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Donkey Kong",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Dry Bones",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Dry Bowser",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Funky Kong",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 6"
-        ],
+        "category": ["Characters", "DLC", "Waves 6"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Golden Mario",
-        "category": [
-            "Characters",
-            "golden"
-        ],
+        "category": ["Characters", "golden"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Inkling",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Progressive - Inkling",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Inkling Girl (Orange Hair)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Inkling Girl (Green Hair)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Inkling Girl (Pink Hair)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Inkling Boy (Dark Blue Hair)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Inkling Boy (Purple Hair)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Inkling Boy (Cyan Hair)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Isabelle",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Kamek",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 5"
-        ],
+        "category": ["Characters", "DLC", "Waves 5"],
         "count": 1,
         "progression": true
     },
     {
         "name": "King Boo",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Koopa Troopa",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Koopalings",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Progressive - Koopalings",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Lemmy",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Larry",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Wendy",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Ludwig",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Iggy",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Roy",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Morton",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Lakitu",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Link",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Progressive - Link",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Link (Green Tunic)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Link (BOTW)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Luigi",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Mario",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Metal Mario",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Mii",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Progressive - Mii",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Mii (Yours)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Mii (male player in a red outfit)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Mii (female player in a pink outfit)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Mii (male player in a green outfit)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Mii (female player in a yellow outfit)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Mii (male player in a dark blue outfit)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Mii (female player in a light blue outfit)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Pauline",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 6"
-        ],
+        "category": ["Characters", "DLC", "Waves 6"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Peach",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Peachette",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 6"
-        ],
+        "category": ["Characters", "DLC", "Waves 6"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Petey Piranha",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 5"
-        ],
+        "category": ["Characters", "DLC", "Waves 5"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Pink Gold Peach",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Rosalina",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Shy Guy",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Progressive - Shy Guy",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Shy Guy (Red)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Shy Guy (Light Blue)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Shy Guy (Black)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Shy Guy (Green)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Shy Guy (Yellow)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Shy Guy (White)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Shy Guy (Dark Blue)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Shy Guy (Pink)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Shy Guy (Orange)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Tanooki Mario",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Toad",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Toadette",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Villager",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Progressive - Villager",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Male Villager",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Female Villager",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Waluigi",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Wario",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Wiggler",
-        "category": [
-            "Characters",
-            "DLC",
-            "Waves 5"
-        ],
+        "category": ["Characters", "DLC", "Waves 5"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Yoshi",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Progressive - Yoshi",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 0,
         "progression": true
     },
     {
         "name": "Yoshi (Green)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Yoshi (Light Blue)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Yoshi (Black)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Yoshi (Red)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Yoshi (Yellow)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Yoshi (White)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Yoshi (Dark Blue)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Yoshi (Pink)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Yoshi (Orange)",
-        "category": [
-            "Characters"
-        ],
+        "category": ["Characters"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Team Game",
+        "category": ["Mode Settings", "Battle Settings", "Team Settings", "VS Race Settings", "VS Team Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "No Teams",
+        "category": ["Mode Settings", "Battle Settings", "Team Settings", "VS Race Settings", "VS Team Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Frantic Items",
+        "category": ["Mode Settings", "Battle Settings", "Battle Item Settings", "VS Race Settings", "VS Item Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Custom Items",
+        "category": ["Mode Settings", "Battle Settings", "Battle Item Settings", "VS Race Settings", "VS Item Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Normal Items",
+        "category": ["Mode Settings", "Battle Settings", "Battle Item Settings", "VS Race Settings", "VS Item Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Skilled Items",
+        "category": ["Mode Settings", "Battle Settings", "Battle Item Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "1 Minute",
+        "category": ["Mode Settings", "Battle Settings", "Battle Round Time Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "2 Minutes",
+        "category": ["Mode Settings", "Battle Settings", "Battle Round Time Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "3 Minutes",
+        "category": ["Mode Settings", "Battle Settings", "Battle Round Time Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "4 Minutes",
+        "category": ["Mode Settings", "Battle Settings", "Battle Round Time Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "5 Minutes",
+        "category": ["Mode Settings", "Battle Settings", "Battle Round Time Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Easy COM",
+        "category": ["Mode Settings", "Battle Settings", "COM Settings", "VS Race Settings", "VS COM Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Normal COM",
+        "category": ["Mode Settings", "Battle Settings", "COM Settings", "VS Race Settings", "VS COM Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Hard COM",
+        "category": ["Mode Settings", "Battle Settings", "COM Settings", "VS Race Settings", "VS COM Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "All Vehicles",
+        "category": ["Mode Settings", "Battle Settings", "COM Vehicle Settings", "VS Race Settings", "VS COM Vehicle Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Kart Only",
+        "category": ["Mode Settings", "Battle Settings", "COM Vehicle Settings", "VS Race Settings", "VS COM Vehicle Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Bikes Only",
+        "category": ["Mode Settings", "Battle Settings", "COM Vehicle Settings", "VS Race Settings", "VS COM Vehicle Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Choose Courses",
+        "category": ["Mode Settings", "Battle Settings", "Battle Course Settings", "VS Race Settings", "VS Course Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "In Order Courses",
+        "category": ["Mode Settings", "Battle Settings", "Battle Course Settings", "VS Race Settings", "VS Course Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "4 Rounds",
+        "category": ["Mode Settings", "Battle Settings", "Battle Round Count Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "6 Rounds",
+        "category": ["Mode Settings", "Battle Settings", "Battle Round Count Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "8 Rounds",
+        "category": ["Mode Settings", "Battle Settings", "Battle Round Count Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "12 Rounds",
+        "category": ["Mode Settings", "Battle Settings", "Battle Round Count Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "16 Rounds",
+        "category": ["Mode Settings", "Battle Settings", "Battle Round Count Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "24 Rounds",
+        "category": ["Mode Settings", "Battle Settings", "Battle Round Count Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "No Items",
+        "category": ["Mode Settings", "VS Race Settings", "VS Item Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "No Items or Coins",
+        "category": ["Mode Settings", "VS Race Settings", "VS Item Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Shell Only",
+        "category": ["Mode Settings", "VS Race Settings", "VS Item Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Bananas Only",
+        "category": ["Mode Settings", "VS Race Settings", "VS Item Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Mushroom Only",
+        "category": ["Mode Settings", "VS Race Settings", "VS Item Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Bob-ombs Only",
+        "category": ["Mode Settings", "VS Race Settings", "VS Item Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Random Courses",
+        "category": ["Mode Settings", "VS Race Settings", "VS Course Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "4 Races",
+        "category": ["Mode Settings", "VS Race Settings", "VS Race Count Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "6 Races",
+        "category": ["Mode Settings", "VS Race Settings", "VS Race Count Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "8 Races",
+        "category": ["Mode Settings", "VS Race Settings", "VS Race Count Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "12 Races",
+        "category": ["Mode Settings", "VS Race Settings", "VS Race Count Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "16 Races",
+        "category": ["Mode Settings", "VS Race Settings", "VS Race Count Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "24 Races",
+        "category": ["Mode Settings", "VS Race Settings", "VS Race Count Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "32 Races",
+        "category": ["Mode Settings", "VS Race Settings", "VS Race Count Settings"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "48 Races",
+        "category": ["Mode Settings", "VS Race Settings", "VS Race Count Settings"],
         "count": 1,
         "progression": true
     },
     {
         "name": "300 SL Roadster",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Badwagon",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Biddybuggy",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Cat Cruiser",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Circuit Special",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Comet",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Flame Rider",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "GLA",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Gold Standard",
-        "category": [
-            "Karts",
-            "golden"
-        ],
-        "count": 1
+        "category": ["Karts", "golden"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Jet Bike",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Landship",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Mach 8",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Mr. Scooty",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Pipe Frame",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Prancer",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Sneeker",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Sports Bike",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Sports Coupe",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Standard ATV",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Standard Bike",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Standard Kart",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Steel Driver",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Teddy Buggy",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "The Duke",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Tri-Speeder",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Varmint",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "W 25 Silver Arrow",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Wild Wiggler",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Yoshi Bike",
-        "category": [
-            "Karts"
-        ],
-        "count": 1
+        "category": ["Karts"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Azure Roller",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Blue Standard",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Button",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Crimson Slim",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Cushion",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Cyber Slick",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "GLA Tires",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Gold Tires",
-        "category": [
-            "Wheels",
-            "golden"
-        ],
-        "count": 1
+        "category": ["Wheels", "golden"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Hot Monster",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Metal",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Monster",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Off-Road",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Retro Off-Road",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Roller",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Slick",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Slim",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Sponge",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Standard",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Wood",
-        "category": [
-            "Wheels"
-        ],
-        "count": 1
+        "category": ["Wheels"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Bowser Kite",
-        "category": [
-            "Gliders"
-        ],
-        "count": 1
+        "category": ["Gliders"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Cloud Gliders",
-        "category": [
-            "Gliders"
-        ],
-        "count": 1
+        "category": ["Gliders"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Flower Glider",
-        "category": [
-            "Gliders"
-        ],
-        "count": 1
+        "category": ["Gliders"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Golden Glider",
-        "category": [
-            "Gliders",
-            "golden"
-        ],
-        "count": 1
+        "category": ["Gliders", "golden"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Hylian Kite",
-        "category": [
-            "Gliders"
-        ],
-        "count": 1
+        "category": ["Gliders"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "MKTV Parafoil",
-        "category": [
-            "Gliders"
-        ],
-        "count": 1
+        "category": ["Gliders"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Paper Glider",
-        "category": [
-            "Gliders"
-        ],
-        "count": 1
+        "category": ["Gliders"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Parachute",
-        "category": [
-            "Gliders"
-        ],
-        "count": 1
+        "category": ["Gliders"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Parafoil",
-        "category": [
-            "Gliders"
-        ],
-        "count": 1
+        "category": ["Gliders"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "ParaGlider",
-        "category": [
-            "Gliders"
-        ],
-        "count": 1
+        "category": ["Gliders"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Peach Parasol",
-        "category": [
-            "Gliders"
-        ],
-        "count": 1
+        "category": ["Gliders"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Plane Glider",
-        "category": [
-            "Gliders"
-        ],
-        "count": 1
+        "category": ["Gliders"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Super Gliders",
-        "category": [
-            "Gliders"
-        ],
-        "count": 1
+        "category": ["Gliders"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Waddle Wings",
-        "category": [
-            "Gliders"
-        ],
-        "count": 1
+        "category": ["Gliders"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Wario Wings",
-        "category": [
-            "Gliders"
-        ],
-        "count": 1
+        "category": ["Gliders"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Banana",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Blooper",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Bob-omb",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Boo",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Boomerang Flower",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Bullet Bill",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Coin",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Crazy Eight",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Feather",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Fire Flower",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Golden Mushroom",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Green Shell",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Lightning",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Mushroom",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Piranha Plant",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Red Shell",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Spiny Shell",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Super Horn",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Super Star",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Triple Bananas",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Triple Green Shells",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Triple Mushrooms",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "Triple Red Shells",
-        "category": [
-            "Items"
-        ],
-        "count": 1
+        "category": ["Items", "Battle Damage Items"],
+        "count": 1,
+        "progression": true
     },
     {
         "name": "MKTV Token",
-        "category": [
-            "Token"
-        ],
+        "category": ["Token"],
         "count": 100,
         "progression": true
     },
     {
         "name": "Baby Daisy's Diaper",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Baby Daisy's Princess Crown",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Baby Luigi's Diaper",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Baby Luigi's Green Cap",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Baby Mario's Diaper",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Baby Mario's Red Cap",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Baby Peach's Diaper",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Baby Peach's Princess Crown",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Baby Rosalina's Diaper",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Baby Rosalina's Princess Crown",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Birdo's Red Bow",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Bowser Jr.'s Bandana",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Bowser's Shell",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Cat Peach's Earring",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Daisy's Orange Panties",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Diddy Kong's Cap",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Donkey Kong's Tie",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Dry Bones' Bone",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Dry Bowser's Skeletal Shell",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Funky Kong's Sunglasses",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Golden Mario's Cap",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Golden Mario's Golden Briefs",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Inkling Paint Gun",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Isabelle's Dog-Pattern Panties",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Isabelle's Hair Tie",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Kamek's Magic Wand",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "King Boo's Crown",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Koopa Troopa's Heart Boxers",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Koopa Troopa's Shell",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Koopalings' Shell",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Lakitu's Cloud Briefs",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Lakitu's Goggles",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Link's Master Sword",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Link's Zelda-Themed Thong",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Luigi's Cap",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Luigi's Green Mushroom Thong",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Mario's Cap",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Mario's Red Mushroom Briefs",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Metal Mario's Cap",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Metal Mario's Metallic Briefs",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Mii's Soul",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Paint-Stained Inkling Thong",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Pauline's Microphone",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Pauline's Refined Lace Thong",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Peach's Pink Panties",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Peachette's Crown",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Peachette's Pink Polka-Dot Panties",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Petey Piranha's Petals",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Petey Piranha's Red Polka-Dot Panties",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Pink Gold Peach's Crown",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Pink Gold Peach's Rose-Gold Thong",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Princess Daisy's Crown",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Princess Peach's Crown",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Rosalina's Star Panties",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Rosalina's Star Wand",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Shy Guy's Colorful Thong",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Shy Guy's Mask",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Soulless Mii Boxers",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Tanooki Mario's Furry Briefs",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Tanooki Mario's Tail",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Toad's Mushroom Briefs",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Toad's Mushroom Cap",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Toadette's Pigtails",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Toadette's Pink Mushroom Panties",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Villager's Bell Bag",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Villager's Boxers",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Waluigi's Grimy Thong",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Waluigi's Purple Cap",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Wario's Grimy Briefs",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Wario's Yellow Cap",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Wiggler's Flower",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     },
     {
         "name": "Yoshi's Egg",
-        "category": [
-            "Filler"
-        ],
+        "category": ["Filler"],
         "count": 0
     }
 ]

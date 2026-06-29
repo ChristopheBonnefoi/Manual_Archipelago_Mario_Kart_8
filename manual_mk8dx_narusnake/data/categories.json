@@ -1,117 +1,485 @@
 {
     "50CC": {
         "hidden": true,
-        "yaml_option": [
-            "run_50cc"
-        ]
+        "yaml_option": ["run_50cc"]
     },
     "100CC": {
         "hidden": true,
-        "yaml_option": [
-            "run_100cc"
-        ]
+        "yaml_option": ["run_100cc"]
     },
     "150CC": {
         "hidden": true,
-        "yaml_option": [
-            "run_150cc"
-        ]
+        "yaml_option": ["run_150cc"]
     },
     "Mirror": {
         "hidden": true,
-        "yaml_option": [
-            "run_mirror"
-        ]
+        "yaml_option": ["run_mirror"]
     },
     "200CC": {
         "hidden": true,
-        "yaml_option": [
-            "run_200cc"
-        ]
+        "yaml_option": ["run_200cc"]
     },
     "DLC": {
         "hidden": true,
-        "yaml_option": [
-            "dlc"
-        ]
+        "yaml_option": ["dlc"]
     },
     "Waves 1": {
         "hidden": true,
-        "yaml_option": [
-            "dlc",
-            "dlc_wave_1"
-        ]
+        "yaml_option": ["dlc", "dlc_wave_1"]
     },
     "Waves 2": {
         "hidden": true,
-        "yaml_option": [
-            "dlc",
-            "dlc_wave_2"
-        ]
+        "yaml_option": ["dlc", "dlc_wave_2"]
     },
     "Waves 3": {
         "hidden": true,
-        "yaml_option": [
-            "dlc",
-            "dlc_wave_3"
-        ]
+        "yaml_option": ["dlc", "dlc_wave_3"]
     },
     "Waves 4": {
         "hidden": true,
-        "yaml_option": [
-            "dlc",
-            "dlc_wave_4"
-        ]
+        "yaml_option": ["dlc", "dlc_wave_4"]
     },
     "Waves 5": {
         "hidden": true,
-        "yaml_option": [
-            "dlc",
-            "dlc_wave_5"
-        ]
+        "yaml_option": ["dlc", "dlc_wave_5"]
     },
     "Waves 6": {
         "hidden": true,
-        "yaml_option": [
-            "dlc",
-            "dlc_wave_6"
-        ]
+        "yaml_option": ["dlc", "dlc_wave_6"]
     },
     "golden": {
         "hidden": true,
-        "yaml_option": [
-            "golden"
-        ]
+        "yaml_option": ["golden"]
     },
     "Golden Mario Option": {
         "hidden": true,
-        "yaml_option": [
-            "golden",
-            "golden_mario"
-        ]
+        "yaml_option": ["golden", "golden_mario"]
     },
     "Gold Standard Option": {
         "hidden": true,
-        "yaml_option": [
-            "golden",
-            "gold_standard"
-        ]
+        "yaml_option": ["golden", "gold_standard"]
     },
     "Gold Tires Option": {
         "hidden": true,
-        "yaml_option": [
-            "golden",
-            "gold_tires"
-        ]
+        "yaml_option": ["golden", "gold_tires"]
     },
     "Golden Glider Option": {
         "hidden": true,
-        "yaml_option": [
-            "golden",
-            "golden_glider"
-        ]
+        "yaml_option": ["golden", "golden_glider"]
     },
     "Filler": {
         "hidden": false
+    },
+    "Time Trial Single": {
+        "hidden": true
+    },
+    "Time Trial Split": {
+        "hidden": true
+    },
+    "Mushroom Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Flower Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Star Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Special Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Egg Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Crossing Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Shell Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Banana Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Leaf Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Lightning Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Triforce Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Bell Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Golden Dash Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Lucky Cat Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Turnip Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Propeller Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Rock Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Moon Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Fruit Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Boomerang Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Feather Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Cherry Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Acorn Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Spiny Cup Challenge": {
+        "hidden": false,
+        "yaml_option": ["track_challenges"]
+    },
+    "Track Challenges": {
+        "hidden": true,
+        "yaml_option": ["track_challenges"]
+    },
+    "Item Challenges": {
+        "hidden": false,
+        "yaml_option": ["item_challenges"]
+    },
+    "Kart Challenges": {
+        "hidden": false,
+        "yaml_option": ["kart_challenges"]
+    },
+    "Mode Settings": {
+        "hidden": false
+    },
+    "Battle Settings": {
+        "hidden": true
+    },
+    "Team Settings": {
+        "hidden": true
+    },
+    "Battle Item Settings": {
+        "hidden": true
+    },
+    "Battle Round Time Settings": {
+        "hidden": true
+    },
+    "COM Settings": {
+        "hidden": true
+    },
+    "COM Vehicle Settings": {
+        "hidden": true
+    },
+    "Battle Course Settings": {
+        "hidden": true
+    },
+    "Battle Round Count Settings": {
+        "hidden": true
+    },
+    "Battle Damage Items": {
+        "hidden": true
+    },
+    "VS Race Settings": {
+        "hidden": true
+    },
+    "VS Team Settings": {
+        "hidden": true
+    },
+    "VS Item Settings": {
+        "hidden": true
+    },
+    "VS COM Settings": {
+        "hidden": true
+    },
+    "VS COM Vehicle Settings": {
+        "hidden": true
+    },
+    "VS Course Settings": {
+        "hidden": true
+    },
+    "VS Race Count Settings": {
+        "hidden": true
+    },
+    "VS Race Challenges": {
+        "hidden": false,
+        "yaml_option": ["vs_race_challenges"]
+    },
+    "Battle Challenges": {
+        "hidden": false,
+        "yaml_option": ["battle_challenges"]
+    },
+    "Game Mode Option - Battle": {
+        "hidden": true,
+        "yaml_option": ["game_modes", "game_mode_battle"]
+    },
+    "Game Mode Option - Grand Prix": {
+        "hidden": true,
+        "yaml_option": ["game_modes", "game_mode_grand_prix"]
+    },
+    "Game Mode Option - Time Trial": {
+        "hidden": true,
+        "yaml_option": ["game_modes", "game_mode_time_trial"]
+    },
+    "Game Mode Option - VS Race": {
+        "hidden": true,
+        "yaml_option": ["game_modes", "game_mode_vs_race"]
+    },
+    "Battle Mode Option - Balloon Battle": {
+        "hidden": true,
+        "yaml_option": ["battle_modes", "battle_mode_balloon_battle"]
+    },
+    "Battle Mode Option - Bob-omb Blast": {
+        "hidden": true,
+        "yaml_option": ["battle_modes", "battle_mode_bob_omb_blast"]
+    },
+    "Battle Mode Option - Coin Runners": {
+        "hidden": true,
+        "yaml_option": ["battle_modes", "battle_mode_coin_runners"]
+    },
+    "Battle Mode Option - Renegade Roundup": {
+        "hidden": true,
+        "yaml_option": ["battle_modes", "battle_mode_renegade_roundup"]
+    },
+    "Battle Mode Option - Shine Thief": {
+        "hidden": true,
+        "yaml_option": ["battle_modes", "battle_mode_shine_thief"]
+    },
+    "Mode Setting Option - Team Game": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_teams"]
+    },
+    "Mode Setting Option - No Teams": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_teams"]
+    },
+    "Mode Setting Option - Frantic Items": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_items"]
+    },
+    "Mode Setting Option - Custom Items": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_items"]
+    },
+    "Mode Setting Option - Normal Items": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_items"]
+    },
+    "Mode Setting Option - Skilled Items": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_items"]
+    },
+    "Mode Setting Option - 1 Minute": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_round_time"]
+    },
+    "Mode Setting Option - 2 Minutes": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_round_time"]
+    },
+    "Mode Setting Option - 3 Minutes": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_round_time"]
+    },
+    "Mode Setting Option - 4 Minutes": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_round_time"]
+    },
+    "Mode Setting Option - 5 Minutes": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_round_time"]
+    },
+    "Mode Setting Option - Easy COM": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_com"]
+    },
+    "Mode Setting Option - Normal COM": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_com"]
+    },
+    "Mode Setting Option - Hard COM": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_com"]
+    },
+    "Mode Setting Option - All Vehicles": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_com_vehicles"]
+    },
+    "Mode Setting Option - Kart Only": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_com_vehicles"]
+    },
+    "Mode Setting Option - Bikes Only": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_com_vehicles"]
+    },
+    "Mode Setting Option - Choose Courses": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_courses"]
+    },
+    "Mode Setting Option - In Order Courses": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_courses"]
+    },
+    "Mode Setting Option - 4 Rounds": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_rounds"]
+    },
+    "Mode Setting Option - 6 Rounds": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_rounds"]
+    },
+    "Mode Setting Option - 8 Rounds": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_rounds"]
+    },
+    "Mode Setting Option - 12 Rounds": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_rounds"]
+    },
+    "Mode Setting Option - 16 Rounds": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_rounds"]
+    },
+    "Mode Setting Option - 24 Rounds": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_rounds"]
+    },
+    "Mode Setting Option - No Items": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_items"]
+    },
+    "Mode Setting Option - No Items or Coins": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_items"]
+    },
+    "Mode Setting Option - Shell Only": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_items"]
+    },
+    "Mode Setting Option - Bananas Only": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_items"]
+    },
+    "Mode Setting Option - Mushroom Only": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_items"]
+    },
+    "Mode Setting Option - Bob-ombs Only": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_items"]
+    },
+    "Mode Setting Option - Random Courses": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_courses"]
+    },
+    "Mode Setting Option - 4 Races": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_races"]
+    },
+    "Mode Setting Option - 6 Races": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_races"]
+    },
+    "Mode Setting Option - 8 Races": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_races"]
+    },
+    "Mode Setting Option - 12 Races": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_races"]
+    },
+    "Mode Setting Option - 16 Races": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_races"]
+    },
+    "Mode Setting Option - 24 Races": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_races"]
+    },
+    "Mode Setting Option - 32 Races": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_races"]
+    },
+    "Mode Setting Option - 48 Races": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_races"]
+    },
+    "Kart Option": {
+        "hidden": true,
+        "yaml_option": ["kart"]
+    },
+    "Race Item Option": {
+        "hidden": true,
+        "yaml_option": ["race_items"]
+    },
+    "Mode Setting Option - Team Rules": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_teams"]
+    },
+    "Mode Setting Option - Item Rules": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_items"]
+    },
+    "Mode Setting Option - Round Time": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_round_time"]
+    },
+    "Mode Setting Option - COM Difficulty": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_com"]
+    },
+    "Mode Setting Option - COM Vehicle Rules": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_com_vehicles"]
+    },
+    "Mode Setting Option - Course Rules": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_courses"]
+    },
+    "Mode Setting Option - Battle Rounds": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_rounds"]
+    },
+    "Mode Setting Option - VS Races": {
+        "hidden": true,
+        "yaml_option": ["mode_setting_races"]
+    },
+    "No Difficulty Checks": {
+        "hidden": true
     }
 }

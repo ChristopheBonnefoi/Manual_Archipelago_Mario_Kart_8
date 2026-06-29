@@ -8,6 +8,19 @@ GOAL_ALIASES = {
     "tokens": 1,
     "token": 1,
     "mktv_tokens": 1,
+    "grand_prix": 2,
+    "all_grand_prix": 2,
+    "time_trial": 3,
+    "all_time_trial": 3,
+    "vs_race": 4,
+    "all_vs_race": 4,
+    "battle": 5,
+    "all_battle": 5,
+    "rainbow_roads_tokens": 6,
+    "grand_prix_tokens": 7,
+    "time_trial_tokens": 8,
+    "vs_race_tokens": 9,
+    "battle_tokens": 10,
 }
 
 

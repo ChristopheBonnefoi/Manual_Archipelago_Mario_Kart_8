@@ -1,6 +1,6 @@
 {
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
-    "ExampleRegion":{
+    "ExampleRegion": {
         "connects_to": ["Second Region"],
         "starting": true
     },

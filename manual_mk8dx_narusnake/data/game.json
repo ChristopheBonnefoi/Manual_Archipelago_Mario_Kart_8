@@ -1,39 +1,106 @@
 {
-	"game": "MK8DX",
-	"creator": "NaruSnake",
-	"filler_item_name": "MKFan",
-	"starting_items": [
-		{
-			"item_categories": [ "Game_Mode" ],
-			"random": 1
-		},
-		{
-			"item_categories": ["Difficulty"],
-			"random": 1
-		},
-		{
-			"item_categories": [ "Cups" ],
-			"random": 1
-		},
-		{
-			"item_categories": [ "Battle Modes" ],
-			"random": 1
-		},
-		{
-			"item_categories": [ "Characters" ],
-			"random": 1
-		},
-		{
-			"item_categories": [ "Karts" ],
-			"random": 1
-		},
-		{
-			"item_categories": [ "Wheels" ],
-			"random": 1
-		},
-		{
-			"item_categories": [ "Gliders" ],
-			"random": 1
-		}
-	]
+    "game": "MK8DX",
+    "creator": "NaruSnake",
+    "filler_item_name": "MKFan",
+    "starting_items": [
+        {
+            "item_categories": ["Game_Mode"],
+            "random": 1
+        },
+        {
+            "item_categories": ["VS Team Settings"],
+            "random": 1,
+            "if_previous_item": ["VS Race"]
+        },
+        {
+            "if_previous_item": ["VS Race"],
+            "items": ["No Items or Coins"]
+        },
+        {
+            "item_categories": ["VS COM Settings"],
+            "random": 1,
+            "if_previous_item": ["VS Race"]
+        },
+        {
+            "item_categories": ["VS COM Vehicle Settings"],
+            "random": 1,
+            "if_previous_item": ["VS Race"]
+        },
+        {
+            "item_categories": ["VS Course Settings"],
+            "random": 1,
+            "if_previous_item": ["VS Race"]
+        },
+        {
+            "items": ["4 Races"],
+            "if_previous_item": ["VS Race"]
+        },
+        {
+            "item_categories": ["Team Settings"],
+            "random": 1,
+            "if_previous_item": ["Battle"]
+        },
+        {
+            "item_categories": ["Battle Item Settings"],
+            "random": 1,
+            "if_previous_item": ["Battle"]
+        },
+        {
+            "item_categories": ["Battle Damage Items"],
+            "random": 1,
+            "if_previous_item": ["Battle"]
+        },
+        {
+            "item_categories": ["COM Settings"],
+            "random": 1,
+            "if_previous_item": ["Battle"]
+        },
+        {
+            "item_categories": ["COM Vehicle Settings"],
+            "random": 1,
+            "if_previous_item": ["Battle"]
+        },
+        {
+            "item_categories": ["Battle Course Settings"],
+            "random": 1,
+            "if_previous_item": ["Battle"]
+        },
+        {
+            "items": ["4 Rounds"],
+            "if_previous_item": ["Battle"]
+        },
+        {
+            "item_categories": ["Battle Round Time Settings"],
+            "random": 1,
+            "if_previous_item": ["Battle"]
+        },
+        {
+            "item_categories": ["Difficulty"],
+            "random": 1
+        },
+        {
+            "item_categories": ["Cups"],
+            "random": 1
+        },
+        {
+            "item_categories": ["Battle Modes"],
+            "random": 1
+        },
+        {
+            "item_categories": ["Characters"],
+            "random": 1
+        },
+        {
+            "item_categories": ["Karts"],
+            "random": 1
+        },
+        {
+            "item_categories": ["Wheels"],
+            "random": 1
+        },
+        {
+            "item_categories": ["Gliders"],
+            "random": 1
+        }
+    ]
 }

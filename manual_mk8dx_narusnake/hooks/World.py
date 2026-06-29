@@ -1,5 +1,6 @@
 from typing import Any
 from worlds.AutoWorld import World
+import re
 from BaseClasses import MultiWorld, CollectionState, Item
 
 from ..Items import ManualItem
@@ -81,6 +82,28 @@ RAINBOW_ROAD_GOAL_REQUIREMENTS = [
     ("Moon Cup", "dlc_wave_3"),
     ("Spiny Cup", "dlc_wave_6"),
 ]
+RAINBOW_ROAD_GOAL_NAMES = (
+    "All Rainbow Roads Complete",
+    "All Rainbow Roads Complete + MKTV Tokens",
+)
+TIME_TRIAL_GOAL_NAMES = (
+    "All Time Trial Ghosts",
+    "All Time Trial Ghosts + MKTV Tokens",
+)
+TIME_TRIAL_CHECKS_OPTION_NAME = "time_trial_checks"
+TIME_TRIAL_SPLIT_150_200 = 1
+DIFFICULTY_ITEMS_OPTION_NAME = "difficulty_items"
+RACE_ITEMS_OPTION_NAME = "race_items"
+DIFFICULTY_REQUIREMENT_ATOMS = (
+    "|50CC|",
+    "|100CC|",
+    "|150CC|",
+    "|Mirror|",
+    "|200CC|",
+    "|@Difficulty:1|",
+    "|@Difficulty:all|",
+)
+BATTLE_DAMAGE_REQUIREMENT_ATOM = "|@Battle Damage Items:1|"
 
 
 def _selected_goal_name(world: World, multiworld: MultiWorld, player: int) -> str:
@@ -116,6 +139,25 @@ def _is_manual_option_enabled(world: World, multiworld: MultiWorld, player: int,
     if not hasattr(world.options, option_name):
         return True
     return bool(get_option_value(multiworld, player, option_name))
+
+
+def _remove_requirement_atom(requirement: str, atom: str) -> str:
+    updated = requirement.replace(f"{atom} AND ", "")
+    updated = updated.replace(f" AND {atom}", "")
+    updated = updated.replace(atom, "")
+    updated = re.sub(r"\s+AND\s+AND\s+", " AND ", updated)
+    updated = updated.replace("( AND ", "(").replace(" AND )", ")")
+    return updated.strip()
+
+
+def _remove_requirement_atoms(requirement: str, atoms: tuple[str, ...]) -> str:
+    for atom in atoms:
+        requirement = _remove_requirement_atom(requirement, atom)
+    return requirement
+
+
+def _enabled_battle_damage_items(world: World, multiworld: MultiWorld, player: int) -> bool:
+    return _is_manual_option_enabled(world, multiworld, player, RACE_ITEMS_OPTION_NAME)
 
 
 def _character_variant_mode(world: World, multiworld: MultiWorld, player: int) -> int:
@@ -157,17 +199,58 @@ def _sync_character_variant_item_counts(item_config: dict[str, int | dict], worl
 
 
 def _sync_rainbow_road_goal_requirements(world: World, multiworld: MultiWorld, player: int) -> None:
-    goal = world.location_name_to_location.get("All Rainbow Roads Complete")
-    if not goal:
-        return
-
     dlc_enabled = _is_manual_option_enabled(world, multiworld, player, "dlc")
     requirements: list[str] = []
     for cup_name, wave_option in RAINBOW_ROAD_GOAL_REQUIREMENTS:
         if wave_option is None or (dlc_enabled and _is_manual_option_enabled(world, multiworld, player, wave_option)):
             requirements.append(cup_name)
 
-    goal["requires"] = " AND ".join(f"|{requirement}|" for requirement in requirements)
+    base_requires = " AND ".join(f"|{requirement}|" for requirement in requirements)
+    for goal_name in RAINBOW_ROAD_GOAL_NAMES:
+        goal = world.location_name_to_location.get(goal_name)
+        if not goal:
+            continue
+        goal["requires"] = base_requires
+        if TOKEN_ITEM_NAME in goal_name:
+            goal["requires"] = f"({base_requires}) AND |{TOKEN_ITEM_NAME}:ALL|"
+
+
+def _sync_time_trial_goal_requirements(world: World, multiworld: MultiWorld, player: int) -> None:
+    requirements = ["|Time Trial|", "|@Cups:all|"]
+    if (
+        _is_manual_option_enabled(world, multiworld, player, DIFFICULTY_ITEMS_OPTION_NAME)
+        and _int_option(world, multiworld, player, TIME_TRIAL_CHECKS_OPTION_NAME, 0) == TIME_TRIAL_SPLIT_150_200
+    ):
+        if _is_manual_option_enabled(world, multiworld, player, "run_150cc"):
+            requirements.append("|150CC|")
+        if _is_manual_option_enabled(world, multiworld, player, "run_200cc"):
+            requirements.append("|200CC|")
+
+    base_requires = " AND ".join(requirements)
+    for goal_name in TIME_TRIAL_GOAL_NAMES:
+        goal = world.location_name_to_location.get(goal_name)
+        if not goal:
+            continue
+        goal["requires"] = base_requires
+        if TOKEN_ITEM_NAME in goal_name:
+            goal["requires"] = f"({base_requires}) AND |{TOKEN_ITEM_NAME}:ALL|"
+
+
+def _sync_optional_requirement_filters(world: World, multiworld: MultiWorld, player: int) -> None:
+    strip_difficulty = not _is_manual_option_enabled(world, multiworld, player, DIFFICULTY_ITEMS_OPTION_NAME)
+    strip_battle_damage = not _enabled_battle_damage_items(world, multiworld, player)
+    if not strip_difficulty and not strip_battle_damage:
+        return
+
+    for location in world.location_name_to_location.values():
+        requirements = str(location.get("requires", ""))
+        if not requirements:
+            continue
+        if strip_difficulty:
+            requirements = _remove_requirement_atoms(requirements, DIFFICULTY_REQUIREMENT_ATOMS)
+        if strip_battle_damage:
+            requirements = _remove_requirement_atom(requirements, BATTLE_DAMAGE_REQUIREMENT_ATOM)
+        location["requires"] = requirements
 
 
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
@@ -228,6 +311,8 @@ def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, pl
 
 def before_set_rules(world: World, multiworld: MultiWorld, player: int):
     _sync_rainbow_road_goal_requirements(world, multiworld, player)
+    _sync_time_trial_goal_requirements(world, multiworld, player)
+    _sync_optional_requirement_filters(world, multiworld, player)
 
 
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):

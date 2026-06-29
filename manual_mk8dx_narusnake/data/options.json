@@ -3,13 +3,29 @@
     "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
     "core": {
         "goal": {
-            "_comment": [
-                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
-            ],
+            "_comment": ["Using 'goal' as the name of an option let you override some of the generated goal parameters"],
             "display_name": "The End Objective",
-            "description": "How to End your Randomized playthrough.",
+            "description": ["Choose how to finish the Mario Kart 8 Deluxe Manual world.", "Token variants require the selected objective plus the configured MKTV Token count."],
             "aliases": {
-                "easiest": 0
+                "easiest": 0,
+                "rainbow_roads": 0,
+                "all_rainbow_roads": 0,
+                "tokens": 1,
+                "token": 1,
+                "mktv_tokens": 1,
+                "grand_prix": 2,
+                "all_grand_prix": 2,
+                "time_trial": 3,
+                "all_time_trial": 3,
+                "vs_race": 4,
+                "all_vs_race": 4,
+                "battle": 5,
+                "all_battle": 5,
+                "rainbow_roads_tokens": 6,
+                "grand_prix_tokens": 7,
+                "time_trial_tokens": 8,
+                "vs_race_tokens": 9,
+                "battle_tokens": 10
             },
             "hidden": false
         },
@@ -24,51 +40,6 @@
         }
     },
     "user": {
-        "_commented_out_option": {
-            "type": "Toggle",
-            "default": true
-        },
-        "Example_Toggle": {
-            "description": [
-                "This is a Toggle",
-                "A simple boolean, aka True or False set the initial value with \"default\""
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Example Options"
-        },
-        "Example_Choice": {
-            "type": "Choice",
-            "description": [
-                "This is a Choice",
-                "Let the user pick from a list of values",
-                "allow_custom_value let a player define their own text value",
-                "Currently the only use for Choice in Manual outside of hooks is the goal"
-            ],
-            "values": {
-                "start": 0,
-                "test": 1
-            },
-            "default": 0,
-            "allow_custom_value": false,
-            "group": "Example Options"
-        },
-        "Example_Range": {
-            "type": "Range",
-            "description": [
-                "This is a Range",
-                "Allow the player to specify a value between 'start' and 'end'",
-                "if you include a \"values\" you can define the label for certain values",
-                "Currently the only use for Range in Manual outside of hooks is 'filler_trap'"
-            ],
-            "range_start": 0,
-            "default": 1,
-            "range_end": 5,
-            "values": {
-                "example": 2
-            },
-            "group": "Example Options"
-        },
         "dlc": {
             "display_name": "DLC Enabled",
             "description": "Enable Mario Kart 8 Deluxe DLC and Booster Course Pass items and checks. If this is false, all DLC waves are disabled even when individual wave options are true.",
@@ -155,10 +126,7 @@
         },
         "mktv_tokens_required": {
             "display_name": "MKTV Tokens Required",
-            "description": [
-                "Choose how many MKTV Tokens are required for the Mario Kart 8 Token goal.",
-                "MKTV Tokens are only added to the item pool when the selected goal requires them."
-            ],
+            "description": ["Choose how many MKTV Tokens are required for the Mario Kart 8 Token goal.", "MKTV Tokens are only added to the item pool when the selected goal requires them."],
             "type": "Range",
             "range_start": 1,
             "range_end": 100,
@@ -167,11 +135,7 @@
         },
         "mktv_tokens_available_percentage": {
             "display_name": "MKTV Tokens Available Percentage",
-            "description": [
-                "Controls how many MKTV Token items are placed compared to the required amount.",
-                "100 means only the required amount is placed. 200 means double the required amount is placed.",
-                "The final amount is capped at 100 MKTV Tokens."
-            ],
+            "description": ["Controls how many MKTV Token items are placed compared to the required amount.", "100 means only the required amount is placed. 200 means double the required amount is placed.", "The final amount is capped at 100 MKTV Tokens."],
             "type": "Range",
             "range_start": 100,
             "range_end": 400,
@@ -180,12 +144,7 @@
         },
         "character_variants": {
             "display_name": "Character Variants",
-            "description": [
-                "Controls how characters that share a selection slot are handled.",
-                "Separate keeps every color or form as its own item.",
-                "Progressive replaces each group with repeated Progressive items.",
-                "Character Only uses one item to unlock every color or form in that group."
-            ],
+            "description": ["Controls how characters that share a selection slot are handled.", "Separate keeps every color or form as its own item.", "Progressive replaces each group with repeated Progressive items.", "Character Only uses one item to unlock every color or form in that group."],
             "type": "Choice",
             "values": {
                 "separate": 0,
@@ -194,6 +153,241 @@
             },
             "default": 0,
             "group": "Character Options"
+        },
+        "time_trial_checks": {
+            "display_name": "Time Trial Checks",
+            "description": ["Controls how Time Trial ghost checks are included.", "Single creates one Nintendo ghost check per track without an engine-class requirement.", "Split 150/200 creates separate 150cc and 200cc Nintendo ghost checks."],
+            "type": "Choice",
+            "values": {
+                "single": 0,
+                "split_150_200": 1
+            },
+            "default": 0,
+            "group": "Check Options"
+        },
+        "track_challenges": {
+            "display_name": "Track Challenges",
+            "description": ["Enable optional course-specific challenge checks.", "Each check requires any race mode, any unlocked engine class, and the related cup."],
+            "type": "Toggle",
+            "default": true,
+            "group": "Check Options"
+        },
+        "race_items": {
+            "display_name": "Race Items",
+            "description": ["Enable all race items as one group.", "When disabled, all race item progression items and checks that directly require them are removed.", "Battle checks no longer require a battle-damage item when race items are disabled."],
+            "type": "Toggle",
+            "default": true,
+            "group": "Race Item Options"
+        },
+        "item_challenges": {
+            "display_name": "Item Challenges",
+            "description": ["Enable optional checks for using each race item.", "Checks can be cleared in Grand Prix, VS Race, or Battle Mode when the needed mode requirements are unlocked."],
+            "type": "Toggle",
+            "default": true,
+            "group": "Check Options"
+        },
+        "kart": {
+            "display_name": "Kart Parts",
+            "description": ["Enable kart body, wheel, and glider progression items as one group.", "When disabled, all kart bodies, wheels, gliders, and checks that directly require them are removed."],
+            "type": "Toggle",
+            "default": true,
+            "group": "Vehicle Options"
+        },
+        "kart_challenges": {
+            "display_name": "Kart Challenges",
+            "description": ["Enable optional checks for winning a race with each kart body, wheel, and glider.", "All vehicle part challenge checks share the same Kart Challenges category."],
+            "type": "Toggle",
+            "default": true,
+            "group": "Check Options"
+        },
+        "vs_race_challenges": {
+            "display_name": "VS Race Challenges",
+            "description": ["Enable optional VS Race checks for winning configured race counts with or without teams.", "These checks require VS Race, a race count setting, a team setting, VS item/COM/course settings, enough unlocked cups, and the selected engine class."],
+            "type": "Toggle",
+            "default": true,
+            "group": "Check Options"
+        },
+        "battle_challenges": {
+            "display_name": "Battle Challenges",
+            "description": ["Enable optional Battle Mode round-count challenge checks.", "These checks require Battle, the selected Battle mode, the round count setting, valid Battle item/COM/vehicle/course settings, at least one non-Coin battle item, and the mode-specific team or round-time settings."],
+            "type": "Toggle",
+            "default": true,
+            "group": "Check Options"
+        },
+        "difficulty_items": {
+            "display_name": "Difficulty Items",
+            "description": ["Enable engine-class progression items: 50cc, 100cc, 150cc, Mirror, and 200cc.", "When disabled, engine-class items and engine-specific checks are removed, then clean no-difficulty versions of those checks are used instead."],
+            "type": "Toggle",
+            "default": true,
+            "group": "Difficulty Options"
+        },
+        "run_50cc": {
+            "display_name": "50cc Checks",
+            "description": "Enable the 50cc item and its matching checks. Ignored when Difficulty Items is disabled.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Difficulty Options"
+        },
+        "run_100cc": {
+            "display_name": "100cc Checks",
+            "description": "Enable the 100cc item and its matching checks. Ignored when Difficulty Items is disabled.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Difficulty Options"
+        },
+        "run_150cc": {
+            "display_name": "150cc Checks",
+            "description": "Enable the 150cc item and its matching checks. Ignored when Difficulty Items is disabled.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Difficulty Options"
+        },
+        "run_mirror": {
+            "display_name": "Mirror Checks",
+            "description": "Enable the Mirror item and its matching checks. Ignored when Difficulty Items is disabled.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Difficulty Options"
+        },
+        "run_200cc": {
+            "display_name": "200cc Checks",
+            "description": "Enable the 200cc item and its matching checks. Ignored when Difficulty Items is disabled.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Difficulty Options"
+        },
+        "game_modes": {
+            "display_name": "Game Modes",
+            "description": "Enable all game mode progression items. Keep at least one individual game mode enabled.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Game Mode Options"
+        },
+        "game_mode_battle": {
+            "display_name": "Battle",
+            "description": "Enable the Battle game mode item. Locations that only rely on disabled game modes are removed.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Game Mode Options"
+        },
+        "game_mode_grand_prix": {
+            "display_name": "Grand Prix",
+            "description": "Enable the Grand Prix game mode item. Locations that only rely on disabled game modes are removed.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Game Mode Options"
+        },
+        "game_mode_time_trial": {
+            "display_name": "Time Trial",
+            "description": "Enable the Time Trial game mode item. Locations that only rely on disabled game modes are removed.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Game Mode Options"
+        },
+        "game_mode_vs_race": {
+            "display_name": "VS Race",
+            "description": "Enable the VS Race game mode item. Locations that only rely on disabled game modes are removed.",
+            "type": "Toggle",
+            "default": true,
+            "group": "Game Mode Options"
+        },
+        "battle_modes": {
+            "display_name": "Battle Modes",
+            "description": "Enable all Battle mode items and checks that directly require them.",
+            "type": "Toggle",
+            "default": false,
+            "group": "Battle Mode Options"
+        },
+        "battle_mode_balloon_battle": {
+            "display_name": "Balloon Battle",
+            "description": "Enable the Balloon Battle Battle mode item and checks that directly require it.",
+            "type": "Toggle",
+            "default": false,
+            "group": "Battle Mode Options"
+        },
+        "battle_mode_bob_omb_blast": {
+            "display_name": "Bob-omb Blast",
+            "description": "Enable the Bob-omb Blast Battle mode item and checks that directly require it.",
+            "type": "Toggle",
+            "default": false,
+            "group": "Battle Mode Options"
+        },
+        "battle_mode_coin_runners": {
+            "display_name": "Coin Runners",
+            "description": "Enable the Coin Runners Battle mode item and checks that directly require it.",
+            "type": "Toggle",
+            "default": false,
+            "group": "Battle Mode Options"
+        },
+        "battle_mode_renegade_roundup": {
+            "display_name": "Renegade Roundup",
+            "description": "Enable the Renegade Roundup Battle mode item and checks that directly require it.",
+            "type": "Toggle",
+            "default": false,
+            "group": "Battle Mode Options"
+        },
+        "battle_mode_shine_thief": {
+            "display_name": "Shine Thief",
+            "description": "Enable the Shine Thief Battle mode item and checks that directly require it.",
+            "type": "Toggle",
+            "default": false,
+            "group": "Battle Mode Options"
+        },
+        "mode_setting_teams": {
+            "display_name": "Team Rules",
+            "description": ["Enable the Team Game and No Teams mode setting items.", "These settings are used by VS Race and most Battle Mode logic."],
+            "type": "Toggle",
+            "default": false,
+            "group": "Mode Setting Options"
+        },
+        "mode_setting_items": {
+            "display_name": "Item Rules",
+            "description": ["Enable item-rule mode setting items for Battle and VS Race.", "This includes Frantic, Custom, Normal, Skilled, No Items, No Items or Coins, Shell Only, Bananas Only, Mushroom Only, and Bob-ombs Only."],
+            "type": "Toggle",
+            "default": false,
+            "group": "Mode Setting Options"
+        },
+        "mode_setting_round_time": {
+            "display_name": "Battle Round Time",
+            "description": "Enable all Battle round time setting items from 1 Minute through 5 Minutes.",
+            "type": "Toggle",
+            "default": false,
+            "group": "Mode Setting Options"
+        },
+        "mode_setting_com": {
+            "display_name": "COM Difficulty",
+            "description": "Enable Easy COM, Normal COM, and Hard COM setting items.",
+            "type": "Toggle",
+            "default": false,
+            "group": "Mode Setting Options"
+        },
+        "mode_setting_com_vehicles": {
+            "display_name": "COM Vehicle Rules",
+            "description": "Enable All Vehicles, Kart Only, and Bikes Only setting items.",
+            "type": "Toggle",
+            "default": false,
+            "group": "Mode Setting Options"
+        },
+        "mode_setting_courses": {
+            "display_name": "Course Rules",
+            "description": "Enable Choose Courses, In Order Courses, and Random Courses setting items.",
+            "type": "Toggle",
+            "default": false,
+            "group": "Mode Setting Options"
+        },
+        "mode_setting_rounds": {
+            "display_name": "Battle Round Counts",
+            "description": "Enable all Battle round count setting items from 4 Rounds through 24 Rounds.",
+            "type": "Toggle",
+            "default": false,
+            "group": "Mode Setting Options"
+        },
+        "mode_setting_races": {
+            "display_name": "VS Race Counts",
+            "description": "Enable all VS Race count setting items from 4 Races through 48 Races.",
+            "type": "Toggle",
+            "default": false,
+            "group": "Mode Setting Options"
         }
     }
 }

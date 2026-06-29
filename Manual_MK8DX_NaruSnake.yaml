@@ -32,157 +32,362 @@ description: Default Manual_MK8DX_NaruSnake Template
 
 game: Manual_MK8DX_NaruSnake
 requires:
-  version: 0.5.0 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
 
 Manual_MK8DX_NaruSnake:
-  # Game Options
+  ################
+  # Game Options #
+  ################
   progression_balancing:
     # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
-    # 
+    #
     # A lower setting means more getting stuck. A higher setting means less getting stuck.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
     # Maximum value is 99
     random: 0
-    random-low: 0
-    random-high: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
     disabled: 0 # equivalent to 0
     normal: 50 # equivalent to 50
     extreme: 0 # equivalent to 99
 
   accessibility:
     # Set rules for reachability of your items/locations.
-    # 
-    # - **Locations:** ensure everything can be reached and acquired.
-    # - **Items:** ensure all logically relevant items can be acquired.
-    # - **Minimal:** ensure what is needed to reach your goal can be acquired.
-    locations: 0
-    items: 50
+    #
+    # **Full:** ensure everything can be reached and acquired.
+    #
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
     minimal: 0
 
   goal:
-    # Choose your victory condition.
-    # All Rainbow Roads Complete is a goal where you will need to complete every Rainbow Road in the game, including DLC.
-    # Mario Kart 8 Token: you will need to collect all the tokens to complete this run.
+    # Choose how to finish the Mario Kart 8 Deluxe Manual world.
+    # Token variants require the selected objective plus the configured MKTV Token count.
     all rainbow roads complete: 50
     mario kart 8 token: 0
+    all grand prix cups: 0
+    all time trial ghosts: 0
+    all vs race challenges: 0
+    all battle challenges: 0
+    all rainbow roads complete + mktv tokens: 0
+    all grand prix cups + mktv tokens: 0
+    all time trial ghosts + mktv tokens: 0
+    all vs race challenges + mktv tokens: 0
+    all battle challenges + mktv tokens: 0
 
-  run_50cc:
-  # Setting this to False removes all 50cc checks from the seed
-    "false": 0
-    "true": 50
+  ###############
+  # DLC Options #
+  ###############
+  dlc:
+    # Enable Mario Kart 8 Deluxe DLC and Booster Course Pass items and checks. If this is false, all DLC waves are disabled even when individual wave options are true.
+    'false': 0
+    'true': 50
 
-  run_100cc:
-  # Setting this to False removes all 100cc checks from the seed
-    "false": 0
-    "true": 50
+  dlc_wave_1:
+    # Enable Wave 1 Booster Course Pass cups and checks. Ignored when DLC Enabled is false.
+    'false': 0
+    'true': 50
 
-  run_150cc:
-  # Setting this to False removes all 150cc checks from the seed
-    "false": 0
-    "true": 50
+  dlc_wave_2:
+    # Enable Wave 2 Booster Course Pass cups and checks. Ignored when DLC Enabled is false.
+    'false': 0
+    'true': 50
 
-  run_mirror:
-  # Setting this to False removes all Mirror checks from the seed
-    "false": 0
-    "true": 50
+  dlc_wave_3:
+    # Enable Wave 3 Booster Course Pass cups and checks. Ignored when DLC Enabled is false.
+    'false': 0
+    'true': 50
 
-  run_200cc:
-  # Setting this to False removes all 200cc checks from the seed
-    "false": 0
-    "true": 50
+  dlc_wave_4:
+    # Enable Wave 4 Booster Course Pass cups, characters, and checks. Ignored when DLC Enabled is false.
+    'false': 0
+    'true': 50
 
+  dlc_wave_5:
+    # Enable Wave 5 Booster Course Pass cups, characters, and checks. Ignored when DLC Enabled is false.
+    'false': 0
+    'true': 50
+
+  dlc_wave_6:
+    # Enable Wave 6 Booster Course Pass cups, characters, and checks. Ignored when DLC Enabled is false.
+    'false': 0
+    'true': 50
+
+  ##################
+  # Unlock Options #
+  ##################
+  golden:
+    # Enable all golden unlock items and related checks. If this is false, individual golden item options are ignored.
+    'false': 0
+    'true': 50
+
+  golden_mario:
+    # Enable Golden Mario and its related check. Ignored when Golden Unlocks is false.
+    'false': 0
+    'true': 50
+
+  gold_standard:
+    # Enable the Gold Standard kart item. Ignored when Golden Unlocks is false.
+    'false': 0
+    'true': 50
+
+  gold_tires:
+    # Enable the Gold Tires wheel item. Ignored when Golden Unlocks is false.
+    'false': 0
+    'true': 50
+
+  golden_glider:
+    # Enable the Golden Glider item. Ignored when Golden Unlocks is false.
+    'false': 0
+    'true': 50
+
+  ################
+  # Goal Options #
+  ################
+  mktv_tokens_required:
+    # Choose how many MKTV Tokens are required for the Mario Kart 8 Token goal.
+    # MKTV Tokens are only added to the item pool when the selected goal requires them.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    100: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  mktv_tokens_available_percentage:
+    # Controls how many MKTV Token items are placed compared to the required amount.
+    # 100 means only the required amount is placed. 200 means double the required amount is placed.
+    # The final amount is capped at 100 MKTV Tokens.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 100
+    # Maximum value is 400
+    100: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-100-400: 0 # random value between 100 and 400
+
+  #####################
+  # Character Options #
+  #####################
   character_variants:
-    # Controls characters that share the same selection slot.
-    # separate: each color/form is its own item, matching the original check logic.
-    # progressive: each group uses repeated Progressive - Character items.
-    # character_only: one item unlocks every color/form in that group.
+    # Controls how characters that share a selection slot are handled.
+    # Separate keeps every color or form as its own item.
+    # Progressive replaces each group with repeated Progressive items.
+    # Character Only uses one item to unlock every color or form in that group.
     separate: 50
     progressive: 0
     character_only: 0
 
-  mktv_tokens_required:
-    # Number of MKTV Tokens required when the Mario Kart 8 Token goal is selected.
-    # Minimum value is 1
-    # Maximum value is 100
-    random: 0
-    random-low: 0
-    random-high: 0
-    100: 50
+  #################
+  # Check Options #
+  #################
+  time_trial_checks:
+    # Controls how Time Trial ghost checks are included.
+    # Single creates one Nintendo ghost check per track without an engine-class requirement.
+    # Split 150/200 creates separate 150cc and 200cc Nintendo ghost checks.
+    single: 50
+    split_150_200: 0
 
-  mktv_tokens_available_percentage:
-    # Percentage of required MKTV Tokens that will be placed in the item pool.
-    # 100 means exactly the required amount. 200 means double, capped at 100 tokens.
-    # Minimum value is 100
-    # Maximum value is 400
-    random: 0
-    random-low: 0
-    random-high: 0
-    100: 50
+  track_challenges:
+    # Enable optional course-specific challenge checks.
+    # Each check requires any race mode, any unlocked engine class, and the related cup.
+    'false': 0
+    'true': 50
 
-  dlc:
-    # Setting this to false removes all DLC and Booster Course Pass items/checks.
-    # If this is false, individual wave options are ignored even when they are true.
-    "false": 0
-    "true": 50
+  item_challenges:
+    # Enable optional checks for using each race item.
+    # Checks can be cleared in Grand Prix, VS Race, or Battle Mode when the needed mode requirements are unlocked.
+    'false': 0
+    'true': 50
 
-  dlc_wave_1:
-    # Golden Dash Cup and Lucky Cat Cup. Ignored if dlc is false.
-    "false": 0
-    "true": 50
+  kart_challenges:
+    # Enable optional checks for winning a race with each kart body, wheel, and glider.
+    # All vehicle part challenge checks share the same Kart Challenges category.
+    'false': 0
+    'true': 50
 
-  dlc_wave_2:
-    # Turnip Cup and Propeller Cup. Ignored if dlc is false.
-    "false": 0
-    "true": 50
+  vs_race_challenges:
+    # Enable optional VS Race checks for winning configured race counts with or without teams.
+    # These checks require VS Race, a race count setting, a team setting, VS item/COM/course settings, enough unlocked cups, and the selected engine class.
+    'false': 0
+    'true': 50
 
-  dlc_wave_3:
-    # Rock Cup and Moon Cup. Ignored if dlc is false.
-    "false": 0
-    "true": 50
+  battle_challenges:
+    # Enable optional Battle Mode round-count challenge checks.
+    # These checks require Battle, the selected Battle mode, the round count setting, valid Battle item/COM/vehicle/course settings, at least one non-Coin battle item, and the mode-specific team or round-time settings.
+    'false': 0
+    'true': 50
 
-  dlc_wave_4:
-    # Fruit Cup, Boomerang Cup, and Birdo variants. Ignored if dlc is false.
-    "false": 0
-    "true": 50
+  #####################
+  # Race Item Options #
+  #####################
+  race_items:
+    # Enable all race items as one group.
+    # When disabled, all race item progression items and checks that directly require them are removed.
+    # Battle checks no longer require a battle-damage item when race items are disabled.
+    'false': 0
+    'true': 50
 
-  dlc_wave_5:
-    # Feather Cup, Cherry Cup, Petey Piranha, Wiggler, and Kamek. Ignored if dlc is false.
-    "false": 0
-    "true": 50
+  ###################
+  # Vehicle Options #
+  ###################
+  kart:
+    # Enable kart body, wheel, and glider progression items as one group.
+    # When disabled, all kart bodies, wheels, gliders, and checks that directly require them are removed.
+    'false': 0
+    'true': 50
 
-  dlc_wave_6:
-    # Acorn Cup, Spiny Cup, Diddy Kong, Funky Kong, Pauline, and Peachette. Ignored if dlc is false.
-    "false": 0
-    "true": 50
+  ######################
+  # Difficulty Options #
+  ######################
+  difficulty_items:
+    # Enable engine-class progression items: 50cc, 100cc, 150cc, Mirror, and 200cc.
+    # When disabled, engine-class items and engine-specific checks are removed, then clean no-difficulty versions of those checks are used instead.
+    'false': 0
+    'true': 50
 
-  golden:
-    # Setting this to false removes all golden unlock items/checks.
-    # If this is false, individual golden item options are ignored even when they are true.
-    "false": 0
-    "true": 50
+  run_50cc:
+    # Enable the 50cc item and its matching checks. Ignored when Difficulty Items is disabled.
+    'false': 0
+    'true': 50
 
-  golden_mario:
-    # Enable Golden Mario and its related check. Ignored if golden is false.
-    "false": 0
-    "true": 50
+  run_100cc:
+    # Enable the 100cc item and its matching checks. Ignored when Difficulty Items is disabled.
+    'false': 0
+    'true': 50
 
-  gold_standard:
-    # Enable the Gold Standard kart item. Ignored if golden is false.
-    "false": 0
-    "true": 50
+  run_150cc:
+    # Enable the 150cc item and its matching checks. Ignored when Difficulty Items is disabled.
+    'false': 0
+    'true': 50
 
-  gold_tires:
-    # Enable the Gold Tires wheel item. Ignored if golden is false.
-    "false": 0
-    "true": 50
+  run_mirror:
+    # Enable the Mirror item and its matching checks. Ignored when Difficulty Items is disabled.
+    'false': 0
+    'true': 50
 
-  golden_glider:
-    # Enable the Golden Glider item. Ignored if golden is false.
-    "false": 0
-    "true": 50
-  # Item & Location Options
+  run_200cc:
+    # Enable the 200cc item and its matching checks. Ignored when Difficulty Items is disabled.
+    'false': 0
+    'true': 50
+
+  #####################
+  # Game Mode Options #
+  #####################
+  game_modes:
+    # Enable all game mode progression items. Keep at least one individual game mode enabled.
+    'false': 0
+    'true': 50
+
+  game_mode_battle:
+    # Enable the Battle game mode item. Locations that only rely on disabled game modes are removed.
+    'false': 0
+    'true': 50
+
+  game_mode_grand_prix:
+    # Enable the Grand Prix game mode item. Locations that only rely on disabled game modes are removed.
+    'false': 0
+    'true': 50
+
+  game_mode_time_trial:
+    # Enable the Time Trial game mode item. Locations that only rely on disabled game modes are removed.
+    'false': 0
+    'true': 50
+
+  game_mode_vs_race:
+    # Enable the VS Race game mode item. Locations that only rely on disabled game modes are removed.
+    'false': 0
+    'true': 50
+
+  #######################
+  # Battle Mode Options #
+  #######################
+  battle_modes:
+    # Enable all Battle mode items and checks that directly require them.
+    'false': 50
+    'true': 0
+
+  battle_mode_balloon_battle:
+    # Enable the Balloon Battle Battle mode item and checks that directly require it.
+    'false': 50
+    'true': 0
+
+  battle_mode_bob_omb_blast:
+    # Enable the Bob-omb Blast Battle mode item and checks that directly require it.
+    'false': 50
+    'true': 0
+
+  battle_mode_coin_runners:
+    # Enable the Coin Runners Battle mode item and checks that directly require it.
+    'false': 50
+    'true': 0
+
+  battle_mode_renegade_roundup:
+    # Enable the Renegade Roundup Battle mode item and checks that directly require it.
+    'false': 50
+    'true': 0
+
+  battle_mode_shine_thief:
+    # Enable the Shine Thief Battle mode item and checks that directly require it.
+    'false': 50
+    'true': 0
+
+  ########################
+  # Mode Setting Options #
+  ########################
+  mode_setting_teams:
+    # Enable the Team Game and No Teams mode setting items.
+    # These settings are used by VS Race and most Battle Mode logic.
+    'false': 50
+    'true': 0
+
+  mode_setting_items:
+    # Enable item-rule mode setting items for Battle and VS Race.
+    # This includes Frantic, Custom, Normal, Skilled, No Items, No Items or Coins, Shell Only, Bananas Only, Mushroom Only, and Bob-ombs Only.
+    'false': 50
+    'true': 0
+
+  mode_setting_round_time:
+    # Enable all Battle round time setting items from 1 Minute through 5 Minutes.
+    'false': 50
+    'true': 0
+
+  mode_setting_com:
+    # Enable Easy COM, Normal COM, and Hard COM setting items.
+    'false': 50
+    'true': 0
+
+  mode_setting_com_vehicles:
+    # Enable All Vehicles, Kart Only, and Bikes Only setting items.
+    'false': 50
+    'true': 0
+
+  mode_setting_courses:
+    # Enable Choose Courses, In Order Courses, and Random Courses setting items.
+    'false': 50
+    'true': 0
+
+  mode_setting_rounds:
+    # Enable all Battle round count setting items from 4 Rounds through 24 Rounds.
+    'false': 50
+    'true': 0
+
+  mode_setting_races:
+    # Enable all VS Race count setting items from 4 Races through 48 Races.
+    'false': 50
+    'true': 0
+
+  ###########################
+  # Item & Location Options #
+  ###########################
   local_items:
     # Forces these items to be in their native world.
     []
@@ -192,7 +397,13 @@ Manual_MK8DX_NaruSnake:
     []
 
   start_inventory:
-    # Start with these items.
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_inventory_from_pool:
+    # Start with the specified amount of these items and don't place them in the world. Example: "Bomb: 1"
+    #
+    # The game decides what the replacement items will be.
     {}
 
   start_hints:
@@ -213,4 +424,8 @@ Manual_MK8DX_NaruSnake:
 
   item_links:
     # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
     []
