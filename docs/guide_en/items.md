@@ -2,12 +2,14 @@
 
 Items represent what the player is allowed to use for checks. If a check requires `|VS Race|`, the player must have received the VS Race item before that check is logically available.
 
+Progression classification is adjusted for the active YAML. Option-disabled categories are removed from the pool; an enabled item only stays progression when it can satisfy an active location, category, region, or goal requirement. Enabled progression items that are no longer needed are downgraded to filler.
+
 ## Main Progression Categories
 **Game Modes** unlock Grand Prix, VS Race, Time Trial, and Battle. They decide which large parts of the game can be used.
 
 **Cups** unlock the course groups. Cup requirements usually appear as exact cup names or compact category requirements like `|@Cups:1|`.
 
-**Difficulty** contains 50cc, 100cc, 150cc, Mirror, and 200cc when `difficulty_items` is enabled.
+**Difficulty** contains 50cc, 100cc, 150cc, Mirror, and 200cc when `difficulty_items` is enabled. When `difficulty_items` is disabled, those items are removed from the pool and no-difficulty checks are used instead.
 
 **Characters** unlock racers. Some shared selection slots can be handled separately, progressively, or as one character-only unlock depending on `character_variants`.
 

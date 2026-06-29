@@ -1,5 +1,6 @@
 from typing import Any
 from worlds.AutoWorld import World
+import json
 import re
 from BaseClasses import MultiWorld, CollectionState, Item
 
@@ -104,6 +105,8 @@ DIFFICULTY_REQUIREMENT_ATOMS = (
     "|@Difficulty:all|",
 )
 BATTLE_DAMAGE_REQUIREMENT_ATOM = "|@Battle Damage Items:1|"
+REQUIREMENT_ATOM_PATTERN = re.compile(r"\|([^|]+)\|")
+DOWNGRADED_CLASSIFICATION = "filler"
 
 
 def _selected_goal_name(world: World, multiworld: MultiWorld, player: int) -> str:
@@ -253,6 +256,106 @@ def _sync_optional_requirement_filters(world: World, multiworld: MultiWorld, pla
         location["requires"] = requirements
 
 
+def _requirement_to_text(requirement: Any) -> str:
+    if isinstance(requirement, str):
+        return requirement
+    return json.dumps(requirement)
+
+
+def _iter_active_requirement_strings(world: World, multiworld: MultiWorld, player: int):
+    for location in multiworld.get_locations(player):
+        manual_location = world.location_name_to_location.get(location.name)
+        if manual_location is None:
+            manual_location = world.event_name_to_event.get(location.name)
+        if manual_location and manual_location.get("requires"):
+            yield _requirement_to_text(manual_location["requires"])
+
+    for region in multiworld.regions:
+        if region.player != player:
+            continue
+        manual_region = region_table.get(region.name, {})
+        if manual_region.get("requires"):
+            yield _requirement_to_text(manual_region["requires"])
+        for requirement in manual_region.get("entrance_requires", {}).values():
+            yield _requirement_to_text(requirement)
+        for requirement in manual_region.get("exit_requires", {}).values():
+            yield _requirement_to_text(requirement)
+
+
+def _required_items_and_categories(world: World, multiworld: MultiWorld, player: int) -> tuple[set[str], set[str]]:
+    required_items: set[str] = set()
+    required_categories: set[str] = set()
+
+    for requirement_text in _iter_active_requirement_strings(world, multiworld, player):
+        for atom in REQUIREMENT_ATOM_PATTERN.findall(requirement_text):
+            atom_name = atom.split(":", 1)[0].strip()
+            if not atom_name:
+                continue
+            if atom_name.startswith("@"):
+                required_categories.add(atom_name[1:])
+            else:
+                required_items.add(atom_name)
+
+    return required_items, required_categories
+
+
+def _item_config_count(config: int | dict) -> int:
+    if isinstance(config, dict):
+        return sum(int(count) for count in config.values())
+    return int(config)
+
+
+def _item_config_has_progression(config: int | dict) -> bool:
+    if not isinstance(config, dict):
+        return False
+    return any("progression" in str(classification).lower() and int(count) > 0 for classification, count in config.items())
+
+
+def _item_is_progression(item: dict, config: int | dict) -> bool:
+    return (
+        bool(item.get("progression"))
+        or bool(item.get("progression_skip_balancing"))
+        or _item_config_has_progression(config)
+    )
+
+
+def _logical_progression_item_names(item_config: dict[str, int | dict], world: World, multiworld: MultiWorld, player: int) -> set[str]:
+    required_items, required_categories = _required_items_and_categories(world, multiworld, player)
+    logical_items = set(required_items)
+
+    for item_name, config in item_config.items():
+        if _item_config_count(config) <= 0:
+            continue
+        item = world.item_name_to_item.get(item_name)
+        if not item:
+            continue
+        if required_categories.intersection(item.get("category", [])):
+            logical_items.add(item_name)
+
+    return logical_items
+
+
+def _sync_dynamic_item_classifications(item_config: dict[str, int | dict], world: World, multiworld: MultiWorld, player: int) -> None:
+    logical_progression_items = _logical_progression_item_names(item_config, world, multiworld, player)
+
+    for item_name, config in list(item_config.items()):
+        count = _item_config_count(config)
+        if count <= 0:
+            continue
+
+        item = world.item_name_to_item.get(item_name)
+        if not item:
+            continue
+
+        if item_name in logical_progression_items:
+            if not _item_is_progression(item, config):
+                item_config[item_name] = {"progression": count}
+            continue
+
+        if _item_is_progression(item, config):
+            item_config[item_name] = {DOWNGRADED_CLASSIFICATION: count}
+
+
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
     if FILLER_ITEM_NAMES:
         return world.random.choice(FILLER_ITEM_NAMES)
@@ -278,6 +381,9 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 
 def before_create_items_all(item_config: dict[str, int | dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int | dict]:
+    _sync_rainbow_road_goal_requirements(world, multiworld, player)
+    _sync_time_trial_goal_requirements(world, multiworld, player)
+    _sync_optional_requirement_filters(world, multiworld, player)
     _sync_character_variant_item_counts(item_config, world, multiworld, player)
 
     if _selected_goal_requires_tokens(world, multiworld, player):
@@ -287,6 +393,8 @@ def before_create_items_all(item_config: dict[str, int | dict], world: World, mu
         item_config[TOKEN_ITEM_NAME] = {"progression": required_count, "useful": extra_count} if extra_count else required_count
     else:
         item_config[TOKEN_ITEM_NAME] = 0
+
+    _sync_dynamic_item_classifications(item_config, world, multiworld, player)
 
     return item_config
 

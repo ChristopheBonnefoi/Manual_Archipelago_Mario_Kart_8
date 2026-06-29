@@ -2,12 +2,14 @@
 
 Les objets représentent ce que le joueur a le droit d'utiliser pour les checks. Si un check demande `|VS Race|`, le joueur doit avoir reçu l'item VS Race avant que ce check soit logiquement disponible.
 
+La classification progression est ajustée selon le YAML actif. Les catégories désactivées par option sont retirées du pool ; un item activé reste progression uniquement s'il peut satisfaire un requirement actif de location, catégorie, région ou objectif. Un item progression encore activé mais devenu inutile est rétrogradé en filler.
+
 ## Catégories principales
 **Game Modes** débloque Grand Prix, VS Race, Time Trial et Battle. Ces items décident quelles grandes parties du jeu peuvent être utilisées.
 
 **Cups** débloque les groupes de circuits. Les requirements de coupe apparaissent soit avec le nom exact de la coupe, soit avec un format compact comme `|@Cups:1|`.
 
-**Difficulty** contient 50cc, 100cc, 150cc, Mirror et 200cc quand `difficulty_items` est actif.
+**Difficulty** contient 50cc, 100cc, 150cc, Mirror et 200cc quand `difficulty_items` est actif. Quand `difficulty_items` est désactivé, ces items sont retirés du pool et les checks sans difficulté sont utilisés à la place.
 
 **Characters** débloque les pilotes. Certains personnages qui partagent une case peuvent être séparés, progressifs ou débloqués avec un seul item selon `character_variants`.
 

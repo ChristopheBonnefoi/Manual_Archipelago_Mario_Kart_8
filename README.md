@@ -7,15 +7,15 @@ This project turns Mario Kart 8 Deluxe objectives, cups, characters, vehicle par
 The manual targets **Mario Kart 8 Deluxe on Nintendo Switch**, including Booster Course Pass content where the player owns it. DLC and wave-related checks can be enabled or disabled from the YAML so players can match the content they actually own.
 
 ## Project Status
-The project is currently at **Version 0.12.0 - Time Trial Check Update**.
-Version 1.0.0 is reserved for the point where the project is considered complete.
-The current update focuses on the Time Trial ghost check mode, expanded challenge logic, starting loadout support, fine-grained content options, detailed guides, and a cleaned victory goal set while keeping the character variant handling, DLC ownership options, MKTV Token configuration, and refreshed Manual Archipelago stable framework (`manual_stable_20260319`) from previous updates.
+The project is currently at **Version 1.0.0 - Release Update**.
+Version 1.0.0 is the first complete release baseline for the Mario Kart 8 Deluxe manual.
+The current release focuses on stable YAML-driven content filtering, clean item pool behavior, dynamic progression classification, detailed guides, expanded challenge logic, Time Trial ghost checks, starting loadout support, DLC ownership options, character variant handling, MKTV Token configuration, and the refreshed Manual Archipelago stable framework (`manual_stable_20260319`).
 
 ## Current Features
 - **Victory Goal Selection**
   Choose between Rainbow Roads, MKTV Tokens, Grand Prix, Time Trial, VS Race, Battle, or MKTV Token variants for every non-token objective.
 - **Engine-Class Toggles**
-  Enable or disable 50cc, 100cc, 150cc, Mirror, and 200cc checks from the YAML. `difficulty_items` can also remove engine-class progression entirely and swap engine-specific checks for clean no-difficulty checks.
+  Enable or disable 50cc, 100cc, 150cc, Mirror, and 200cc checks from the YAML. `difficulty_items` can also remove engine-class progression entirely, remove those items from the pool, and swap engine-specific checks for clean no-difficulty checks.
 - **Time Trial Check Mode**
   Choose between one Nintendo ghost check per track or separate 150cc and 200cc Time Trial ghost checks.
 - **DLC and Wave Options**
@@ -51,11 +51,33 @@ The current update focuses on the Time Trial ghost check mode, expanded challeng
 - **Starting Loadout**
   Seeds start with one randomized item from key gameplay categories such as game mode, difficulty, cup, character, kart, wheels, and glider. If the starting game mode is VS Race or Battle, the seed also precollects the mode settings needed to make the shortest matching challenge logic available. VS Race starts use `No Items or Coins` and `4 Races`.
 - **Detailed Guides**
-  Explanatory guides are available in `manual_mk8dx_narusnake/docs/guide_en/` and `manual_mk8dx_narusnake/docs/guide_fr/`.
+  Explanatory guides are available in `docs/guide_en/` and `docs/guide_fr/`.
 
 ---
 
 ## Patch Notes
+
+### Version 1.0.0 - Release Update
+
+**Release baseline**
+- Promoted the project to Version 1.0.0 as the first complete release baseline.
+- Finalized the YAML option structure for goals, game modes, DLC, gameplay toggles, unlocks, checks, mode settings, Battle settings, and item/location controls.
+- Removed the leftover Manual template example options from the generated YAML/options data so the sample configuration only contains real MK8DX options.
+
+**Content exclusion polish**
+- Disabled option categories now remove their related items and checks from the active seed instead of leaving misleading progression items behind.
+- `difficulty_items: false` removes 50cc, 100cc, 150cc, Mirror, and 200cc items from the pool, hides engine-specific checks, and uses clean no-difficulty check variants instead.
+- `race_items: false` removes all race item unlocks, and `kart: false` removes kart bodies, wheels, and gliders together.
+- Game mode and Battle mode toggles now work as release options rather than draft per-item settings.
+
+**Progression classification**
+- Item classification now follows the active YAML logic: enabled items only stay progression when they can satisfy an active location, category, region, or goal requirement.
+- Enabled progression items that are no longer needed by any active requirement are downgraded to filler so the player is not shown fake progression.
+
+**Documentation and build**
+- Updated the English and French README files plus the item guides to explain removed pool items versus downgraded filler items.
+- Moved the French README and detailed guide documentation to the repository-level `docs/` folder so they are not bundled inside the `.apworld` package, while keeping the Archipelago setup docs inside `manual_mk8dx_narusnake/docs/` for WebWorld/tutorial support.
+- Rebuilt `manual_mk8dx_narusnake.apworld` with the release hook updates.
 
 ### Version 0.12.0 - Check Update
 
@@ -116,12 +138,13 @@ The current update focuses on the Time Trial ghost check mode, expanded challeng
 
 **Fine-grained option update**
 - Added global and individual YAML toggles for game modes and Battle modes, then grouped mode setting toggles by family: teams, item rules, round time, COM rules, course rules, Battle rounds, and VS Race counts. Added one global `race_items` toggle for every race item and one global `kart` toggle for kart bodies, wheels, and gliders together.
-- Added `difficulty_items` to remove engine-class progression, hide engine-specific checks, and use clean no-difficulty check variants instead.
+- Added `difficulty_items` to remove engine-class progression items from the pool, hide engine-specific checks, and use clean no-difficulty check variants instead.
 - Removed the leftover Manual template example options from the generated YAML/options data.
 - Set Battle Mode and Mode Setting option families to disabled by default in the generated YAML template.
 - Updated VS Race starts to precollect `No Items or Coins` plus `4 Races` when VS Race is the starting mode.
 - Battle logic now removes the `@Battle Damage Items:1` requirement when every battle-damage race item is disabled.
 - Fixed the Triforce Cup Wii Wario's Gold Mine VS Race checks for 50cc, 100cc, 150cc, and Mirror so no-difficulty filtering treats them correctly.
+- Item classification now follows the active YAML logic: enabled items only stay progression when they can satisfy an active location, category, region, or goal requirement.
 
 **Guide documentation**
 - Added English and French guide documentation covering options, items, checks, and goals with practical explanations.
@@ -212,8 +235,8 @@ The current update focuses on the Time Trial ghost check mode, expanded challeng
 
 **Documentation**
 - Rewrote this README using the cleaner release-note layout used by the Super Street Fighter II manual.
-- Added a French README at `manual_mk8dx_narusnake/docs/README_FR.md`.
-- Removed the unused changelog files from `manual_mk8dx_narusnake/docs/`.
+- Added a French README at `docs/README_FR.md`.
+- Removed the unused changelog files from `docs/`.
 
 **Notes for this release**
 - Rebuild the `.apworld` after changing source files when preparing a distributable release.
